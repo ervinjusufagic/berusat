@@ -11,6 +11,10 @@
 		12A5981B2870657C004F735B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A5981A2870657C004F735B /* ContentView.swift */; };
 		12A5981D2870657C004F735B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12A5981C2870657C004F735B /* Assets.xcassets */; };
 		12A598202870657C004F735B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12A5981F2870657C004F735B /* Preview Assets.xcassets */; };
+		12A5982928706C56004F735B /* NanumPenScript-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12A5982828706C56004F735B /* NanumPenScript-Regular.ttf */; };
+		12A5982D28706D62004F735B /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A5982C28706D62004F735B /* StartView.swift */; };
+		12CCD83B2870731600D87C4A /* PlayerListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CCD83A2870731600D87C4A /* PlayerListRow.swift */; };
+		12CCD83D2870777200D87C4A /* PlayerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CCD83C2870777200D87C4A /* PlayerList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,11 @@
 		12A5981A2870657C004F735B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		12A5981C2870657C004F735B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12A5981F2870657C004F735B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		12A5982828706C56004F735B /* NanumPenScript-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NanumPenScript-Regular.ttf"; sourceTree = "<group>"; };
+		12A5982A28706C96004F735B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12A5982C28706D62004F735B /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		12CCD83A2870731600D87C4A /* PlayerListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerListRow.swift; sourceTree = "<group>"; };
+		12CCD83C2870777200D87C4A /* PlayerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +62,10 @@
 			children = (
 				12A598182870657C004F735B /* BerusatApp.swift */,
 				12A5981A2870657C004F735B /* ContentView.swift */,
+				12A5982B28706D31004F735B /* Views */,
+				12A5982628706C42004F735B /* Resources */,
 				12A5981C2870657C004F735B /* Assets.xcassets */,
+				12A5982A28706C96004F735B /* Info.plist */,
 				12A5981E2870657C004F735B /* Preview Content */,
 			);
 			path = Berusat;
@@ -65,6 +77,40 @@
 				12A5981F2870657C004F735B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		12A5982628706C42004F735B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				12A5982728706C4B004F735B /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		12A5982728706C4B004F735B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				12A5982828706C56004F735B /* NanumPenScript-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		12A5982B28706D31004F735B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				12CCD8392870730300D87C4A /* PlayerList */,
+				12A5982C28706D62004F735B /* StartView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		12CCD8392870730300D87C4A /* PlayerList */ = {
+			isa = PBXGroup;
+			children = (
+				12CCD83A2870731600D87C4A /* PlayerListRow.swift */,
+				12CCD83C2870777200D87C4A /* PlayerList.swift */,
+			);
+			path = PlayerList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +173,7 @@
 			files = (
 				12A598202870657C004F735B /* Preview Assets.xcassets in Resources */,
 				12A5981D2870657C004F735B /* Assets.xcassets in Resources */,
+				12A5982928706C56004F735B /* NanumPenScript-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +184,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12A5982D28706D62004F735B /* StartView.swift in Sources */,
+				12CCD83D2870777200D87C4A /* PlayerList.swift in Sources */,
 				12A5981B2870657C004F735B /* ContentView.swift in Sources */,
 				12A598192870657C004F735B /* BerusatApp.swift in Sources */,
+				12CCD83B2870731600D87C4A /* PlayerListRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,7 +245,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -249,7 +299,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -270,6 +320,7 @@
 				DEVELOPMENT_TEAM = TU27QV98PQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Berusat/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +350,7 @@
 				DEVELOPMENT_TEAM = TU27QV98PQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Berusat/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

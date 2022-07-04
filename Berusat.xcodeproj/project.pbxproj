@@ -11,10 +11,14 @@
 		12A5981B2870657C004F735B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A5981A2870657C004F735B /* ContentView.swift */; };
 		12A5981D2870657C004F735B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12A5981C2870657C004F735B /* Assets.xcassets */; };
 		12A598202870657C004F735B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12A5981F2870657C004F735B /* Preview Assets.xcassets */; };
-		12A5982928706C56004F735B /* NanumPenScript-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12A5982828706C56004F735B /* NanumPenScript-Regular.ttf */; };
 		12A5982D28706D62004F735B /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A5982C28706D62004F735B /* StartView.swift */; };
 		12CCD83B2870731600D87C4A /* PlayerListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CCD83A2870731600D87C4A /* PlayerListRow.swift */; };
 		12CCD83D2870777200D87C4A /* PlayerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CCD83C2870777200D87C4A /* PlayerList.swift */; };
+		12CCD83F287085FB00D87C4A /* CupidDeer.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12CCD83E287085FB00D87C4A /* CupidDeer.ttf */; };
+		12CCD8422870862A00D87C4A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CCD8412870862A00D87C4A /* Constants.swift */; };
+		12CCD8452872C64800D87C4A /* Typography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CCD8442872C64800D87C4A /* Typography.swift */; };
+		12CCD8472872EE7300D87C4A /* RoundsSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CCD8462872EE7300D87C4A /* RoundsSlider.swift */; };
+		12CCD8492872EE7C00D87C4A /* AddPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CCD8482872EE7C00D87C4A /* AddPlayerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,11 +27,15 @@
 		12A5981A2870657C004F735B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		12A5981C2870657C004F735B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12A5981F2870657C004F735B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		12A5982828706C56004F735B /* NanumPenScript-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NanumPenScript-Regular.ttf"; sourceTree = "<group>"; };
 		12A5982A28706C96004F735B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12A5982C28706D62004F735B /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 		12CCD83A2870731600D87C4A /* PlayerListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerListRow.swift; sourceTree = "<group>"; };
 		12CCD83C2870777200D87C4A /* PlayerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerList.swift; sourceTree = "<group>"; };
+		12CCD83E287085FB00D87C4A /* CupidDeer.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CupidDeer.ttf; sourceTree = "<group>"; };
+		12CCD8412870862A00D87C4A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		12CCD8442872C64800D87C4A /* Typography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typography.swift; sourceTree = "<group>"; };
+		12CCD8462872EE7300D87C4A /* RoundsSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundsSlider.swift; sourceTree = "<group>"; };
+		12CCD8482872EE7C00D87C4A /* AddPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlayerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,7 @@
 				12A598182870657C004F735B /* BerusatApp.swift */,
 				12A5981A2870657C004F735B /* ContentView.swift */,
 				12A5982B28706D31004F735B /* Views */,
+				12CCD8402870861E00D87C4A /* Utils */,
 				12A5982628706C42004F735B /* Resources */,
 				12A5981C2870657C004F735B /* Assets.xcassets */,
 				12A5982A28706C96004F735B /* Info.plist */,
@@ -90,7 +99,7 @@
 		12A5982728706C4B004F735B /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				12A5982828706C56004F735B /* NanumPenScript-Regular.ttf */,
+				12CCD83E287085FB00D87C4A /* CupidDeer.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -98,6 +107,7 @@
 		12A5982B28706D31004F735B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				12CCD8432872C62400D87C4A /* Components */,
 				12CCD8392870730300D87C4A /* PlayerList */,
 				12A5982C28706D62004F735B /* StartView.swift */,
 			);
@@ -111,6 +121,24 @@
 				12CCD83C2870777200D87C4A /* PlayerList.swift */,
 			);
 			path = PlayerList;
+			sourceTree = "<group>";
+		};
+		12CCD8402870861E00D87C4A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				12CCD8412870862A00D87C4A /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		12CCD8432872C62400D87C4A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				12CCD8442872C64800D87C4A /* Typography.swift */,
+				12CCD8462872EE7300D87C4A /* RoundsSlider.swift */,
+				12CCD8482872EE7C00D87C4A /* AddPlayerView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,7 +201,7 @@
 			files = (
 				12A598202870657C004F735B /* Preview Assets.xcassets in Resources */,
 				12A5981D2870657C004F735B /* Assets.xcassets in Resources */,
-				12A5982928706C56004F735B /* NanumPenScript-Regular.ttf in Resources */,
+				12CCD83F287085FB00D87C4A /* CupidDeer.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,11 +212,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12CCD8452872C64800D87C4A /* Typography.swift in Sources */,
 				12A5982D28706D62004F735B /* StartView.swift in Sources */,
 				12CCD83D2870777200D87C4A /* PlayerList.swift in Sources */,
+				12CCD8472872EE7300D87C4A /* RoundsSlider.swift in Sources */,
+				12CCD8492872EE7C00D87C4A /* AddPlayerView.swift in Sources */,
 				12A5981B2870657C004F735B /* ContentView.swift in Sources */,
 				12A598192870657C004F735B /* BerusatApp.swift in Sources */,
 				12CCD83B2870731600D87C4A /* PlayerListRow.swift in Sources */,
+				12CCD8422870862A00D87C4A /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

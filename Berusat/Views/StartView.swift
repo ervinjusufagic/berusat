@@ -14,12 +14,14 @@ struct StartView: View {
     
     var body: some View {
         VStack {
-            Text("Berusat").font(Font.custom("NanumPen", size: 52))
+            Typography(text: AppText.appTitle, size: 52)
             
             PlayerList(players: ["Ervin", "Ebba"])
             
-            Slider(value: $sliderValue)
-            TextField("Placeholder", text: $name)
+            RoundsSlider(value: $sliderValue)
+
+            AddPlayerView(playerName: $name)
+            
         }
         .padding()
     }
@@ -27,6 +29,18 @@ struct StartView: View {
 
 struct StartView_Previews: PreviewProvider {
     static var previews: some View {
-        StartView()
+        Group {
+            ZStack {
+                Color(AppColor.darkColor)
+                    .edgesIgnoringSafeArea(.all)
+                StartView()
+            }
+        }
     }
 }
+
+
+
+
+
+

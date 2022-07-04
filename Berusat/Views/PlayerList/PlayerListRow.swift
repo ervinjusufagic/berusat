@@ -11,31 +11,34 @@ struct PlayerListRow: View {
     var name: String
     
     var body: some View {
-        VStack {
+        ZStack {
+            Color(AppColor.darkColor)
             
-            Spacer()
-            
-            HStack {
-                Text(name).font(Font.custom("NanumPen", size: 32))
+            VStack {
+                Spacer()
+                
+                HStack {
+                    Typography(text: name, size: 28)
+                    
+                    Spacer()
+                    
+                    Button {
+                        print("delete button was pressed")
+                    } label: {
+                        Image(systemName: AppIcons.trashIcon)
+                            .foregroundColor(.red)
+                            .frame(width: Space.fourxl, height: Space.fourxl)
+                    }
+                }
+                .padding(.horizontal)
                 
                 Spacer()
                 
-                Button {
-                    print("delete button was pressed")
-                } label: {
-                    Image(systemName: "trash")
-                        .foregroundColor(.red)
-                        .frame(width: 30, height: 30)
-                }
-            }
-            .padding(.horizontal)
-            
-            Spacer()
-            
-            Divider()
-                .frame(height: 1)
-                .background(Color.red)
+                Divider()
+                    .frame(height: 1)
+                    .background(Color(AppColor.lightColor))
 
+            }
         }
     }
 }

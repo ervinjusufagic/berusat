@@ -19,6 +19,9 @@
 		12CCD8452872C64800D87C4A /* Typography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CCD8442872C64800D87C4A /* Typography.swift */; };
 		12CCD8472872EE7300D87C4A /* RoundsSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CCD8462872EE7300D87C4A /* RoundsSlider.swift */; };
 		12CCD8492872EE7C00D87C4A /* AddPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CCD8482872EE7C00D87C4A /* AddPlayerView.swift */; };
+		12CCD8502872FEB100D87C4A /* PlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CCD84F2872FEB100D87C4A /* PlayerModel.swift */; };
+		12CCD8522872FFC400D87C4A /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CCD8512872FFC400D87C4A /* AppState.swift */; };
+		12CCD855287347CB00D87C4A /* AddPlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CCD854287347CB00D87C4A /* AddPlayerViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +39,9 @@
 		12CCD8442872C64800D87C4A /* Typography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typography.swift; sourceTree = "<group>"; };
 		12CCD8462872EE7300D87C4A /* RoundsSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundsSlider.swift; sourceTree = "<group>"; };
 		12CCD8482872EE7C00D87C4A /* AddPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlayerView.swift; sourceTree = "<group>"; };
+		12CCD84F2872FEB100D87C4A /* PlayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerModel.swift; sourceTree = "<group>"; };
+		12CCD8512872FFC400D87C4A /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		12CCD854287347CB00D87C4A /* AddPlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlayerViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				12A598182870657C004F735B /* BerusatApp.swift */,
-				12A5981A2870657C004F735B /* ContentView.swift */,
+				12CCD84C2872FE5D00D87C4A /* Models */,
 				12A5982B28706D31004F735B /* Views */,
 				12CCD8402870861E00D87C4A /* Utils */,
 				12A5982628706C42004F735B /* Resources */,
@@ -107,9 +113,10 @@
 		12A5982B28706D31004F735B /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				12CCD8432872C62400D87C4A /* Components */,
-				12CCD8392870730300D87C4A /* PlayerList */,
+				12A5981A2870657C004F735B /* ContentView.swift */,
 				12A5982C28706D62004F735B /* StartView.swift */,
+				12CCD8392870730300D87C4A /* PlayerList */,
+				12CCD8432872C62400D87C4A /* Components */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -136,9 +143,27 @@
 			children = (
 				12CCD8442872C64800D87C4A /* Typography.swift */,
 				12CCD8462872EE7300D87C4A /* RoundsSlider.swift */,
-				12CCD8482872EE7C00D87C4A /* AddPlayerView.swift */,
+				12CCD8532873479E00D87C4A /* AddPlayerView */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		12CCD84C2872FE5D00D87C4A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				12CCD84F2872FEB100D87C4A /* PlayerModel.swift */,
+				12CCD8512872FFC400D87C4A /* AppState.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		12CCD8532873479E00D87C4A /* AddPlayerView */ = {
+			isa = PBXGroup;
+			children = (
+				12CCD8482872EE7C00D87C4A /* AddPlayerView.swift */,
+				12CCD854287347CB00D87C4A /* AddPlayerViewModel.swift */,
+			);
+			path = AddPlayerView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,11 +237,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12CCD8502872FEB100D87C4A /* PlayerModel.swift in Sources */,
+				12CCD855287347CB00D87C4A /* AddPlayerViewModel.swift in Sources */,
 				12CCD8452872C64800D87C4A /* Typography.swift in Sources */,
 				12A5982D28706D62004F735B /* StartView.swift in Sources */,
 				12CCD83D2870777200D87C4A /* PlayerList.swift in Sources */,
 				12CCD8472872EE7300D87C4A /* RoundsSlider.swift in Sources */,
 				12CCD8492872EE7C00D87C4A /* AddPlayerView.swift in Sources */,
+				12CCD8522872FFC400D87C4A /* AppState.swift in Sources */,
 				12A5981B2870657C004F735B /* ContentView.swift in Sources */,
 				12A598192870657C004F735B /* BerusatApp.swift in Sources */,
 				12CCD83B2870731600D87C4A /* PlayerListRow.swift in Sources */,

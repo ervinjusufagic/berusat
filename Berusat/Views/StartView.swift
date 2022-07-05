@@ -8,19 +8,18 @@
 import SwiftUI
 
 struct StartView: View {
-    
-    @State private var name = ""
+    @EnvironmentObject var appState: AppState
     @State private var sliderValue = 0.8
     
     var body: some View {
         VStack {
             Typography(text: AppText.appTitle, size: 52)
             
-            PlayerList(players: ["Ervin", "Ebba"])
+            PlayerList(players: $appState.players)
             
             RoundsSlider(value: $sliderValue)
 
-            AddPlayerView(playerName: $name)
+            AddPlayerView()
             
         }
         .padding()

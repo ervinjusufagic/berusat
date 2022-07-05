@@ -8,23 +8,31 @@
 import SwiftUI
 
 struct AddPlayerView: View {
-    @Binding var playerName: String
+    @EnvironmentObject var appState: AppState
+    @StateObject private var addPlayerViewModel = AddPlayerViewModel()
     
     var body: some View {
         ZStack() {
-            if (playerName.isEmpty) {
+            if (addPlayerViewModel.playerName.isEmpty) {
                 HStack {
                     Typography(text: AppText.playerTextFieldPlaceholder, size: 24)
                     Spacer()
                 }
             }
             HStack {
-                TextField("", text: $playerName)
+                TextField("", text: $addPlayerViewModel.playerName)
                     .foregroundColor(Color(AppColor.lightColor))
                     .font(Font.custom(K.appFontName, size: 24))
+                    .keyboardType(.webSearch)
+                    .disableAutocorrection(true)
+                    .onSubmit {
+                        appState.onAddPlayer(player: Player(name: addPlayerViewModel.playerName))
+                        addPlayerViewModel.resetPlayerName()
+                        
+                    }
                 
                 Button {
-                    print("Start button was pressed")
+                    print("start button was pressed")
                 } label: {
                     HStack(alignment: .center, spacing: Space.none) {
                         Typography(text: AppText.startButtonText, size: 24, color: Color(AppColor.primary))
@@ -40,6 +48,6 @@ struct AddPlayerView: View {
 
 struct AddPlayerView_Previews: PreviewProvider {
     static var previews: some View {
-        AddPlayerView(playerName: .constant("ervin"))
+        AddPlayerView()
     }
 }

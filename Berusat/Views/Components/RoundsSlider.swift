@@ -20,7 +20,7 @@ struct RoundsSlider: View {
             
             Slider(
                 value: $value,
-                in: 0...5,
+                in: K.minRounds...K.maxRounds,
                 step: 1
             )
                 .accentColor(Color(AppColor.lightColor))

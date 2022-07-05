@@ -11,7 +11,7 @@ struct StartView: View {
     @EnvironmentObject var appState: AppState
     
     var isStartDisabled: Bool {
-        appState.players.count < 2
+        appState.players.count < K.minPlayers
     }
     
     var body: some View {

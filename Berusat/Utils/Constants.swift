@@ -63,5 +63,8 @@ struct Space {
 // MARK: General
 struct K {    
     // Font
-    static let appFontName = "Cupid-deer"
+    static let appFontName: String = "Cupid-deer"
+    static let minPlayers: Int = 2
+    static let minRounds: Double = 1
+    static let maxRounds: Double = 5
 }

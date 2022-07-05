@@ -7,21 +7,23 @@
 
 import Foundation
 
-
 // MARK: Text
+
 struct AppText {
     static let appTitle = "berusat"
     static let roundsSliderLabel = "Rundor"
     static let playerTextFieldPlaceholder = "Lägg till spelare.."
     static let startButtonText = "Starta"
 }
+
 // MARK: Color
-struct AppColor {
+
+enum AppColor {
     static let darkColor = "Dark"
     static let lightColor = "Light"
     static let primary = "DarkTurquoise"
     static let disabled = "DarkGrey"
-    
+
     static let AppColorNames: [String] = [
         "LightBlue",
         "LightGreen",
@@ -43,13 +45,17 @@ struct AppColor {
         "DarkYellow",
     ]
 }
+
 // MARK: Icons
-struct AppIcons {
+
+enum AppIcons {
     static let rightArrowIcon = "arrowshape.turn.up.right.fill"
     static let trashIcon = "trash"
 }
+
 // MARK: Space
-struct Space {
+
+enum Space {
     static let none = 0.0
     static let sm = 8.0
     static let md = 12.0
@@ -58,10 +64,11 @@ struct Space {
     static let twoxl = 24.0
     static let threexl = 28.0
     static let fourxl = 32.0
-
 }
+
 // MARK: General
-struct K {    
+
+enum K {
     // Font
     static let appFontName: String = "Cupid-deer"
     static let minPlayers: Int = 2

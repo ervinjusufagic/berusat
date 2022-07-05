@@ -39,7 +39,6 @@ struct PlayerListRow: View {
                 Divider()
                     .frame(height: 1)
                     .background(Color(AppColor.lightColor))
-
             }
         }
     }

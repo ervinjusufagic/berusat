@@ -10,8 +10,8 @@ import SwiftUI
 struct Typography: View {
     var text: String
     var size: CGFloat
-    var color: Color = Color(AppColor.lightColor)
-    
+    var color: Color = .init(AppColor.lightColor)
+
     var body: some View {
         Text(text)
             .font(Font.custom(K.appFontName, size: size))

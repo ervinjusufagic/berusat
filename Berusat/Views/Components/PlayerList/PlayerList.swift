@@ -9,19 +9,16 @@ import SwiftUI
 
 struct PlayerList: View {
     var players: [Player]
-    
+
     var body: some View {
-        List(players){ player in
+        List(players) { player in
             PlayerListRow(player: player)
                 .buttonStyle(.plain)
                 .listRowSeparator(.hidden)
                 .listRowInsets(EdgeInsets(.zero))
-            
         }
         .ignoresSafeArea(.all)
         .listStyle(.plain)
-        
-        
     }
 }
 

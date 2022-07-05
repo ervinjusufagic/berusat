@@ -10,7 +10,7 @@ import SwiftUI
 @main
 struct BerusatApp: App {
     @StateObject var appState = AppState()
-    
+
     var body: some Scene {
         WindowGroup {
             ContentView()

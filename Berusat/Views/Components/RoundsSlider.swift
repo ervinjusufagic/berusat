@@ -9,7 +9,7 @@ import SwiftUI
 
 struct RoundsSlider: View {
     @Binding var value: Double
-    
+
     var body: some View {
         VStack(spacing: Space.none) {
             HStack {
@@ -17,13 +17,13 @@ struct RoundsSlider: View {
                 Spacer()
                 Typography(text: String(format: "%.0f", value), size: 24)
             }
-            
+
             Slider(
                 value: $value,
-                in: K.minRounds...K.maxRounds,
+                in: K.minRounds ... K.maxRounds,
                 step: 1
             )
-                .accentColor(Color(AppColor.lightColor))
+            .accentColor(Color(AppColor.lightColor))
         }
         .padding(EdgeInsets(top: Space.none, leading: Space.none, bottom: Space.lg, trailing: Space.none))
     }

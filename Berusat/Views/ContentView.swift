@@ -13,7 +13,7 @@ struct ContentView: View {
             ZStack {
                 Color(AppColor.darkColor)
                     .edgesIgnoringSafeArea(.all)
-                
+
                 StartView()
             }
         }

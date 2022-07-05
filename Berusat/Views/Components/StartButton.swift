@@ -9,15 +9,15 @@ import SwiftUI
 
 struct StartButton: View {
     var isDisabled: Bool
-    
+
     var buttonColor: Color {
         isDisabled ? Color(AppColor.disabled) : Color(AppColor.primary)
     }
-    
+
     var body: some View {
         Button {
             print("start button was pressed")
-            
+
         } label: {
             NavigationLink(destination: PackageSelector()) {
                 HStack(alignment: .center, spacing: Space.none) {
@@ -26,7 +26,7 @@ struct StartButton: View {
                         .foregroundColor(buttonColor)
                         .frame(width: Space.fourxl, height: Space.fourxl)
                 }
-            }            
+            }
         }
         .disabled(isDisabled)
     }

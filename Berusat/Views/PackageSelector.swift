@@ -12,10 +12,10 @@ struct PackageSelector: View {
         ZStack {
             Color(AppColor.darkColor)
                 .edgesIgnoringSafeArea(.all)
-            
+
             Text("PAckages")
         }
-        
+
         .navigationTitle("Paket")
         .navigationBarTitleDisplayMode(.inline)
     }

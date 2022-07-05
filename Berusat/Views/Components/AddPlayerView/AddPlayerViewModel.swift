@@ -10,7 +10,7 @@ import SwiftUI
 
 final class AddPlayerViewModel: ObservableObject {
     @Published var playerName: String = ""
-    
+
     func resetPlayerName() {
         playerName = ""
     }

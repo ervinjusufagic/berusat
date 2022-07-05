@@ -12,15 +12,14 @@ final class AppState: ObservableObject {
     @Published var rounds: Double = 3
 
     // MARK: Player
+
     func onAddPlayer(player: Player) {
         players.append(player)
     }
-    
+
     func onDeletePlayer(playerId: String) {
-        if let index = players.firstIndex(where: {$0.id == playerId}) {
+        if let index = players.firstIndex(where: { $0.id == playerId }) {
             players.remove(at: index)
         }
     }
 }
-
-

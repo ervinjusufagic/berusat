@@ -26,9 +26,11 @@ struct AddPlayerView: View {
                     .keyboardType(.webSearch)
                     .disableAutocorrection(true)
                     .onSubmit {
-                        appState.onAddPlayer(player: Player(name: addPlayerViewModel.playerName))
-                        addPlayerViewModel.resetPlayerName()
-                        
+                        if (!addPlayerViewModel.playerName.isEmpty) {
+                            appState.onAddPlayer(player: Player(name: addPlayerViewModel.playerName))
+                            addPlayerViewModel.resetPlayerName()
+                            
+                        }
                     }
                 
                 Button {

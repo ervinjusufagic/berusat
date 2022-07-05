@@ -10,4 +10,6 @@ import Foundation
 struct Package: Identifiable {
     var id: String = UUID().uuidString
     var name: String
+    var isLocked: Bool
+    var emoji: String
 }

@@ -10,6 +10,7 @@ import Foundation
 final class AppState: ObservableObject {
     @Published var players: [Player] = []
     @Published var rounds: Double = 3
+    @Published var selectedPackage: Package? = nil
 
     // MARK: Player
 
@@ -20,6 +21,14 @@ final class AppState: ObservableObject {
     func onDeletePlayer(playerId: String) {
         if let index = players.firstIndex(where: { $0.id == playerId }) {
             players.remove(at: index)
+        }
+    }
+
+    // MARK: Package
+
+    func setSelectedPackage(_ package: Package) {
+        if !package.isLocked {
+            selectedPackage = package
         }
     }
 }

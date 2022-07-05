@@ -51,6 +51,8 @@ enum AppColor {
 enum AppIcons {
     static let rightArrowIcon = "arrowshape.turn.up.right.fill"
     static let trashIcon = "trash"
+    static let selectedIcon = "checkmark.circle"
+    static let lockIcon = "lock.circle"
 }
 
 // MARK: Space

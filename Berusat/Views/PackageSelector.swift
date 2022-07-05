@@ -13,8 +13,11 @@ struct PackageSelector: View {
             Color(AppColor.darkColor)
                 .edgesIgnoringSafeArea(.all)
 
-            PackageList(packages: [Package(name: "ervin"), Package(name: "asDSDADASdasDSDADASdasDSDADASdasDSDADASdasDSDADASdasDSDADASdasDSDADASdasDSDADASdasDSDADASdasDSDADASdasDSDADASdasDSDADASdasDSDADASdasDSDADASdasDSDADASdasDSDADASdasDSDADASdasDSDADASdasDSDADASdasDSDADASdasDSDADASdasDSDADASdasDSDADASdasDSDADASdasDSDADASd"), Package(name: "ervin")])
-                .padding()
+            PackageGrid(packages: [
+                Package(name: "Easy", isLocked: false, emoji: "😇"),
+                Package(name: "Medium", isLocked: true, emoji: "😝"),
+                Package(name: "Hard", isLocked: true, emoji: "🤪"),
+            ])
         }
         .navigationTitle("Paket")
         .navigationBarTitleDisplayMode(.inline)
@@ -23,6 +26,6 @@ struct PackageSelector: View {
 
 struct PackageSelector_Previews: PreviewProvider {
     static var previews: some View {
-        PackageSelector()
+        PackageSelector().environmentObject(AppState())
     }
 }

@@ -14,6 +14,7 @@ struct AppText {
     static let roundsSliderLabel = "Rundor"
     static let playerTextFieldPlaceholder = "Lägg till spelare.."
     static let startButtonText = "Starta"
+    static let playButtonText = "Spela!"
 }
 
 // MARK: Color

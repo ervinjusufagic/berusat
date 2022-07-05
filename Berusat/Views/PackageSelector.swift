@@ -20,6 +20,8 @@ struct PackageSelector: View {
                     Package(name: "Hard", isLocked: true, emoji: "🤪"),
                 ])
 
+                PlayButton()
+
                 BuyPackagesBanner()
             }
         }

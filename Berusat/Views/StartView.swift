@@ -10,6 +10,10 @@ import SwiftUI
 struct StartView: View {
     @EnvironmentObject var appState: AppState
     
+    var isStartDisabled: Bool {
+        appState.players.count < 2
+    }
+    
     var body: some View {
         VStack {
             Typography(text: AppText.appTitle, size: 52)
@@ -18,8 +22,11 @@ struct StartView: View {
             
             RoundsSlider(value: $appState.rounds)
 
-            AddPlayerView()
-            
+            HStack {
+                AddPlayerView()
+                StartButton(isDisabled: isStartDisabled)
+            }
+
         }
         .padding()
     }
@@ -33,7 +40,7 @@ struct StartView_Previews: PreviewProvider {
                     .edgesIgnoringSafeArea(.all)
                 StartView()
             }
-        }
+        }.environmentObject(AppState())
     }
 }
 

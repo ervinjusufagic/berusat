@@ -27,6 +27,6 @@ struct PlayerList: View {
 
 struct PlayerList_Previews: PreviewProvider {
     static var previews: some View {
-        PlayerList(players: [])
+        PlayerList(players: [Player(name: "Ervin"), Player(name: "Ervin")])
     }
 }

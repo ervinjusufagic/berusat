@@ -20,6 +20,7 @@ struct AppColor {
     static let darkColor = "Dark"
     static let lightColor = "Light"
     static let primary = "DarkTurquoise"
+    static let disabled = "DarkGrey"
     
     static let AppColorNames: [String] = [
         "LightBlue",

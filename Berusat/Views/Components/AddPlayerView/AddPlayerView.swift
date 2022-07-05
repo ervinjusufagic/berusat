@@ -33,18 +33,6 @@ struct AddPlayerView: View {
                         }
                     }
                 
-                Button {
-                    print("start button was pressed")
-                    print(appState.players)
-                    print(appState.rounds)
-                } label: {
-                    HStack(alignment: .center, spacing: Space.none) {
-                        Typography(text: AppText.startButtonText, size: 24, color: Color(AppColor.primary))
-                        Image(systemName: AppIcons.rightArrowIcon)
-                            .foregroundColor(Color(AppColor.primary))
-                            .frame(width: Space.fourxl, height: Space.fourxl)
-                    }
-                }
             }
         }
     }

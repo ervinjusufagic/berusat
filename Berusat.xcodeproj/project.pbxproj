@@ -22,6 +22,7 @@
 		12CCD8502872FEB100D87C4A /* PlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CCD84F2872FEB100D87C4A /* PlayerModel.swift */; };
 		12CCD8522872FFC400D87C4A /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CCD8512872FFC400D87C4A /* AppState.swift */; };
 		12CCD855287347CB00D87C4A /* AddPlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CCD854287347CB00D87C4A /* AddPlayerViewModel.swift */; };
+		12CCD857287459FC00D87C4A /* StartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CCD856287459FC00D87C4A /* StartButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		12CCD84F2872FEB100D87C4A /* PlayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerModel.swift; sourceTree = "<group>"; };
 		12CCD8512872FFC400D87C4A /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		12CCD854287347CB00D87C4A /* AddPlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlayerViewModel.swift; sourceTree = "<group>"; };
+		12CCD856287459FC00D87C4A /* StartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 			children = (
 				12CCD8442872C64800D87C4A /* Typography.swift */,
 				12CCD8462872EE7300D87C4A /* RoundsSlider.swift */,
+				12CCD856287459FC00D87C4A /* StartButton.swift */,
 				12CCD8532873479E00D87C4A /* AddPlayerView */,
 			);
 			path = Components;
@@ -237,6 +240,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12CCD857287459FC00D87C4A /* StartButton.swift in Sources */,
 				12CCD8502872FEB100D87C4A /* PlayerModel.swift in Sources */,
 				12CCD855287347CB00D87C4A /* AddPlayerViewModel.swift in Sources */,
 				12CCD8452872C64800D87C4A /* Typography.swift in Sources */,

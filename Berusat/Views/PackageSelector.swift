@@ -13,11 +13,15 @@ struct PackageSelector: View {
             Color(AppColor.darkColor)
                 .edgesIgnoringSafeArea(.all)
 
-            PackageGrid(packages: [
-                Package(name: "Easy", isLocked: false, emoji: "😇"),
-                Package(name: "Medium", isLocked: true, emoji: "😝"),
-                Package(name: "Hard", isLocked: true, emoji: "🤪"),
-            ])
+            VStack {
+                PackageGrid(packages: [
+                    Package(name: "Easy", isLocked: false, emoji: "😇"),
+                    Package(name: "Medium", isLocked: true, emoji: "😝"),
+                    Package(name: "Hard", isLocked: true, emoji: "🤪"),
+                ])
+
+                BuyPackagesBanner()
+            }
         }
         .navigationTitle("Paket")
         .navigationBarTitleDisplayMode(.inline)

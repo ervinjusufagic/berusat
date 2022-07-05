@@ -11,6 +11,7 @@
 		12A1DF502874745A00B90A0D /* PackageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A1DF4F2874745A00B90A0D /* PackageModel.swift */; };
 		12A1DF5428749F4A00B90A0D /* PackageGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A1DF5328749F4A00B90A0D /* PackageGrid.swift */; };
 		12A1DF562874A0CD00B90A0D /* PackageItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A1DF552874A0CD00B90A0D /* PackageItem.swift */; };
+		12A1DF5A2874E84100B90A0D /* BuyPackagesBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A1DF592874E84100B90A0D /* BuyPackagesBanner.swift */; };
 		12A598192870657C004F735B /* BerusatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A598182870657C004F735B /* BerusatApp.swift */; };
 		12A5981B2870657C004F735B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A5981A2870657C004F735B /* ContentView.swift */; };
 		12A5981D2870657C004F735B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12A5981C2870657C004F735B /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 		12A1DF4F2874745A00B90A0D /* PackageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageModel.swift; sourceTree = "<group>"; };
 		12A1DF5328749F4A00B90A0D /* PackageGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageGrid.swift; sourceTree = "<group>"; };
 		12A1DF552874A0CD00B90A0D /* PackageItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageItem.swift; sourceTree = "<group>"; };
+		12A1DF592874E84100B90A0D /* BuyPackagesBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyPackagesBanner.swift; sourceTree = "<group>"; };
 		12A598152870657C004F735B /* Berusat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Berusat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12A598182870657C004F735B /* BerusatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BerusatApp.swift; sourceTree = "<group>"; };
 		12A5981A2870657C004F735B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -160,6 +162,7 @@
 		12CCD8432872C62400D87C4A /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				12A1DF592874E84100B90A0D /* BuyPackagesBanner.swift */,
 				12CCD8442872C64800D87C4A /* Typography.swift */,
 				12CCD8462872EE7300D87C4A /* RoundsSlider.swift */,
 				12CCD856287459FC00D87C4A /* StartButton.swift */,
@@ -273,6 +276,7 @@
 				12A1DF502874745A00B90A0D /* PackageModel.swift in Sources */,
 				12CCD8522872FFC400D87C4A /* AppState.swift in Sources */,
 				12A5981B2870657C004F735B /* ContentView.swift in Sources */,
+				12A1DF5A2874E84100B90A0D /* BuyPackagesBanner.swift in Sources */,
 				12A598192870657C004F735B /* BerusatApp.swift in Sources */,
 				12CCD83B2870731600D87C4A /* PlayerListRow.swift in Sources */,
 				12A1DF562874A0CD00B90A0D /* PackageItem.swift in Sources */,

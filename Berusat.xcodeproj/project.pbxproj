@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		123765302874679000968100 /* PackageSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1237652F2874679000968100 /* PackageSelector.swift */; };
+		12A1DF4E287473EA00B90A0D /* PackageList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A1DF4D287473EA00B90A0D /* PackageList.swift */; };
+		12A1DF502874745A00B90A0D /* PackageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A1DF4F2874745A00B90A0D /* PackageModel.swift */; };
+		12A1DF522874749000B90A0D /* PackageListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A1DF512874749000B90A0D /* PackageListRow.swift */; };
 		12A598192870657C004F735B /* BerusatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A598182870657C004F735B /* BerusatApp.swift */; };
 		12A5981B2870657C004F735B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A5981A2870657C004F735B /* ContentView.swift */; };
 		12A5981D2870657C004F735B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12A5981C2870657C004F735B /* Assets.xcassets */; };
@@ -28,6 +31,9 @@
 
 /* Begin PBXFileReference section */
 		1237652F2874679000968100 /* PackageSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageSelector.swift; sourceTree = "<group>"; };
+		12A1DF4D287473EA00B90A0D /* PackageList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageList.swift; sourceTree = "<group>"; };
+		12A1DF4F2874745A00B90A0D /* PackageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageModel.swift; sourceTree = "<group>"; };
+		12A1DF512874749000B90A0D /* PackageListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageListRow.swift; sourceTree = "<group>"; };
 		12A598152870657C004F735B /* Berusat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Berusat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12A598182870657C004F735B /* BerusatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BerusatApp.swift; sourceTree = "<group>"; };
 		12A5981A2870657C004F735B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -59,6 +65,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12A1DF4C287473CD00B90A0D /* PackageList */ = {
+			isa = PBXGroup;
+			children = (
+				12A1DF4D287473EA00B90A0D /* PackageList.swift */,
+				12A1DF512874749000B90A0D /* PackageListRow.swift */,
+			);
+			path = PackageList;
+			sourceTree = "<group>";
+		};
 		12A5980C2870657C004F735B = {
 			isa = PBXGroup;
 			children = (
@@ -148,6 +163,7 @@
 				12CCD8442872C64800D87C4A /* Typography.swift */,
 				12CCD8462872EE7300D87C4A /* RoundsSlider.swift */,
 				12CCD856287459FC00D87C4A /* StartButton.swift */,
+				12A1DF4C287473CD00B90A0D /* PackageList */,
 				12CCD8392870730300D87C4A /* PlayerList */,
 				12CCD8532873479E00D87C4A /* AddPlayerView */,
 			);
@@ -159,6 +175,7 @@
 			children = (
 				12CCD84F2872FEB100D87C4A /* PlayerModel.swift */,
 				12CCD8512872FFC400D87C4A /* AppState.swift */,
+				12A1DF4F2874745A00B90A0D /* PackageModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -247,15 +264,18 @@
 				12CCD8502872FEB100D87C4A /* PlayerModel.swift in Sources */,
 				12CCD855287347CB00D87C4A /* AddPlayerViewModel.swift in Sources */,
 				123765302874679000968100 /* PackageSelector.swift in Sources */,
+				12A1DF4E287473EA00B90A0D /* PackageList.swift in Sources */,
 				12CCD8452872C64800D87C4A /* Typography.swift in Sources */,
 				12A5982D28706D62004F735B /* StartView.swift in Sources */,
 				12CCD83D2870777200D87C4A /* PlayerList.swift in Sources */,
 				12CCD8472872EE7300D87C4A /* RoundsSlider.swift in Sources */,
 				12CCD8492872EE7C00D87C4A /* AddPlayerView.swift in Sources */,
+				12A1DF502874745A00B90A0D /* PackageModel.swift in Sources */,
 				12CCD8522872FFC400D87C4A /* AppState.swift in Sources */,
 				12A5981B2870657C004F735B /* ContentView.swift in Sources */,
 				12A598192870657C004F735B /* BerusatApp.swift in Sources */,
 				12CCD83B2870731600D87C4A /* PlayerListRow.swift in Sources */,
+				12A1DF522874749000B90A0D /* PackageListRow.swift in Sources */,
 				12CCD8422870862A00D87C4A /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

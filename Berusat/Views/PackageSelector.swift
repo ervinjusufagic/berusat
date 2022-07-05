@@ -13,9 +13,9 @@ struct PackageSelector: View {
             Color(AppColor.darkColor)
                 .edgesIgnoringSafeArea(.all)
 
-            Text("PAckages")
+            PackageList(packages: [Package(name: "ervin"), Package(name: "asDSDADASdasDSDADASdasDSDADASdasDSDADASdasDSDADASdasDSDADASdasDSDADASdasDSDADASdasDSDADASdasDSDADASdasDSDADASdasDSDADASdasDSDADASdasDSDADASdasDSDADASdasDSDADASdasDSDADASdasDSDADASdasDSDADASdasDSDADASdasDSDADASdasDSDADASdasDSDADASdasDSDADASdasDSDADASd"), Package(name: "ervin")])
+                .padding()
         }
-
         .navigationTitle("Paket")
         .navigationBarTitleDisplayMode(.inline)
     }

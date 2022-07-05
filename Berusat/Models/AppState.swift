@@ -9,7 +9,8 @@ import Foundation
 
 final class AppState: ObservableObject {
     @Published var players: [Player] = []
-    
+    @Published var rounds: Double = 3
+
     func onAddPlayer(player: Player) {
         players.append(player)
     }

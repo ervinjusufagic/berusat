@@ -9,15 +9,14 @@ import SwiftUI
 
 struct StartView: View {
     @EnvironmentObject var appState: AppState
-    @State private var sliderValue = 0.8
     
     var body: some View {
         VStack {
             Typography(text: AppText.appTitle, size: 52)
             
-            PlayerList(players: $appState.players)
+            PlayerList(players: appState.players)
             
-            RoundsSlider(value: $sliderValue)
+            RoundsSlider(value: $appState.rounds)
 
             AddPlayerView()
             

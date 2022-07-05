@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct PlayerList: View {
-    @Binding var players: [Player]
+    var players: [Player]
     
     var body: some View {
         List(players){ player in
@@ -27,6 +27,6 @@ struct PlayerList: View {
 
 struct PlayerList_Previews: PreviewProvider {
     static var previews: some View {
-        PlayerList(players: .constant([]))
+        PlayerList(players: [])
     }
 }

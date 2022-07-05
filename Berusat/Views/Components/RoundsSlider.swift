@@ -15,10 +15,14 @@ struct RoundsSlider: View {
             HStack {
                 Typography(text: AppText.roundsSliderLabel, size: 24)
                 Spacer()
-                Typography(text: "5", size: 24)
+                Typography(text: String(format: "%.0f", value), size: 24)
             }
             
-            Slider(value: $value)
+            Slider(
+                value: $value,
+                in: 0...5,
+                step: 1
+            )
                 .accentColor(Color(AppColor.lightColor))
         }
         .padding(EdgeInsets(top: Space.none, leading: Space.none, bottom: Space.lg, trailing: Space.none))
@@ -27,6 +31,6 @@ struct RoundsSlider: View {
 
 struct RoundsSlider_Previews: PreviewProvider {
     static var previews: some View {
-        RoundsSlider(value: .constant(0.5))
+        RoundsSlider(value: .constant(3.0))
     }
 }

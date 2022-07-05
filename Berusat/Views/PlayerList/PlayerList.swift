@@ -12,7 +12,7 @@ struct PlayerList: View {
     
     var body: some View {
         List(players){ player in
-            PlayerListRow(name: player.name)
+            PlayerListRow(player: player)
                 .buttonStyle(.plain)
                 .listRowSeparator(.hidden)
                 .listRowInsets(EdgeInsets(.zero))

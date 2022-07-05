@@ -8,7 +8,9 @@
 import SwiftUI
 
 struct PlayerListRow: View {
-    var name: String
+    @EnvironmentObject var appState: AppState
+
+    var player: Player
     
     var body: some View {
         ZStack {
@@ -18,12 +20,12 @@ struct PlayerListRow: View {
                 Spacer()
                 
                 HStack {
-                    Typography(text: name, size: 28)
+                    Typography(text: player.name, size: 28)
                     
                     Spacer()
                     
                     Button {
-                        print("delete button was pressed")
+                        appState.onDeletePlayer(playerId: player.id)
                     } label: {
                         Image(systemName: AppIcons.trashIcon)
                             .foregroundColor(.red)
@@ -46,9 +48,9 @@ struct PlayerListRow: View {
 struct PlayerListRow_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-            PlayerListRow(name: "Ervin").previewLayout(.fixed(width: 500, height: 70))
+            PlayerListRow(player: Player(name: "ervin")).previewLayout(.fixed(width: 500, height: 70))
             
-            PlayerListRow(name: "Ebba").previewLayout(.fixed(width: 500, height: 70))
+            PlayerListRow(player: Player(name: "ebba")).previewLayout(.fixed(width: 500, height: 70))
         }
     }
 }

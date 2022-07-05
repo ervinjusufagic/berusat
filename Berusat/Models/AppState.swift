@@ -13,6 +13,12 @@ final class AppState: ObservableObject {
     func onAddPlayer(player: Player) {
         players.append(player)
     }
+    
+    func onDeletePlayer(playerId: String) {
+        if let index = players.firstIndex(where: {$0.id == playerId}) {
+            players.remove(at: index)
+        }
+    }
 }
 
 

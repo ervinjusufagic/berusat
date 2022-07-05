@@ -24,11 +24,13 @@ struct StartView: View {
 
             HStack {
                 AddPlayerView()
+                
                 StartButton(isDisabled: isStartDisabled)
             }
-
         }
         .padding()
+        .navigationBarHidden(true)
+
     }
 }
 

@@ -13,18 +13,20 @@ struct StartButton: View {
     var buttonColor: Color {
         isDisabled ? Color(AppColor.disabled) : Color(AppColor.primary)
     }
-        
+    
     var body: some View {
         Button {
             print("start button was pressed")
-   
+            
         } label: {
-            HStack(alignment: .center, spacing: Space.none) {
-                Typography(text: AppText.startButtonText, size: 24, color: buttonColor)
-                Image(systemName: AppIcons.rightArrowIcon)
-                    .foregroundColor(buttonColor)
-                    .frame(width: Space.fourxl, height: Space.fourxl)
-            }
+            NavigationLink(destination: PackageSelector()) {
+                HStack(alignment: .center, spacing: Space.none) {
+                    Typography(text: AppText.startButtonText, size: 24, color: buttonColor)
+                    Image(systemName: AppIcons.rightArrowIcon)
+                        .foregroundColor(buttonColor)
+                        .frame(width: Space.fourxl, height: Space.fourxl)
+                }
+            }            
         }
         .disabled(isDisabled)
     }

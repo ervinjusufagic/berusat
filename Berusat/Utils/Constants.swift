@@ -51,6 +51,7 @@ enum AppColor {
 
 enum AppIcons {
     static let rightArrowIcon = "arrowshape.turn.up.right.fill"
+    static let leftArrowIcon = "arrowshape.turn.up.left.fill"
     static let trashIcon = "trash"
     static let selectedIcon = "checkmark.circle"
     static let lockIcon = "lock.circle"
@@ -74,6 +75,7 @@ enum Space {
 
 enum TextSize {
     static let title = 52.0
+    static let smallBody = 20.0
     static let body = 24.0
     static let mediumBody = 28.0
     static let bigBody = 32.0
@@ -83,7 +85,7 @@ enum TextSize {
 
 enum K {
     static let appFontName: String = "Cupid-deer"
-    static let minPlayers: Int = 2
+    static let minPlayers: Int = 0
     static let minRounds: Double = 1
     static let maxRounds: Double = 5
 }

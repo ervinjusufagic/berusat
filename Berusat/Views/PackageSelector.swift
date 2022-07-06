@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct PackageSelector: View {
+    @GestureState private var dragOffset = CGSize.zero
+    @Environment(\.presentationMode) var mode: Binding<PresentationMode>
+
     var body: some View {
         ZStack {
             Color(AppColor.darkColor)
@@ -25,8 +28,25 @@ struct PackageSelector: View {
                 BuyPackagesBanner()
             }
         }
-        .navigationTitle("Paket")
         .navigationBarTitleDisplayMode(.inline)
+        .navigationBarBackButtonHidden(true)
+        .toolbar {
+            ToolbarItem(placement: .navigationBarLeading) {
+                BackButton()
+            }
+
+            ToolbarItem(placement: .principal) {
+                Typography(text: "Paket", size: TextSize.body)
+                    .minimumScaleFactor(0.5)
+                    .fixedSize(horizontal: true, vertical: false)
+            }
+        }
+
+        .gesture(DragGesture().updating($dragOffset, body: { value, _, _ in
+            if value.startLocation.x < 20, value.translation.width > 100 {
+                self.mode.wrappedValue.dismiss()
+            }
+        }))
     }
 }
 

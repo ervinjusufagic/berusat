@@ -15,11 +15,8 @@ struct StartButton: View {
     }
 
     var body: some View {
-        Button {
-            print("start button was pressed")
-
-        } label: {
-            NavigationLink(destination: PackageSelector()) {
+        Button {} label: {
+            NavigationLink(destination: PackageSelectorView()) {
                 HStack(alignment: .center, spacing: Space.none) {
                     Typography(text: AppText.startButtonText, size: TextSize.body, color: buttonColor)
                     Image(systemName: AppIcons.rightArrowIcon)

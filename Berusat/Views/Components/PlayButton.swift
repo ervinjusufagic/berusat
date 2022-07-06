@@ -9,10 +9,10 @@ import SwiftUI
 
 struct PlayButton: View {
     var body: some View {
-        Button {
-            print("start pressed")
-        } label: {
-            Typography(text: AppText.playButtonText, size: TextSize.bigBody)
+        Button {} label: {
+            NavigationLink(destination: GameView()) {
+                Typography(text: AppText.playButtonText, size: TextSize.bigBody)
+            }
         }
         .padding(EdgeInsets(
             top: Space.sm,

@@ -28,6 +28,9 @@ struct StartView: View {
                 StartButton(isDisabled: isStartDisabled)
             }
         }
+        .onAppear {
+            AppUtility.lockOrientation(.portrait, andRotateTo: .portrait)
+        }
         .padding()
         .navigationBarHidden(true)
     }

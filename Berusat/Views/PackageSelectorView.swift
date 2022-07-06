@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct PackageSelector: View {
+struct PackageSelectorView: View {
     @GestureState private var dragOffset = CGSize.zero
     @Environment(\.presentationMode) var mode: Binding<PresentationMode>
 
@@ -27,6 +27,9 @@ struct PackageSelector: View {
 
                 BuyPackagesBanner()
             }
+        }
+        .onAppear {
+            AppUtility.lockOrientation(.portrait, andRotateTo: .portrait)
         }
         .navigationBarTitleDisplayMode(.inline)
         .navigationBarBackButtonHidden(true)
@@ -52,7 +55,7 @@ struct PackageSelector: View {
 
 struct PackageSelector_Previews: PreviewProvider {
     static var previews: some View {
-        PackageSelector()
+        PackageSelectorView()
             .environmentObject(AppState())
     }
 }

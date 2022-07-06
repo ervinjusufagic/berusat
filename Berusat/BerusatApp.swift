@@ -9,6 +9,7 @@ import SwiftUI
 
 @main
 struct BerusatApp: App {
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelgate
     @StateObject var appState = AppState()
 
     var body: some Scene {
@@ -16,5 +17,13 @@ struct BerusatApp: App {
             ContentView()
                 .environmentObject(appState)
         }
+    }
+}
+
+class AppDelegate: UIResponder, UIApplicationDelegate {
+    var orientationLock = UIInterfaceOrientationMask.portrait
+
+    func application(_ application: UIApplication, supportedInterfaceOrientationsFor window: UIWindow?) -> UIInterfaceOrientationMask {
+        return self.orientationLock
     }
 }

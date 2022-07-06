@@ -14,6 +14,7 @@
 		12A1DF5A2874E84100B90A0D /* BuyPackagesBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A1DF592874E84100B90A0D /* BuyPackagesBanner.swift */; };
 		12A1DF5E2874F15B00B90A0D /* PlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A1DF5D2874F15B00B90A0D /* PlayButton.swift */; };
 		12A1DF6028758DCE00B90A0D /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A1DF5F28758DCE00B90A0D /* BackButton.swift */; };
+		12A1DF662875C8B700B90A0D /* AppUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A1DF652875C8B700B90A0D /* AppUtility.swift */; };
 		12A598192870657C004F735B /* BerusatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A598182870657C004F735B /* BerusatApp.swift */; };
 		12A5981B2870657C004F735B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A5981A2870657C004F735B /* ContentView.swift */; };
 		12A5981D2870657C004F735B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12A5981C2870657C004F735B /* Assets.xcassets */; };
@@ -40,6 +41,7 @@
 		12A1DF592874E84100B90A0D /* BuyPackagesBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyPackagesBanner.swift; sourceTree = "<group>"; };
 		12A1DF5D2874F15B00B90A0D /* PlayButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayButton.swift; sourceTree = "<group>"; };
 		12A1DF5F28758DCE00B90A0D /* BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
+		12A1DF652875C8B700B90A0D /* AppUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUtility.swift; sourceTree = "<group>"; };
 		12A598152870657C004F735B /* Berusat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Berusat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12A598182870657C004F735B /* BerusatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BerusatApp.swift; sourceTree = "<group>"; };
 		12A5981A2870657C004F735B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				12CCD8412870862A00D87C4A /* Constants.swift */,
+				12A1DF652875C8B700B90A0D /* AppUtility.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 				12CCD8492872EE7C00D87C4A /* AddPlayerView.swift in Sources */,
 				12A1DF502874745A00B90A0D /* PackageModel.swift in Sources */,
 				12CCD8522872FFC400D87C4A /* AppState.swift in Sources */,
+				12A1DF662875C8B700B90A0D /* AppUtility.swift in Sources */,
 				12A5981B2870657C004F735B /* ContentView.swift in Sources */,
 				12A1DF5A2874E84100B90A0D /* BuyPackagesBanner.swift in Sources */,
 				12A598192870657C004F735B /* BerusatApp.swift in Sources */,
@@ -424,8 +428,10 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -435,7 +441,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -454,8 +460,10 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -465,7 +473,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

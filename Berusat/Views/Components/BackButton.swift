@@ -14,13 +14,11 @@ struct BackButton: View {
         HStack {
             Image(systemName: AppIcons.leftArrowIcon)
                 .foregroundColor(Color(AppColor.primary))
-                .background(.green)
 
             Typography(text: "Tillbaka", size: TextSize.smallBody, color: Color(AppColor.primary))
                 .minimumScaleFactor(0.5)
                 .fixedSize(horizontal: true, vertical: false)
         }
-        .background(.red)
         .onTapGesture {
             self.mode.wrappedValue.dismiss()
         }

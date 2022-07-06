@@ -16,7 +16,7 @@ struct StartView: View {
 
     var body: some View {
         VStack {
-            Typography(text: AppText.appTitle, size: 52)
+            Typography(text: AppText.appTitle, size: TextSize.title)
 
             PlayerList(players: appState.players)
 
@@ -39,6 +39,7 @@ struct StartView_Previews: PreviewProvider {
             ZStack {
                 Color(AppColor.darkColor)
                     .edgesIgnoringSafeArea(.all)
+
                 StartView()
             }
         }.environmentObject(AppState())

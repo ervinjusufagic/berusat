@@ -30,7 +30,7 @@ struct PackageItem: View {
 
             VStack(spacing: Space.none) {
                 Typography(text: package.emoji, size: 82)
-                Typography(text: package.name, size: 24)
+                Typography(text: package.name, size: TextSize.body)
             }
 
             if isSelected {
@@ -49,7 +49,11 @@ struct PackageItem: View {
             }
         }
         .onTapGesture {
-            appState.setSelectedPackage(package)
+            if package.isLocked {
+                print("pressed locked package")
+            } else {
+                appState.setSelectedPackage(package)
+            }
         }
         .padding()
     }

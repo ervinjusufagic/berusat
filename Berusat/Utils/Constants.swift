@@ -67,12 +67,21 @@ enum Space {
     static let twoxl = 24.0
     static let threexl = 28.0
     static let fourxl = 32.0
+    static let fivexl = 36.0
+}
+
+// MARK: TextSize
+
+enum TextSize {
+    static let title = 52.0
+    static let body = 24.0
+    static let mediumBody = 28.0
+    static let bigBody = 32.0
 }
 
 // MARK: General
 
 enum K {
-    // Font
     static let appFontName: String = "Cupid-deer"
     static let minPlayers: Int = 2
     static let minRounds: Double = 1

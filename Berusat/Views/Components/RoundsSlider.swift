@@ -13,9 +13,9 @@ struct RoundsSlider: View {
     var body: some View {
         VStack(spacing: Space.none) {
             HStack {
-                Typography(text: AppText.roundsSliderLabel, size: 24)
+                Typography(text: AppText.roundsSliderLabel, size: TextSize.body)
                 Spacer()
-                Typography(text: String(format: "%.0f", value), size: 24)
+                Typography(text: String(format: "%.0f", value), size: TextSize.body)
             }
 
             Slider(

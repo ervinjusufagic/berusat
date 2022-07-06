@@ -12,13 +12,13 @@ struct PlayButton: View {
         Button {
             print("start pressed")
         } label: {
-            Typography(text: AppText.playButtonText, size: 32)
+            Typography(text: AppText.playButtonText, size: TextSize.bigBody)
         }
         .padding(EdgeInsets(
             top: Space.sm,
-            leading: Space.lg,
+            leading: Space.xl,
             bottom: Space.sm,
-            trailing: Space.lg
+            trailing: Space.xl
         ))
         .background(Color(AppColor.primary))
         .cornerRadius(8)

@@ -32,6 +32,7 @@ struct PackageSelector: View {
 
 struct PackageSelector_Previews: PreviewProvider {
     static var previews: some View {
-        PackageSelector().environmentObject(AppState())
+        PackageSelector()
+            .environmentObject(AppState())
     }
 }

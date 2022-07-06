@@ -21,7 +21,7 @@ struct StartButton: View {
         } label: {
             NavigationLink(destination: PackageSelector()) {
                 HStack(alignment: .center, spacing: Space.none) {
-                    Typography(text: AppText.startButtonText, size: 24, color: buttonColor)
+                    Typography(text: AppText.startButtonText, size: TextSize.body, color: buttonColor)
                     Image(systemName: AppIcons.rightArrowIcon)
                         .foregroundColor(buttonColor)
                         .frame(width: Space.fourxl, height: Space.fourxl)

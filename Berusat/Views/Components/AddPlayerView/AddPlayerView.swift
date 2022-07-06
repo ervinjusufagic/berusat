@@ -15,14 +15,14 @@ struct AddPlayerView: View {
         ZStack {
             if addPlayerViewModel.playerName.isEmpty {
                 HStack {
-                    Typography(text: AppText.playerTextFieldPlaceholder, size: 24)
+                    Typography(text: AppText.playerTextFieldPlaceholder, size: TextSize.body)
                     Spacer()
                 }
             }
             HStack {
                 TextField("", text: $addPlayerViewModel.playerName)
                     .foregroundColor(Color(AppColor.lightColor))
-                    .font(Font.custom(K.appFontName, size: 24))
+                    .font(Font.custom(K.appFontName, size: TextSize.body))
                     .keyboardType(.webSearch)
                     .disableAutocorrection(true)
                     .onSubmit {

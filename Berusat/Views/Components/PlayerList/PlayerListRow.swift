@@ -20,7 +20,7 @@ struct PlayerListRow: View {
                 Spacer()
                 
                 HStack {
-                    Typography(text: player.name, size: 28)
+                    Typography(text: player.name, size: TextSize.mediumBody)
                     
                     Spacer()
                     
@@ -29,7 +29,7 @@ struct PlayerListRow: View {
                     } label: {
                         Image(systemName: AppIcons.trashIcon)
                             .foregroundColor(.red)
-                            .frame(width: Space.fourxl, height: Space.fourxl)
+                            .frame(width: Space.fivexl, height: Space.fivexl)
                     }
                 }
                 .padding(.horizontal)

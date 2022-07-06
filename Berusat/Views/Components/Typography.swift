@@ -21,6 +21,6 @@ struct Typography: View {
 
 struct Typography_Previews: PreviewProvider {
     static var previews: some View {
-        Typography(text: AppText.appTitle, size: 52)
+        Typography(text: AppText.appTitle, size: TextSize.title)
     }
 }

@@ -27,8 +27,6 @@ final class AppState: ObservableObject {
     // MARK: Package
 
     func setSelectedPackage(_ package: Package) {
-        if !package.isLocked {
-            selectedPackage = package
-        }
+        selectedPackage = package
     }
 }

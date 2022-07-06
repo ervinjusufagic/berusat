@@ -14,12 +14,17 @@ struct BuyPackagesBanner: View {
                 .frame(height: 1)
                 .background(Color(AppColor.lightColor))
                 .ignoresSafeArea(.all)
+
             VStack {
-                Typography(text: "🎉 Lås upp alla paket! 🎉", size: 28)
-                Typography(text: "99kr engånskostnad!", size: 28)
+                Typography(text: "🎉 Lås upp alla paket! 🎉", size: TextSize.mediumBody)
+                Typography(text: "99kr engånskostnad!", size: TextSize.mediumBody)
             }
             .frame(maxWidth: .infinity)
+            .background(Color(AppColor.darkColor))
             .padding()
+        }
+        .onTapGesture {
+            print("banner pressed")
         }
     }
 }

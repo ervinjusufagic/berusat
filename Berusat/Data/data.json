@@ -1,0 +1,41 @@
+[
+    {
+        "id": "1",
+        "name": "frukstund",
+        "emoji": "😇",
+        "isLocked": false,
+        "challenges": [
+            {
+                "type": "individual",
+                "reward": 2,
+                "punishment": 2,
+                "instruction": "If a silent mission is assigned on the last round, the participant tasked with the mission has until the end of the game to finish it."
+            },
+            {
+                "type": "individual",
+                "reward": 1,
+                "punishment": 1,
+                "instruction": "If a silent mission is assigned on the last round, the participant tasked with the mission has until the end of the game to finish it."
+            },
+            {
+                "type": "individual",
+                "reward": 3,
+                "punishment": 3,
+                "instruction": "If a silent mission is assigned on the last round, the participant tasked with the mission has until the end of the game to finish it."
+            },
+            {
+                "type": "individual",
+                "reward": 4,
+                "punishment": 4,
+                "instruction": "If a silent mission is assigned on the last round, the participant tasked with the mission has until the end of the game to finish it."
+            },
+            {
+                "type": "individual",
+                "reward": 5,
+                "punishment": 5,
+                "instruction": "If a silent mission is assigned on the last round, the participant tasked with the mission has until the end of the game to finish it."
+            }
+        ]
+    }
+]
+ 

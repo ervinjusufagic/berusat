@@ -63,7 +63,7 @@ struct PackageItem_Previews: PreviewProvider {
     static var previews: some View {
         ZStack {
             Color(AppColor.darkColor)
-            PackageItem(package: Package(name: "Hello", isLocked: false, emoji: "😀"))
+            PackageItem(package: AppState().packages[0])
         }
         .environmentObject(AppState())
     }

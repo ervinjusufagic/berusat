@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct PackageSelectorView: View {
+    @EnvironmentObject var appState: AppState
     @GestureState private var dragOffset = CGSize.zero
     @Environment(\.presentationMode) var mode: Binding<PresentationMode>
 
@@ -17,13 +18,13 @@ struct PackageSelectorView: View {
                 .edgesIgnoringSafeArea(.all)
 
             VStack {
-                PackageGrid(packages: [
-                    Package(name: "Easy", isLocked: false, emoji: "😇"),
-                    Package(name: "Medium", isLocked: true, emoji: "😝"),
-                    Package(name: "Hard", isLocked: true, emoji: "🤪"),
-                ])
+                PackageGrid(packages: appState.packages)
 
-                PlayButton()
+                NavigationLink {
+                    GameView()
+                } label: {
+                    AppButton(text: AppText.playButtonText)
+                }
 
                 BuyPackagesBanner()
             }

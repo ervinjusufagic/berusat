@@ -7,9 +7,18 @@
 
 import Foundation
 
-struct Package: Identifiable {
-    var id: String = UUID().uuidString
+struct Package: Codable, Identifiable {
+    var id: String
     var name: String
     var isLocked: Bool
     var emoji: String
+
+    var challenges: [Challenge]
+
+    struct Challenge: Codable {
+        var type: String
+        var reward: Int
+        var punishment: Int
+        var instruction: String
+    }
 }

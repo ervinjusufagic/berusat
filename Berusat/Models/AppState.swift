@@ -8,6 +8,7 @@
 import Foundation
 
 final class AppState: ObservableObject {
+    @Published var packages: [Package] = AppUtility.loadJSON("data.json")
     @Published var players: [Player] = []
     @Published var rounds: Double = 3
     @Published var selectedPackage: Package? = nil

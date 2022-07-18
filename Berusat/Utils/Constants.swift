@@ -24,6 +24,8 @@ enum AppColor {
     static let lightColor = "Light"
     static let primary = "DarkTurquoise"
     static let disabled = "DarkGrey"
+    static let danger = "DarkRed"
+    static let success = "DarkGreen"
 
     static let AppColorNames: [String] = [
         "LightBlue",
@@ -55,6 +57,7 @@ enum AppIcons {
     static let trashIcon = "trash"
     static let selectedIcon = "checkmark.circle"
     static let lockIcon = "lock.circle"
+    static let closeIcon = "xmark.circle"
 }
 
 // MARK: Space

@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct PackageSelectorView: View {
-    @EnvironmentObject var appState: AppState
+    @StateObject var packageState = PackageState()
     @GestureState private var dragOffset = CGSize.zero
     @Environment(\.presentationMode) var mode: Binding<PresentationMode>
 
@@ -18,7 +18,7 @@ struct PackageSelectorView: View {
                 .edgesIgnoringSafeArea(.all)
 
             VStack {
-                PackageGrid(packages: appState.packages)
+                PackageGrid(packages: packageState.packages)
 
                 NavigationLink {
                     GameView()
@@ -36,7 +36,9 @@ struct PackageSelectorView: View {
         .navigationBarBackButtonHidden(true)
         .toolbar {
             ToolbarItem(placement: .navigationBarLeading) {
-                BackButton()
+                NavigationLink(destination: StartView()) {
+                    BackButton()
+                }
             }
 
             ToolbarItem(placement: .principal) {
@@ -57,6 +59,5 @@ struct PackageSelectorView: View {
 struct PackageSelector_Previews: PreviewProvider {
     static var previews: some View {
         PackageSelectorView()
-            .environmentObject(AppState())
     }
 }

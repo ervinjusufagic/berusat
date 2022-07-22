@@ -8,7 +8,26 @@
 import SwiftUI
 
 struct GameView: View {
-    @EnvironmentObject var appState: AppState
+    @Environment(\.presentationMode) var mode: Binding<PresentationMode>
+
+    @EnvironmentObject var userSettings: UserSettingsState
+    @StateObject var gameState = GameState()
+
+    var punishment: String {
+        if let punishment = gameState.currentChallenge?.punishment {
+            return String(punishment)
+        }
+
+        return ""
+    }
+
+    var reward: String {
+        if let reward = gameState.currentChallenge?.reward {
+            return String(reward)
+        }
+
+        return ""
+    }
 
     var body: some View {
         ZStack {
@@ -18,27 +37,47 @@ struct GameView: View {
             VStack {
                 HStack {
                     Spacer()
+
                     Image(systemName: AppIcons.closeIcon)
                         .resizable()
                         .frame(width: Space.threexl, height: Space.threexl)
                         .foregroundColor(Color(AppColor.lightColor))
                         .padding(.top)
+                        .onTapGesture {
+                            self.mode.wrappedValue.dismiss()
+                        }
                 }
 
-                Typography(text: "Ervin", size: TextSize.title)
+                if let playerName = gameState.currentPlayer?.name {
+                    Typography(text: playerName, size: TextSize.title)
+                }
+
                 Spacer()
-                Typography(text: "Fråga eller nått påstående", size: TextSize.bigBody)
+
+                if let challenge = gameState.currentChallenge?.instruction {
+                    Typography(text: challenge, size: TextSize.bigBody)
+                }
+
                 Spacer()
 
                 HStack {
-                    AppButton(text: "1 straff", color: Color(AppColor.danger))
+                    AppButton(text: "\(punishment) straff", color: Color(AppColor.danger))
+                        .onTapGesture {
+                            gameState.setNewTurn(after: .fail)
+                        }
+
                     Spacer()
-                    AppButton(text: "1 poäng", color: Color(AppColor.success))
+
+                    AppButton(text: "\(reward) poäng", color: Color(AppColor.success))
+                        .onTapGesture {
+                            gameState.setNewTurn(after: .success)
+                        }
                 }
                 .padding([.leading, .trailing], Space.twoxl)
             }
         }
         .onAppear {
+            gameState.setup(userSettings: userSettings)
             AppUtility.lockOrientation(.landscapeRight, andRotateTo: .landscapeRight)
         }
         .navigationBarHidden(true)
@@ -47,7 +86,7 @@ struct GameView: View {
 
 struct GameView_Previews: PreviewProvider {
     static var previews: some View {
-        GameView()
+        GameView(gameState: GameState())
             .previewInterfaceOrientation(.landscapeRight)
     }
 }

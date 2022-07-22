@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct PlayerListRow: View {
-    @EnvironmentObject var appState: AppState
+    @EnvironmentObject var userSettings: UserSettingsState
 
     var player: Player
     
@@ -25,7 +25,7 @@ struct PlayerListRow: View {
                     Spacer()
                     
                     Button {
-                        appState.onDeletePlayer(playerId: player.id)
+                        userSettings.deletePlayer(with: player.id)
                     } label: {
                         Image(systemName: AppIcons.trashIcon)
                             .foregroundColor(.red)
@@ -48,7 +48,7 @@ struct PlayerListRow_Previews: PreviewProvider {
     static var previews: some View {
         Group {
             PlayerListRow(player: Player(name: "ervin")).previewLayout(.fixed(width: 500, height: 70))
-            
+
             PlayerListRow(player: Player(name: "ebba")).previewLayout(.fixed(width: 500, height: 70))
         }
     }

@@ -26,7 +26,7 @@ struct PackageGrid: View {
 
 struct PackageGrid_Previews: PreviewProvider {
     static var previews: some View {
-        PackageGrid(packages: AppState().packages)
-            .environmentObject(AppState())
+        PackageGrid(packages: PackageState().packages)
+            .environmentObject(UserSettingsState())
     }
 }

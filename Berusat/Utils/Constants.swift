@@ -84,6 +84,13 @@ enum TextSize {
     static let bigBody = 32.0
 }
 
+// MARK: Game
+
+enum challengeResult {
+    case success
+    case fail
+}
+
 // MARK: General
 
 enum K {

@@ -7,28 +7,33 @@
 
 import SwiftUI
 
-struct AddPlayerView: View {
-    @EnvironmentObject var appState: AppState
-    @StateObject private var addPlayerViewModel = AddPlayerViewModel()
+struct AddPlayerTextField: View {
+    @State var playerName: String = ""
+
+    var onAddPlayer: (_ player: Player) -> Void
+
+    func resetPlayerName() {
+        playerName = ""
+    }
 
     var body: some View {
         ZStack {
-            if addPlayerViewModel.playerName.isEmpty {
+            if playerName.isEmpty {
                 HStack {
                     Typography(text: AppText.playerTextFieldPlaceholder, size: TextSize.body)
                     Spacer()
                 }
             }
             HStack {
-                TextField("", text: $addPlayerViewModel.playerName)
+                TextField("", text: $playerName)
                     .foregroundColor(Color(AppColor.lightColor))
                     .font(Font.custom(K.appFontName, size: TextSize.body))
                     .keyboardType(.webSearch)
                     .disableAutocorrection(true)
                     .onSubmit {
-                        if !addPlayerViewModel.playerName.isEmpty {
-                            appState.onAddPlayer(player: Player(name: addPlayerViewModel.playerName))
-                            addPlayerViewModel.resetPlayerName()
+                        if !playerName.isEmpty {
+                            onAddPlayer(Player(name: playerName))
+                            resetPlayerName()
                         }
                     }
             }
@@ -38,6 +43,7 @@ struct AddPlayerView: View {
 
 struct AddPlayerView_Previews: PreviewProvider {
     static var previews: some View {
-        AddPlayerView()
+        AddPlayerTextField { _ in
+        }
     }
 }

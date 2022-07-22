@@ -9,21 +9,12 @@ import SwiftUI
 
 @main
 struct BerusatApp: App {
-    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelgate
-    @StateObject var appState = AppState()
+    @StateObject var userSettings = UserSettingsState()
 
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .environmentObject(appState)
+                .environmentObject(userSettings)
         }
-    }
-}
-
-class AppDelegate: UIResponder, UIApplicationDelegate {
-    static var orientationLock = UIInterfaceOrientationMask.all
-
-    func application(_ application: UIApplication, supportedInterfaceOrientationsFor window: UIWindow?) -> UIInterfaceOrientationMask {
-        return AppDelegate.orientationLock
     }
 }

@@ -8,12 +8,12 @@
 import SwiftUI
 
 struct PackageItem: View {
-    @EnvironmentObject var appState: AppState
+    @EnvironmentObject var userSettings: UserSettingsState
 
     var package: Package
 
     var isSelected: Bool {
-        if package.id == appState.selectedPackage?.id {
+        if package.id == userSettings.selectedPackage?.id {
             return true
         }
         return false
@@ -52,7 +52,7 @@ struct PackageItem: View {
             if package.isLocked {
                 print("pressed locked package")
             } else {
-                appState.setSelectedPackage(package)
+                userSettings.setSelectedPackage(package)
             }
         }
         .padding()
@@ -63,8 +63,8 @@ struct PackageItem_Previews: PreviewProvider {
     static var previews: some View {
         ZStack {
             Color(AppColor.darkColor)
-            PackageItem(package: AppState().packages[0])
+            PackageItem(package: PackageState().packages[0])
         }
-        .environmentObject(AppState())
+        .environmentObject(UserSettingsState())
     }
 }

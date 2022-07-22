@@ -14,11 +14,12 @@ struct Package: Codable, Identifiable {
     var emoji: String
 
     var challenges: [Challenge]
+}
 
-    struct Challenge: Codable {
-        var type: String
-        var reward: Int
-        var punishment: Int
-        var instruction: String
-    }
+struct Challenge: Codable {
+    var id: String
+    var type: String
+    var reward: Int
+    var punishment: Int
+    var instruction: String
 }

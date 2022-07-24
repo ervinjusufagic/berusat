@@ -9,6 +9,7 @@ import SwiftUI
 
 struct PackageSelectorView: View {
     @StateObject var packageState = PackageState()
+    @EnvironmentObject var userSettingsState: UserSettingsState
     @GestureState private var dragOffset = CGSize.zero
     @Environment(\.presentationMode) var mode: Binding<PresentationMode>
 
@@ -24,13 +25,14 @@ struct PackageSelectorView: View {
                     GameView()
                 } label: {
                     AppButton(text: AppText.playButtonText)
-                }
+                }.isDetailLink(false)
 
                 BuyPackagesBanner()
             }
         }
         .onAppear {
             AppUtility.lockOrientation(.portrait, andRotateTo: .portrait)
+            userSettingsState.setSelectedPackage(packageState.packages[0])
         }
         .navigationBarTitleDisplayMode(.inline)
         .navigationBarBackButtonHidden(true)

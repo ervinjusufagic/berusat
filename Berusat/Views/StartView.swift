@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct StartView: View {
+    @EnvironmentObject var appState: AppState
     @EnvironmentObject var userSettings: UserSettingsState
 
     var isStartDisabled: Bool {
@@ -25,7 +26,11 @@ struct StartView: View {
             HStack {
                 AddPlayerTextField(onAddPlayer: userSettings.addPlayer)
 
-                StartButton(isDisabled: isStartDisabled)
+                NavigationLink(destination: PackageSelectorView(), isActive: $appState.isRootNavigaionLinkActive) {
+                    StartButton(isDisabled: isStartDisabled)
+                }
+                .isDetailLink(false)
+                .disabled(isStartDisabled)
             }
         }
         .onAppear {

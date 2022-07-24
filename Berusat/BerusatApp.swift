@@ -9,11 +9,13 @@ import SwiftUI
 
 @main
 struct BerusatApp: App {
+    @StateObject var appState = AppState()
     @StateObject var userSettings = UserSettingsState()
 
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(appState)
                 .environmentObject(userSettings)
         }
     }

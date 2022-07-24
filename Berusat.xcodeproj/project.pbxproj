@@ -19,6 +19,8 @@
 		12A1DF6B2885CF7000B90A0D /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 12A1DF6A2885CF7000B90A0D /* data.json */; };
 		12A1DF722886D8E900B90A0D /* UserSettingsState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A1DF712886D8E900B90A0D /* UserSettingsState.swift */; };
 		12A1DF742886DD4300B90A0D /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A1DF732886DD4300B90A0D /* GameState.swift */; };
+		12A1DF76288B086900B90A0D /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A1DF75288B086900B90A0D /* ScoreView.swift */; };
+		12A1DF78288D8A3500B90A0D /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A1DF77288D8A3500B90A0D /* AppState.swift */; };
 		12A598192870657C004F735B /* BerusatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A598182870657C004F735B /* BerusatApp.swift */; };
 		12A5981B2870657C004F735B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A5981A2870657C004F735B /* ContentView.swift */; };
 		12A5981D2870657C004F735B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12A5981C2870657C004F735B /* Assets.xcassets */; };
@@ -49,6 +51,8 @@
 		12A1DF6A2885CF7000B90A0D /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
 		12A1DF712886D8E900B90A0D /* UserSettingsState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSettingsState.swift; sourceTree = "<group>"; };
 		12A1DF732886DD4300B90A0D /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
+		12A1DF75288B086900B90A0D /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
+		12A1DF77288D8A3500B90A0D /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		12A598152870657C004F735B /* Berusat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Berusat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12A598182870657C004F735B /* BerusatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BerusatApp.swift; sourceTree = "<group>"; };
 		12A5981A2870657C004F735B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -102,6 +106,7 @@
 				12CCD8512872FFC400D87C4A /* PackageState.swift */,
 				12A1DF712886D8E900B90A0D /* UserSettingsState.swift */,
 				12A1DF732886DD4300B90A0D /* GameState.swift */,
+				12A1DF77288D8A3500B90A0D /* AppState.swift */,
 			);
 			path = State;
 			sourceTree = "<group>";
@@ -170,6 +175,7 @@
 				12A5982C28706D62004F735B /* StartView.swift */,
 				1237652F2874679000968100 /* PackageSelectorView.swift */,
 				12A1DF672875CBD300B90A0D /* GameView.swift */,
+				12A1DF75288B086900B90A0D /* ScoreView.swift */,
 				12CCD8432872C62400D87C4A /* Components */,
 			);
 			path = Views;
@@ -306,7 +312,9 @@
 				12CCD8522872FFC400D87C4A /* PackageState.swift in Sources */,
 				12A1DF662875C8B700B90A0D /* AppUtility.swift in Sources */,
 				12A5981B2870657C004F735B /* ContentView.swift in Sources */,
+				12A1DF78288D8A3500B90A0D /* AppState.swift in Sources */,
 				12A1DF682875CBD300B90A0D /* GameView.swift in Sources */,
+				12A1DF76288B086900B90A0D /* ScoreView.swift in Sources */,
 				12A1DF5A2874E84100B90A0D /* BuyPackagesBanner.swift in Sources */,
 				12A598192870657C004F735B /* BerusatApp.swift in Sources */,
 				12CCD83B2870731600D87C4A /* PlayerListRow.swift in Sources */,

@@ -31,6 +31,10 @@ struct GameView: View {
 
     var body: some View {
         ZStack {
+            NavigationLink(destination: ScoreView(), isActive: $gameState.isGameOver) {
+                EmptyView()
+            }.isDetailLink(false)
+
             Color(AppColor.darkColor)
                 .edgesIgnoringSafeArea(.all)
 

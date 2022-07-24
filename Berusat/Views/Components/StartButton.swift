@@ -15,17 +15,12 @@ struct StartButton: View {
     }
 
     var body: some View {
-        Button {} label: {
-            NavigationLink(destination: PackageSelectorView()) {
-                HStack(alignment: .center, spacing: Space.none) {
-                    Typography(text: AppText.startButtonText, size: TextSize.body, color: buttonColor)
-                    Image(systemName: AppIcons.rightArrowIcon)
-                        .foregroundColor(buttonColor)
-                        .frame(width: Space.fourxl, height: Space.fourxl)
-                }
-            }
+        HStack(alignment: .center, spacing: Space.none) {
+            Typography(text: AppText.startButtonText, size: TextSize.body, color: buttonColor)
+            Image(systemName: AppIcons.rightArrowIcon)
+                .foregroundColor(buttonColor)
+                .frame(width: Space.fourxl, height: Space.fourxl)
         }
-        .disabled(isDisabled)
     }
 }
 

@@ -11,13 +11,17 @@ final class GameState: ObservableObject {
     @Published var currentPlayer: Player? = nil
     @Published var currentChallenge: Challenge? = nil
     @Published var package: Package? = nil
+    @Published var isGameOver: Bool = false
 
-    private var currentPlayerIndex = 0
+    private var currentPlayerIndex: Int = 0
     private var players: [Player] = []
+    private var roundsToPlay: Double = 0
+    private var currentRound: Double = 1
 
     func setup(userSettings: UserSettingsState) {
         players = userSettings.players
         package = userSettings.selectedPackage
+        roundsToPlay = userSettings.rounds
 
         currentPlayer = players[currentPlayerIndex]
         setNewChallenge()
@@ -76,11 +80,21 @@ final class GameState: ObservableObject {
         let lastPlayerIndex = players.endIndex - 1
 
         if currentPlayerIndex == lastPlayerIndex {
-            currentPlayerIndex = 0
+            setNextRound()
         } else {
             currentPlayerIndex += 1
         }
 
         currentPlayer = players[currentPlayerIndex]
+    }
+
+    private func setNextRound() {
+        currentPlayerIndex = 0
+
+        if currentRound < roundsToPlay {
+            currentRound += 1
+        } else {
+            isGameOver = true
+        }
     }
 }

@@ -95,7 +95,7 @@ enum challengeResult {
 
 enum K {
     static let appFontName: String = "Cupid-deer"
-    static let minPlayers: Int = 0
+    static let minPlayers: Int = 2
     static let minRounds: Double = 1
     static let maxRounds: Double = 5
 }

@@ -31,7 +31,7 @@ struct GameView: View {
 
     var body: some View {
         ZStack {
-            NavigationLink(destination: ScoreView(), isActive: $gameState.isGameOver) {
+            NavigationLink(destination: ScoreView(scoreboard: gameState.scoreboard), isActive: $gameState.isGameOver) {
                 EmptyView()
             }.isDetailLink(false)
 
@@ -42,14 +42,15 @@ struct GameView: View {
                 HStack {
                     Spacer()
 
-                    Image(systemName: AppIcons.closeIcon)
-                        .resizable()
-                        .frame(width: Space.threexl, height: Space.threexl)
-                        .foregroundColor(Color(AppColor.lightColor))
-                        .padding(.top)
-                        .onTapGesture {
-                            self.mode.wrappedValue.dismiss()
-                        }
+                    Button {
+                        self.mode.wrappedValue.dismiss()
+                    } label: {
+                        Image(systemName: AppIcons.closeIcon)
+                            .resizable()
+                            .frame(width: Space.threexl, height: Space.threexl)
+                            .foregroundColor(Color(AppColor.lightColor))
+                            .padding(.top)
+                    }
                 }
 
                 if let playerName = gameState.currentPlayer?.name {
@@ -65,24 +66,31 @@ struct GameView: View {
                 Spacer()
 
                 HStack {
-                    AppButton(text: "\(punishment) straff", color: Color(AppColor.danger))
-                        .onTapGesture {
-                            gameState.setNewTurn(after: .fail)
-                        }
+                    Button {
+                        gameState.setNewTurn(after: .fail)
+                    } label: {
+                        AppButton(text: "\(punishment) straff", color: Color(AppColor.danger))
+                    }
 
                     Spacer()
 
-                    AppButton(text: "\(reward) poäng", color: Color(AppColor.success))
-                        .onTapGesture {
-                            gameState.setNewTurn(after: .success)
-                        }
+                    Button {
+                        gameState.setNewTurn(after: .success)
+                    } label: {
+                        AppButton(text: "\(reward) poäng", color: Color(AppColor.success))
+                    }
                 }
                 .padding([.leading, .trailing], Space.twoxl)
+
+                Spacer()
             }
         }
         .onAppear {
             gameState.setup(userSettings: userSettings)
-            AppUtility.lockOrientation(.landscapeRight, andRotateTo: .landscapeRight)
+
+            DispatchQueue.main.async {
+                AppUtility.lockOrientation(.landscapeRight, andRotateTo: .landscapeRight)
+            }
         }
         .navigationBarHidden(true)
     }
@@ -92,5 +100,7 @@ struct GameView_Previews: PreviewProvider {
     static var previews: some View {
         GameView(gameState: GameState())
             .previewInterfaceOrientation(.landscapeRight)
+            .environmentObject(AppState())
+            .environmentObject(UserSettingsState())
     }
 }

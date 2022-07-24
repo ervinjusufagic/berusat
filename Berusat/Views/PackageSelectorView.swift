@@ -25,14 +25,18 @@ struct PackageSelectorView: View {
                     GameView()
                 } label: {
                     AppButton(text: AppText.playButtonText)
-                }.isDetailLink(false)
+                }
+                .isDetailLink(false)
+                .padding()
 
                 BuyPackagesBanner()
             }
         }
         .onAppear {
-            AppUtility.lockOrientation(.portrait, andRotateTo: .portrait)
             userSettingsState.setSelectedPackage(packageState.packages[0])
+            DispatchQueue.main.async {
+                AppUtility.lockOrientation(.portrait, andRotateTo: .portrait)
+            }
         }
         .navigationBarTitleDisplayMode(.inline)
         .navigationBarBackButtonHidden(true)
@@ -61,5 +65,7 @@ struct PackageSelectorView: View {
 struct PackageSelector_Previews: PreviewProvider {
     static var previews: some View {
         PackageSelectorView()
+            .environmentObject(AppState())
+            .environmentObject(UserSettingsState())
     }
 }

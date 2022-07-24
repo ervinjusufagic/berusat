@@ -8,13 +8,18 @@
 import Foundation
 import SwiftUI
 
-struct AppUtility {
-    static func lockOrientation(_ orientation: UIInterfaceOrientationMask, andRotateTo rotateOrientation: UIInterfaceOrientation) {
-        DispatchQueue.main.async {
-            UIDevice.current.setValue(rotateOrientation.rawValue, forKey: "orientation")
+class AppDelegate: NSObject, UIApplicationDelegate {
+    static var orientationLock = UIInterfaceOrientationMask.portrait // By default you want all your views to rotate freely
 
-            AppDelegate.orientationLock = orientation
-        }
+    func application(_ application: UIApplication, supportedInterfaceOrientationsFor window: UIWindow?) -> UIInterfaceOrientationMask {
+        return AppDelegate.orientationLock
+    }
+}
+
+enum AppUtility {
+    static func lockOrientation(_ orientation: UIInterfaceOrientationMask, andRotateTo rotateOrientation: UIInterfaceOrientation) {
+        UIDevice.current.setValue(rotateOrientation.rawValue, forKey: "orientation")
+        AppDelegate.orientationLock = orientation
     }
 
     static func loadJSON<T: Decodable>(_ filename: String) -> T {

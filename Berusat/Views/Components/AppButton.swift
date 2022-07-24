@@ -21,7 +21,6 @@ struct AppButton: View {
             ))
             .background(color)
             .cornerRadius(8)
-            .padding()
     }
 }
 

@@ -9,6 +9,7 @@ import SwiftUI
 
 @main
 struct BerusatApp: App {
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelgate
     @StateObject var appState = AppState()
     @StateObject var userSettings = UserSettingsState()
 

@@ -9,6 +9,7 @@ import Foundation
 
 // UserActions? UserSettings?
 final class UserSettingsState: ObservableObject {
+    // Test players: [Player(name: "Ervin"), Player(name: "Ebba"), Player(name: "asdf"), Player(name: "xvcxcv")]
     @Published var players: [Player] = []
     @Published var rounds: Double = 3
     @Published var selectedPackage: Package? = nil

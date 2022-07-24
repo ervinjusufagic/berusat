@@ -8,8 +8,6 @@
 import SwiftUI
 
 struct ContentView: View {
-    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelgate
-
     var body: some View {
         NavigationView {
             ZStack {
@@ -18,15 +16,7 @@ struct ContentView: View {
 
                 StartView()
             }
-        }
-    }
-}
-
-class AppDelegate: UIResponder, UIApplicationDelegate {
-    static var orientationLock = UIInterfaceOrientationMask.all
-
-    func application(_ application: UIApplication, supportedInterfaceOrientationsFor window: UIWindow?) -> UIInterfaceOrientationMask {
-        return AppDelegate.orientationLock
+        }.navigationViewStyle(.stack)
     }
 }
 
@@ -34,5 +24,6 @@ struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
             .environmentObject(UserSettingsState())
+            .environmentObject(AppState())
     }
 }

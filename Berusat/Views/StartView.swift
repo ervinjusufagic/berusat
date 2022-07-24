@@ -33,9 +33,6 @@ struct StartView: View {
                 .disabled(isStartDisabled)
             }
         }
-        .onAppear {
-            AppUtility.lockOrientation(.portrait, andRotateTo: .portrait)
-        }
         .padding()
         .navigationBarHidden(true)
     }
@@ -50,6 +47,8 @@ struct StartView_Previews: PreviewProvider {
 
                 StartView()
             }
-        }.environmentObject(UserSettingsState())
+        }
+        .environmentObject(UserSettingsState())
+        .environmentObject(AppState())
     }
 }

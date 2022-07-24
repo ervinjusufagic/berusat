@@ -12,6 +12,7 @@ final class GameState: ObservableObject {
     @Published var currentChallenge: Challenge? = nil
     @Published var package: Package? = nil
     @Published var isGameOver: Bool = false
+    @Published var scoreboard: [Player] = []
 
     private var currentPlayerIndex: Int = 0
     private var players: [Player] = []
@@ -38,13 +39,43 @@ final class GameState: ObservableObject {
         }
 
         if lastChallengeResult == .success {
-            player.sips += challenge.punishment
+            player.points += challenge.reward
         }
 
-        updateCurrentPlayer(with: player)
-
+        updateScoreboard(with: player)
         setNextPlayer()
         setNewChallenge()
+    }
+
+    private func updateScoreboard(with updatedPlayer: Player) {
+        players[currentPlayerIndex] = updatedPlayer
+
+        let sortedPlayers = players.sorted {
+            $0.points > $1.points
+        }
+
+        scoreboard = sortedPlayers
+    }
+
+    private func setNextRound() {
+        if currentRound < roundsToPlay {
+            currentRound += 1
+        } else {
+            isGameOver = true
+        }
+    }
+
+    private func setNextPlayer() {
+        let lastPlayerIndex = players.endIndex - 1
+
+        if currentPlayerIndex == lastPlayerIndex {
+            currentPlayerIndex = 0
+            setNextRound()
+        } else {
+            currentPlayerIndex += 1
+        }
+
+        currentPlayer = players[currentPlayerIndex]
     }
 
     private func setNewChallenge() {
@@ -69,32 +100,6 @@ final class GameState: ObservableObject {
             package = restoredPackage
 
             setNewChallenge()
-        }
-    }
-
-    private func updateCurrentPlayer(with updatedPlayer: Player) {
-        players[currentPlayerIndex] = updatedPlayer
-    }
-
-    private func setNextPlayer() {
-        let lastPlayerIndex = players.endIndex - 1
-
-        if currentPlayerIndex == lastPlayerIndex {
-            setNextRound()
-        } else {
-            currentPlayerIndex += 1
-        }
-
-        currentPlayer = players[currentPlayerIndex]
-    }
-
-    private func setNextRound() {
-        currentPlayerIndex = 0
-
-        if currentRound < roundsToPlay {
-            currentRound += 1
-        } else {
-            isGameOver = true
         }
     }
 }

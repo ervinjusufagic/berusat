@@ -69,7 +69,7 @@ struct GameView: View {
                     Button {
                         gameState.setNewTurn(after: .fail)
                     } label: {
-                        AppButton(text: "\(punishment) straff", color: Color(AppColor.danger))
+                        AppButton(text: "\(punishment) \(AppText.punishmentText)", color: Color(AppColor.danger))
                     }
 
                     Spacer()
@@ -77,7 +77,7 @@ struct GameView: View {
                     Button {
                         gameState.setNewTurn(after: .success)
                     } label: {
-                        AppButton(text: "\(reward) poäng", color: Color(AppColor.success))
+                        AppButton(text: "\(reward) \(AppText.pointsText)", color: Color(AppColor.success))
                     }
                 }
                 .padding([.leading, .trailing], Space.twoxl)

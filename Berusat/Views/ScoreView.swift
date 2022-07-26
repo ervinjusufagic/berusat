@@ -18,7 +18,7 @@ struct ScoreView: View {
                 .edgesIgnoringSafeArea(.all)
 
             VStack {
-                Typography(text: "Poängtavla", size: TextSize.title)
+                Typography(text: AppText.scoreboardTitle, size: TextSize.title)
 
                 Spacer()
 
@@ -40,8 +40,8 @@ struct ScoreView: View {
                                 Spacer()
 
                                 VStack {
-                                    Typography(text: "\(player.points) poäng", size: TextSize.mediumBody)
-                                    Typography(text: "\(player.sips) straff", size: TextSize.mediumBody)
+                                    Typography(text: "\(player.points) \(AppText.pointsText)", size: TextSize.mediumBody)
+                                    Typography(text: "\(player.sips) \(AppText.punishmentText)", size: TextSize.mediumBody)
                                 }
                             }
                             .padding(.horizontal)
@@ -63,7 +63,7 @@ struct ScoreView: View {
                 Button {
                     appState.isRootNavigaionLinkActive = false
                 } label: {
-                    AppButton(text: "Spela igen!")
+                    AppButton(text: AppText.playAgain)
                 }
             }
             .padding()

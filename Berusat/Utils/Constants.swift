@@ -15,6 +15,10 @@ struct AppText {
     static let playerTextFieldPlaceholder = "Lägg till spelare.."
     static let startButtonText = "Starta"
     static let playButtonText = "Spela!"
+    static let punishmentText = "Straff"
+    static let pointsText = "Poäng"
+    static let scoreboardTitle = "Poängtavla"
+    static let playAgain = "Spela igen!"
 }
 
 // MARK: Color

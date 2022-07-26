@@ -23,9 +23,6 @@ struct BuyPackagesBanner: View {
             .background(Color(AppColor.darkColor))
             .padding()
         }
-        .onTapGesture {
-            print("banner pressed")
-        }
     }
 }
 

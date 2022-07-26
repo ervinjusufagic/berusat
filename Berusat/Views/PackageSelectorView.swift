@@ -29,7 +29,11 @@ struct PackageSelectorView: View {
                 .isDetailLink(false)
                 .padding()
 
-                BuyPackagesBanner()
+                Button {
+                    print("banner pressed")
+                } label: {
+                    BuyPackagesBanner()
+                }
             }
         }
         .onAppear {

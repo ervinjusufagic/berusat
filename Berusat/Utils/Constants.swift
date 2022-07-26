@@ -100,6 +100,33 @@ enum challengeResult {
 enum K {
     static let appFontName: String = "Cupid-deer"
     static let minPlayers: Int = 2
-    static let minRounds: Double = 1
-    static let maxRounds: Double = 5
+    static let minRounds: Double = 3
+    static let defaultRounds: Double = 6
+    static let maxRounds: Double = 12
+}
+
+// MARK: Mocks
+
+enum Mocks {
+    static let mockPlayers: [Player] = [Player(name: "Ervin"),
+                                        Player(name: "Ebba"),
+                                        Player(name: "asdf"),
+                                        Player(name: "xvcxcv")]
+
+    static let mockChallenges = [Challenge(id: "1",
+                                           type: "individual",
+                                           reward: 1,
+                                           punishment: 1,
+                                           instruction: "1 If a silent mission is assigned on the last round, the participant tasked with the mission has until the end of the game to finish it."),
+                                 Challenge(id: "2",
+                                           type: "individual",
+                                           reward: 1,
+                                           punishment: 1,
+                                           instruction: "asdasd")]
+
+    static let mockPackage = Package(id: "1",
+                                     name: "mockpackage",
+                                     isLocked: false,
+                                     emoji: "😀",
+                                     challenges: mockChallenges)
 }

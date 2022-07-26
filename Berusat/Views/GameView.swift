@@ -52,15 +52,17 @@ struct GameView: View {
                             .padding(.top)
                     }
                 }
-
-                if let playerName = gameState.currentPlayer?.name {
-                    Typography(text: playerName, size: TextSize.title)
-                }
-
                 Spacer()
 
-                if let challenge = gameState.currentChallenge?.instruction {
-                    Typography(text: challenge, size: TextSize.bigBody)
+                VStack {
+                    if let playerName = gameState.currentPlayer?.name {
+                        Typography(text: playerName, size: TextSize.title)
+                    }
+
+                    if let challenge = gameState.currentChallenge?.instruction {
+                        Typography(text: challenge, size: TextSize.bigBody)
+                            .padding([.leading, .trailing], Space.twoxl)
+                    }
                 }
 
                 Spacer()
@@ -98,9 +100,30 @@ struct GameView: View {
 
 struct GameView_Previews: PreviewProvider {
     static var previews: some View {
-        GameView(gameState: GameState())
-            .previewInterfaceOrientation(.landscapeRight)
-            .environmentObject(AppState())
-            .environmentObject(UserSettingsState())
+        GameView(
+            gameState: GameState(
+                initialValues: InitialGameState(
+                    currentPlayer: Mocks.mockPlayers[0],
+                    currentChallenge: Mocks.mockChallenges[0],
+                    package: Mocks.mockPackage,
+                    isGameOver: false,
+                    scoreboard: Mocks.mockPlayers,
+                    currentPlayerIndex: 0,
+                    players: Mocks.mockPlayers,
+                    roundsToPlay: 3,
+                    currentRound: 1
+                )
+            )
+        )
+        .previewInterfaceOrientation(.landscapeRight)
+        .environmentObject(
+            UserSettingsState(
+                initialUserSettings: InitialsUserSettings(
+                    players: Mocks.mockPlayers,
+                    rounds: 3,
+                    selectedPackage: Mocks.mockPackage
+                )
+            )
+        )
     }
 }

@@ -7,17 +7,44 @@
 
 import Foundation
 
-final class GameState: ObservableObject {
-    @Published var currentPlayer: Player? = nil
-    @Published var currentChallenge: Challenge? = nil
-    @Published var package: Package? = nil
-    @Published var isGameOver: Bool = false
-    @Published var scoreboard: [Player] = []
+struct InitialGameState {
+    /// published
+    var currentPlayer: Player? = nil
+    var currentChallenge: Challenge? = nil
+    var package: Package? = nil
+    var isGameOver: Bool = false
+    var scoreboard: [Player] = []
+    /// privates
+    var currentPlayerIndex: Int = 0
+    var players: [Player] = []
+    var roundsToPlay: Double = 0
+    var currentRound: Double = 1
+}
 
-    private var currentPlayerIndex: Int = 0
-    private var players: [Player] = []
-    private var roundsToPlay: Double = 0
-    private var currentRound: Double = 1
+final class GameState: ObservableObject {
+    @Published var currentPlayer: Player?
+    @Published var currentChallenge: Challenge?
+    @Published var package: Package?
+    @Published var isGameOver: Bool
+    @Published var scoreboard: [Player]
+
+    private var currentPlayerIndex: Int
+    private var players: [Player]
+    private var roundsToPlay: Double
+    private var currentRound: Double
+
+    init(initialValues: InitialGameState = InitialGameState()) {
+        self.currentPlayer = initialValues.currentPlayer
+        self.currentChallenge = initialValues.currentChallenge
+        self.package = initialValues.package
+        self.isGameOver = initialValues.isGameOver
+        self.scoreboard = initialValues.scoreboard
+
+        self.currentPlayerIndex = initialValues.currentPlayerIndex
+        self.players = initialValues.players
+        self.roundsToPlay = initialValues.roundsToPlay
+        self.currentRound = initialValues.currentRound
+    }
 
     func setup(userSettings: UserSettingsState) {
         players = userSettings.players

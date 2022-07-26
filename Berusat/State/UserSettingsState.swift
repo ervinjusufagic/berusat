@@ -7,12 +7,23 @@
 
 import Foundation
 
-// UserActions? UserSettings?
+struct InitialsUserSettings {
+    /// published
+    var players: [Player] = Mocks.mockPlayers
+    var rounds: Double = K.defaultRounds
+    var selectedPackage: Package? = nil
+}
+
 final class UserSettingsState: ObservableObject {
-    // Test players: [Player(name: "Ervin"), Player(name: "Ebba"), Player(name: "asdf"), Player(name: "xvcxcv")]
-    @Published var players: [Player] = []
-    @Published var rounds: Double = 3
-    @Published var selectedPackage: Package? = nil
+    @Published var players: [Player]
+    @Published var rounds: Double
+    @Published var selectedPackage: Package?
+
+    init(initialUserSettings: InitialsUserSettings = InitialsUserSettings()) {
+        self.players = initialUserSettings.players
+        self.rounds = initialUserSettings.rounds
+        self.selectedPackage = initialUserSettings.selectedPackage
+    }
 
     // MARK: Package Actions
 

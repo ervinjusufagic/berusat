@@ -52,19 +52,21 @@ struct GameView: View {
                             .padding(.top)
                     }
                 }
+
                 Spacer()
 
-                VStack {
+                VStack(alignment: .center, spacing: Space.lg) {
                     if let playerName = gameState.currentPlayer?.name {
                         Typography(text: playerName, size: TextSize.title)
                     }
 
                     if let challenge = gameState.currentChallenge?.instruction {
                         Typography(text: challenge, size: TextSize.bigBody)
-                            .padding([.leading, .trailing], Space.twoxl)
                     }
                 }
+                .padding([.leading, .trailing], Space.threexl)
 
+                Spacer()
                 Spacer()
 
                 HStack {
@@ -82,9 +84,7 @@ struct GameView: View {
                         AppButton(text: "\(reward) \(AppText.pointsText)", color: Color(AppColor.success))
                     }
                 }
-                .padding([.leading, .trailing], Space.twoxl)
-
-                Spacer()
+                .padding([.leading, .trailing], Space.threexl)
             }
         }
         .onAppear {

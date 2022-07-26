@@ -68,6 +68,7 @@ enum AppIcons {
 
 enum Space {
     static let none = 0.0
+    static let xs = 4.0
     static let sm = 8.0
     static let md = 12.0
     static let lg = 16.0

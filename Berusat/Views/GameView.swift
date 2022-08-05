@@ -16,6 +16,8 @@ struct GameView: View {
     @State private var animateNewTurn: Bool = false
     @State private var titleDegrees: Double = 0
     @State private var xOffset: Double = 0
+    @State private var animateSuccessButton = false
+    @State private var animateFailButton = false
 
     var punishment: String {
         if let punishment = gameState.currentChallenge?.punishment {
@@ -40,13 +42,17 @@ struct GameView: View {
                 animateNewTurn = true
                 titleDegrees = -20
                 xOffset = -500
+                animateSuccessButton = true
             case .fail:
                 animateNewTurn = true
                 titleDegrees = 20
                 xOffset = 500
+                animateFailButton = true
             }
         }
         animateNewTurn = false
+        animateSuccessButton = false
+        animateFailButton = false
 
         gameState.setNewTurn(after: result)
     }
@@ -98,7 +104,8 @@ struct GameView: View {
                     Button {
                         setNewTurn(after: .fail)
                     } label: {
-                        AppButton(text: "\(punishment) \(AppText.punishmentText)", color: Color(AppColor.danger))
+                        AppButton(text: "\(punishment) \(AppText.punishmentText)", color: Color(AppColor.danger), width: 140)
+                            .scaleEffect(animateFailButton ? 1.2 : 1)
                     }
 
                     Spacer()
@@ -106,7 +113,8 @@ struct GameView: View {
                     Button {
                         setNewTurn(after: .success)
                     } label: {
-                        AppButton(text: "\(reward) \(AppText.pointsText)", color: Color(AppColor.success))
+                        AppButton(text: "\(reward) \(AppText.pointsText)", color: Color(AppColor.success), width: 140)
+                            .scaleEffect(animateSuccessButton ? 1.2 : 1)
                     }
                 }
                 .padding([.leading, .trailing], Space.threexl)

@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct AddPlayerTextField: View {
-    @State var playerName: String = ""
+    @State private var playerName: String = ""
 
     var onAddPlayer: (_ player: Player) -> Void
 

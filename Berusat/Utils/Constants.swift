@@ -91,7 +91,7 @@ enum TextSize {
 
 // MARK: Game
 
-enum challengeResult {
+enum ChallengeResult {
     case success
     case fail
 }

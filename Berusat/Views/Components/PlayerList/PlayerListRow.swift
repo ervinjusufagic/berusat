@@ -10,7 +10,7 @@ import SwiftUI
 struct PlayerListRow: View {
     @EnvironmentObject var userSettings: UserSettingsState
 
-    @State var showRow: Bool = false
+    @State private var showRow: Bool = false
     
     var player: Player
     

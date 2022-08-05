@@ -13,6 +13,10 @@ struct GameView: View {
     @EnvironmentObject var userSettings: UserSettingsState
     @StateObject var gameState = GameState()
 
+    @State private var animateNewTurn: Bool = false
+    @State private var titleDegrees: Double = 0
+    @State private var xOffset: Double = 0
+
     var punishment: String {
         if let punishment = gameState.currentChallenge?.punishment {
             return String(punishment)
@@ -27,6 +31,24 @@ struct GameView: View {
         }
 
         return ""
+    }
+
+    func setNewTurn(after result: ChallengeResult) {
+        withAnimation(.spring(response: 0.4, dampingFraction: 0.5, blendDuration: 0)) {
+            switch result {
+            case .success:
+                animateNewTurn = true
+                titleDegrees = -20
+                xOffset = -500
+            case .fail:
+                animateNewTurn = true
+                titleDegrees = 20
+                xOffset = 500
+            }
+        }
+        animateNewTurn = false
+
+        gameState.setNewTurn(after: result)
     }
 
     var body: some View {
@@ -58,10 +80,13 @@ struct GameView: View {
                 VStack(alignment: .center, spacing: Space.lg) {
                     if let playerName = gameState.currentPlayer?.name {
                         Typography(text: playerName, size: TextSize.title)
+                            .rotationEffect(.degrees(animateNewTurn ? titleDegrees : 0))
+                            .offset(x: animateNewTurn ? xOffset : 0, y: 0)
                     }
 
                     if let challenge = gameState.currentChallenge?.instruction {
                         Typography(text: challenge, size: TextSize.bigBody)
+                            .offset(x: animateNewTurn ? xOffset : 0, y: 0)
                     }
                 }
                 .padding([.leading, .trailing], Space.threexl)
@@ -71,7 +96,7 @@ struct GameView: View {
 
                 HStack {
                     Button {
-                        gameState.setNewTurn(after: .fail)
+                        setNewTurn(after: .fail)
                     } label: {
                         AppButton(text: "\(punishment) \(AppText.punishmentText)", color: Color(AppColor.danger))
                     }
@@ -79,7 +104,7 @@ struct GameView: View {
                     Spacer()
 
                     Button {
-                        gameState.setNewTurn(after: .success)
+                        setNewTurn(after: .success)
                     } label: {
                         AppButton(text: "\(reward) \(AppText.pointsText)", color: Color(AppColor.success))
                     }

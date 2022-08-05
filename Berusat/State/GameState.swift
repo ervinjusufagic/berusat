@@ -55,7 +55,7 @@ final class GameState: ObservableObject {
         setNewChallenge()
     }
 
-    func setNewTurn(after lastChallengeResult: challengeResult) {
+    func setNewTurn(after lastChallengeResult: ChallengeResult) {
         guard var player = currentPlayer, let challenge = currentChallenge else {
             // split up guard and implement logic for when nil
             return

@@ -9,7 +9,7 @@ import SwiftUI
 
 struct PackageItem: View {
     @EnvironmentObject var userSettings: UserSettingsState
-    @State var animatingSelection = false
+    @State private var animatingSelection = false
 
     var package: Package
 

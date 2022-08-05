@@ -34,9 +34,9 @@ struct PlayerListRow: View {
                     
                     Button {
                         showRowAnimation {
+                            showRow = false
                             DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
                                 withAnimation {
-                                    showRow = false
                                     userSettings.deletePlayer(with: player.id)
                                 }
                             }

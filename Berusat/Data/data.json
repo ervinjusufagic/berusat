@@ -8,38 +8,284 @@
             {
                 "id": "c1",
                 "type": "individual",
-                "reward": 2,
-                "punishment": 2,
-                "instruction": "1 If a silent mission is assigned on the last round, the participant tasked with the mission has until the end of the game to finish it."
+                "reward": 5,
+                "punishment": 3,
+                "instruction": "Dansa magdans för oss alla!"
             },
             {
                 "id": "c2",
                 "type": "individual",
-                "reward": 1,
-                "punishment": 1,
-                "instruction": "2 If a silent mission is assigned on the last round, the participant tasked with the mission has until the end of the game to finish it."
+                "reward": 5,
+                "punishment": 3,
+                "instruction": "Prata med en dialekt för resten av spelet"
             },
             {
                 "id": "c3",
                 "type": "individual",
-                "reward": 3,
+                "reward": 5,
                 "punishment": 3,
-                "instruction": "3 If a silent mission is assigned on the last round, the participant tasked with the mission has until the end of the game to finish it."
+                "instruction": "Prata tvärtomspråket för resten av spelet"
             },
             {
                 "id": "c4",
                 "type": "individual",
-                "reward": 4,
-                "punishment": 4,
-                "instruction": "4 If a silent mission is assigned on the last round, the participant tasked with the mission has until the end of the game to finish it."
+                "reward": 3,
+                "punishment": 2,
+                "instruction": "Sjung (valfri låt) inför alla som sitter här!"
             },
             {
                 "id": "c5",
                 "type": "individual",
+                "reward": 2,
+                "punishment": 3,
+                "instruction": "Tala på rim fram tills du får nästa utmaning."
+            },
+            {
+                "id": "c6",
+                "type": "individual",
+                "reward": 3,
+                "punishment": 2,
+                "instruction": "Härma valfritt djur under resterande del av spelet."
+            },
+            {
+                "id": "c7",
+                "type": "individual",
+                "reward": 4,
+                "punishment": 4,
+                "instruction": "Busring till valfri person."
+            },
+            {
+                "id": "c8",
+                "type": "individual",
+                "reward": 5,
+                "punishment": 3,
+                "instruction": "SMS-roulette och frågeställaren får bestämma vad som skrivs."
+            },
+            {
+                "id": "c9",
+                "type": "individual",
+                "reward": 5,
+                "punishment": 2,
+                "instruction": "Låt din kompis ta över din Facebook i tio minuter."
+            },
+            {
+                "id": "c10",
+                "type": "individual",
+                "reward": 5,
+                "punishment": 2,
+                "instruction": "Försök övertyga närmsta främling att jorden faktiskt är platt"
+            },
+            {
+                "id": "c11",
+                "type": "individual",
+                "reward": 5,
+                "punishment": 3,
+                "instruction": "Byt kläder med valfri deltagare av motsatt kön"
+            },
+            {
+                "id": "c12",
+                "type": "individual",
+                "reward": 3,
+                "punishment": 2,
+                "instruction": "Tala i klyschor resten av spelet"
+            },
+            {
+                "id": "c13",
+                "type": "individual",
+                "reward": 5,
+                "punishment": 3,
+                "instruction": "Kör en RIKTIGT dålig raggningsreplik till en främling"
+            },
+            {
+                "id": "c14",
+                "type": "individual",
+                "reward": 4,
+                "punishment": 4,
+                "instruction": "Kom på och framför en kärlekssång till någon i gänget."
+            },
+            {
+                "id": "c15",
+                "type": "individual",
+                "reward": 5,
+                "punishment": 3,
+                "instruction": "Raka ett ben eller din armhåla – beroende på om personen har hår där."
+            },
+            {
+                "id": "c16",
+                "type": "individual",
+                "reward": 5,
+                "punishment": 3,
+                "instruction": "Gör en påhittad freestyle rap i 1 minut om de andra deltagarna"
+            },
+            {
+                "id": "c17",
+                "type": "individual",
+                "reward": 5,
+                "punishment": 3,
+                "instruction": "Lukta i alla andra spelares armhålor"
+            },
+            {
+                "id": "c18",
+                "type": "individual",
+                "reward": 5,
+                "punishment": 3,
+                "instruction": "Kyss personen till vänster om dig"
+            },
+            {
+                "id": "c19",
+                "type": "individual",
                 "reward": 5,
                 "punishment": 5,
-                "instruction": "5 If a silent mission is assigned on the last round, the participant tasked with the mission has until the end of the game to finish it."
-            }
+                "instruction": "Härma en annan deltagare tills någon kommer på vem det är"
+            },
+            {
+                "id": "c20",
+                "type": "individual",
+                "reward": 5,
+                "punishment": 3,
+                "instruction": "Dansa utan musik i 1 minut"
+            },
+            {
+                "id": "c21",
+                "type": "individual",
+                "reward": 5,
+                "punishment": 3,
+                "instruction": "Drick ett glas citronsaft"
+            },
+            {
+                "id": "c22",
+                "type": "individual",
+                "reward": 5,
+                "punishment": 3,
+                "instruction": "Knäck ett ägg på huvudet"
+            },
+            {
+                "id": "c23",
+                "type": "individual",
+                "reward": 5,
+                "punishment": 3,
+                "instruction": "Prata med en norsk dialekt fram till nästa tur"
+            },
+            {
+                "id": "c24",
+                "type": "individual",
+                "reward": 5,
+                "punishment": 3,
+                "instruction": "Ring en vän, låtsas att det är deras födelsedag och sjung Grattis på födelsedagen för dem"
+            },
+            {
+                "id": "c25",
+                "type": "individual",
+                "reward": 5,
+                "punishment": 3,
+                "instruction": "Låtsas att du är en balettdansös i 1 minut"
+            },
+            {
+                "id": "c26",
+                "type": "individual",
+                "reward": 5,
+                "punishment": 2,
+                "instruction": "Dusch med kläderna på"
+            },
+            {
+                "id": "c27",
+                "type": "individual",
+                "reward": 5,
+                "punishment": 3,
+                "instruction": "Ta en selfie när du sitter på toaletten och lägg upp den på social media"
+            },
+            {
+                "id": "c28",
+                "type": "individual",
+                "reward": 5,
+                "punishment": 3,
+                "instruction": "Häll is i byxorna"
+            },
+            {
+                "id": "c29",
+                "type": "individual",
+                "reward": 3,
+                "punishment": 3,
+                "instruction": "* Snurra runt 12 gånger och försök att gå rakt fram."
+            },
+            {
+                "id": "c30",
+                "type": "individual",
+                "reward": 5,
+                "punishment": 3,
+                "instruction": "Sätt på ögonbindeln på dig själv och rör vid de andra spelarnas ansikten tills du kan ta reda på vem det är."
+            },
+            {
+                "id": "c31",
+                "type": "individual",
+                "reward": 5,
+                "punishment": 3,
+                "instruction": "Låt de andra spelarna göra om din frisyr"
+            },
+            {
+                "id": "c32",
+                "type": "individual",
+                "reward": 5,
+                "punishment": 2,
+                "instruction": "Ät ett rått ägg."
+            },
+            {
+                "id": "c33",
+                "type": "individual",
+                "reward": 5,
+                "punishment": 2,
+                "instruction": "* Töm en hink med kallt vatten på huvudet."
+            },
+            {
+                "id": "c34",
+                "type": "individual",
+                "reward": 5,
+                "punishment": 3,
+                "instruction": "Slicka på en tvål"
+            },
+            {
+                "id": "c35",
+                "type": "individual",
+                "reward": 3,
+                "punishment": 3,
+                "instruction": "Ät en tesked senap"
+            },
+            {
+                "id": "c36",
+                "type": "individual",
+                "reward": 5,
+                "punishment": 3,
+                "instruction": "Låt en speldeltagare måla dina naglar som de vill."
+            },
+            {
+                "id": "c37",
+                "type": "individual",
+                "reward": 5,
+                "punishment": 3,
+                "instruction": "Låt en speldeltagare applicera make-up på dig"
+            },
+            {
+                "id": "c38",
+                "type": "individual",
+                "reward": 3,
+                "punishment": 3,
+                "instruction": "Ta poäng om du flirtat med/varit sugen på en lärare"
+            },
+            {
+                "id": "c39",
+                "type": "individual",
+                "reward": 5,
+                "punishment": 3,
+                "instruction": "Ta poäng om du fisit under en intim stund"
+            },
+            {
+                "id": "c40",
+                "type": "individual",
+                "reward": 5,
+                "punishment": 3,
+                "instruction": "Ta straff om du tagit en selfie när jag suttit på toa"
+            },
+            
         ]
     },
     {

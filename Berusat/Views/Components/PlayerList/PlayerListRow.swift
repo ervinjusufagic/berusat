@@ -10,7 +10,16 @@ import SwiftUI
 struct PlayerListRow: View {
     @EnvironmentObject var userSettings: UserSettingsState
 
+    @State var showRow: Bool = false
+    
     var player: Player
+    
+    private func showRowAnimation(action: () -> ()) {
+        withAnimation(.spring(response: 0.4, dampingFraction: 0.6, blendDuration: 0)) {
+            showRow.toggle()
+            action()
+        }
+    }
     
     var body: some View {
         ZStack {
@@ -21,11 +30,18 @@ struct PlayerListRow: View {
                 
                 HStack {
                     Typography(text: player.name, size: TextSize.mediumBody)
-                    
+                       
                     Spacer()
                     
                     Button {
-                        userSettings.deletePlayer(with: player.id)
+                        showRowAnimation {
+                            DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
+                                withAnimation {
+                                    userSettings.deletePlayer(with: player.id)
+                                }
+                            }
+                        }
+                    
                     } label: {
                         Image(systemName: AppIcons.trashIcon)
                             .foregroundColor(.red)
@@ -39,6 +55,11 @@ struct PlayerListRow: View {
                 Divider()
                     .frame(height: 1)
                     .background(Color(AppColor.lightColor))
+            }
+            .offset(x: 0, y: showRow ? 0 : 200)
+            .opacity(showRow ? 1 : 0)
+            .onAppear {
+                showRowAnimation {}
             }
         }
     }

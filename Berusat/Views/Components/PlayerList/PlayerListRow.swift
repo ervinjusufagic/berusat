@@ -16,7 +16,6 @@ struct PlayerListRow: View {
     
     private func showRowAnimation(action: () -> ()) {
         withAnimation(.spring(response: 0.4, dampingFraction: 0.6, blendDuration: 0)) {
-            showRow.toggle()
             action()
         }
     }
@@ -37,6 +36,7 @@ struct PlayerListRow: View {
                         showRowAnimation {
                             DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
                                 withAnimation {
+                                    showRow = false
                                     userSettings.deletePlayer(with: player.id)
                                 }
                             }
@@ -59,7 +59,9 @@ struct PlayerListRow: View {
             .offset(x: 0, y: showRow ? 0 : 200)
             .opacity(showRow ? 1 : 0)
             .onAppear {
-                showRowAnimation {}
+                showRowAnimation {
+                    showRow = true
+                }
             }
         }
     }

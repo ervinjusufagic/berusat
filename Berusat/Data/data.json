@@ -41,6 +41,50 @@
                 "instruction": "5 If a silent mission is assigned on the last round, the participant tasked with the mission has until the end of the game to finish it."
             }
         ]
+    },
+    {
+        "id": "2",
+        "name": "kalas",
+        "emoji": "🥳",
+        "isLocked": false,
+        "challenges": [
+            {
+                "id": "c1",
+                "type": "individual",
+                "reward": 2,
+                "punishment": 2,
+                "instruction": "1 If a silent mission is assigned on the last round, the participant tasked with the mission has until the end of the game to finish it."
+            },
+            {
+                "id": "c2",
+                "type": "individual",
+                "reward": 1,
+                "punishment": 1,
+                "instruction": "2 If a silent mission is assigned on the last round, the participant tasked with the mission has until the end of the game to finish it."
+            },
+            {
+                "id": "c3",
+                "type": "individual",
+                "reward": 3,
+                "punishment": 3,
+                "instruction": "3 If a silent mission is assigned on the last round, the participant tasked with the mission has until the end of the game to finish it."
+            },
+            {
+                "id": "c4",
+                "type": "individual",
+                "reward": 4,
+                "punishment": 4,
+                "instruction": "4 If a silent mission is assigned on the last round, the participant tasked with the mission has until the end of the game to finish it."
+            },
+            {
+                "id": "c5",
+                "type": "individual",
+                "reward": 5,
+                "punishment": 5,
+                "instruction": "5 If a silent mission is assigned on the last round, the participant tasked with the mission has until the end of the game to finish it."
+            }
+        ]
     }
 ]
+  
  

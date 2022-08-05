@@ -9,6 +9,7 @@ import SwiftUI
 
 struct PackageItem: View {
     @EnvironmentObject var userSettings: UserSettingsState
+    @State var animatingSelection = false
 
     var package: Package
 
@@ -29,7 +30,7 @@ struct PackageItem: View {
                 .scaledToFill()
 
             VStack(spacing: Space.none) {
-                Typography(text: package.emoji, size: 82)
+                Typography(text: package.emoji, size: 52)
                 Typography(text: package.name, size: TextSize.body)
             }
 
@@ -48,11 +49,18 @@ struct PackageItem: View {
                     .opacity(0.8)
             }
         }
+        .scaleEffect(animatingSelection ? 1.1 : 1)
         .onTapGesture {
             if package.isLocked {
                 print("pressed locked package")
             } else {
                 userSettings.setSelectedPackage(package)
+
+                withAnimation(.spring(response: 0.5, dampingFraction: 0.2, blendDuration: 0)) {
+                    animatingSelection = true
+                }
+
+                animatingSelection = false
             }
         }
         .padding()

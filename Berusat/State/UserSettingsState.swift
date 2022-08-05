@@ -9,7 +9,7 @@ import Foundation
 
 struct InitialsUserSettings {
     /// published
-    var players: [Player] = []
+    var players: [Player] = Mocks.mockPlayers
     var rounds: Double = K.defaultRounds
     var selectedPackage: Package? = nil
 }

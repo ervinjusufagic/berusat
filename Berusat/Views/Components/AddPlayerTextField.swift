@@ -33,7 +33,9 @@ struct AddPlayerTextField: View {
                     .onSubmit {
                         if !playerName.isEmpty {
                             onAddPlayer(Player(name: playerName))
-                            resetPlayerName()
+                            withAnimation {
+                                resetPlayerName()
+                            }
                         }
                     }
             }

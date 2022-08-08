@@ -118,12 +118,12 @@ enum Mocks {
 
     static let mockChallenges = [
         Challenge(id: "1",
-                  type: "individual",
+                  type: ChallengeType.individual,
                   reward: 1,
                   punishment: 1,
                   instruction: "1 If a silent mission is assigned on the last round, the participant tasked with the mission has until the end of the game to finish it."),
         Challenge(id: "2",
-                  type: "individual",
+                  type: ChallengeType.group,
                   reward: 1,
                   punishment: 1,
                   instruction: "1 If a silent mission is assigned on the last round, the participant tasked with the mission has until the end of the game to finish it."),

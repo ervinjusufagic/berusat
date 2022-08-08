@@ -303,7 +303,7 @@
             },
             {
                 "id": "c2",
-                "type": "individual",
+                "type": "group",
                 "reward": 1,
                 "punishment": 1,
                 "instruction": "2 If a silent mission is assigned on the last round, the participant tasked with the mission has until the end of the game to finish it."
@@ -317,7 +317,7 @@
             },
             {
                 "id": "c4",
-                "type": "individual",
+                "type": "group",
                 "reward": 4,
                 "punishment": 4,
                 "instruction": "4 If a silent mission is assigned on the last round, the participant tasked with the mission has until the end of the game to finish it."

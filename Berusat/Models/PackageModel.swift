@@ -7,6 +7,11 @@
 
 import Foundation
 
+enum ChallengeType: String, Codable {
+    case individual
+    case group
+}
+
 struct Package: Codable, Identifiable {
     var id: String
     var name: String
@@ -18,7 +23,7 @@ struct Package: Codable, Identifiable {
 
 struct Challenge: Codable {
     var id: String
-    var type: String
+    var type: ChallengeType
     var reward: Int
     var punishment: Int
     var instruction: String

@@ -52,7 +52,7 @@ final class GameState: ObservableObject {
         roundsToPlay = userSettings.rounds
 
         currentPlayer = players[currentPlayerIndex]
-        setNewChallenge()
+        setNewChallenge(with: .individual)
     }
 
     func setNewTurn(after lastChallengeResult: ChallengeResult) {
@@ -61,17 +61,22 @@ final class GameState: ObservableObject {
             return
         }
 
-        if lastChallengeResult == .fail {
-            player.sips += challenge.punishment
-        }
-
-        if lastChallengeResult == .success {
+        switch lastChallengeResult {
+        case .success:
             player.points += challenge.reward
+            setNextAndUpdate(player)
+        case .fail:
+            player.sips += challenge.punishment
+            setNextAndUpdate(player)
         }
+    }
 
+    private func setNextAndUpdate(_ player: Player) {
         updateScoreboard(with: player)
-        setNextPlayer()
-        setNewChallenge()
+
+        setNextPlayer { type in
+            setNewChallenge(with: type)
+        }
     }
 
     private func updateScoreboard(with updatedPlayer: Player) {
@@ -84,49 +89,60 @@ final class GameState: ObservableObject {
         scoreboard = sortedPlayers
     }
 
-    private func setNextRound() {
-        if currentRound < roundsToPlay {
-            currentRound += 1
-        } else {
-            isGameOver = true
-        }
-    }
-
-    private func setNextPlayer() {
+    private func setNextPlayer(setNewChallenge: (_ type: ChallengeType) -> ()) {
         let lastPlayerIndex = players.endIndex - 1
 
         if currentPlayerIndex == lastPlayerIndex {
             currentPlayerIndex = 0
-            setNextRound()
+
+            if currentRound < roundsToPlay {
+                currentRound += 1
+                setNewChallenge(.group)
+            } else {
+                isGameOver = true
+            }
+
         } else {
             currentPlayerIndex += 1
+            setNewChallenge(.individual)
         }
 
         currentPlayer = players[currentPlayerIndex]
     }
 
-    private func setNewChallenge() {
-        if let randomChallenge = package?.challenges.randomElement() {
-            currentChallenge = randomChallenge
-
-            package?.challenges.removeAll(where: { challenge in
-                challenge.id == randomChallenge.id
-            })
-
-        } else {
-            let packages: [Package] = AppUtility.loadJSON("data.json")
-
-            var restoredPackage = packages.first { _package in
-                _package.id == self.package?.id
+    private func setNewChallenge(with type: ChallengeType) {
+        if let challenges = package?.challenges {
+            let filteredChallenges = challenges.filter { challenge in
+                challenge.type == type
             }
 
-            restoredPackage?.challenges.removeAll(where: { challenge in
-                challenge.id == currentChallenge?.id
-            })
+            if let randomChallenge = filteredChallenges.randomElement() {
+                currentChallenge = randomChallenge
 
-            package = restoredPackage
-
-            setNewChallenge()
+                package?.challenges.removeAll(where: { challenge in
+                    challenge.id == randomChallenge.id
+                })
+            } else {
+                reloadPackages {
+                    setNewChallenge(with: type)
+                }
+            }
         }
+    }
+
+    private func reloadPackages(completion: () -> ()) {
+        let packages: [Package] = AppUtility.loadJSON("data.json")
+
+        var restoredPackage = packages.first { _package in
+            _package.id == self.package?.id
+        }
+
+        restoredPackage?.challenges.removeAll(where: { challenge in
+            challenge.id == currentChallenge?.id
+        })
+
+        package = restoredPackage
+
+        completion()
     }
 }

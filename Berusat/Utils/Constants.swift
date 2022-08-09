@@ -94,6 +94,7 @@ enum TextSize {
 enum ChallengeResult {
     case success
     case fail
+    case groupChallenge
 }
 
 // MARK: General

@@ -14,7 +14,7 @@ struct GameView: View {
     @StateObject var gameState = GameState()
     @StateObject var animations = GameViewAnimations()
 
-    var punishment: String {
+    private var punishment: String {
         if let punishment = gameState.currentChallenge?.punishment {
             return String(punishment)
         }
@@ -22,7 +22,7 @@ struct GameView: View {
         return ""
     }
 
-    var reward: String {
+    private var reward: String {
         if let reward = gameState.currentChallenge?.reward {
             return String(reward)
         }
@@ -30,9 +30,23 @@ struct GameView: View {
         return ""
     }
 
-    func setNewTurn(after result: ChallengeResult) {
-        animations.animate(after: result)
+    private func setNewTurn(after result: ChallengeResult, animation: AnimationType) {
+        print(animation)
+        animations.animate(with: animation)
         gameState.setNewTurn(after: result)
+    }
+
+    private func getChallengerName() -> String {
+        switch gameState.currentChallenge?.type {
+        case .individual:
+            if let playerName = gameState.currentPlayer?.name {
+                return playerName
+            } else { return "" }
+        case .group:
+            return "Grupputmaning!" // move out
+        case .none:
+            return ""
+        }
     }
 
     var body: some View {
@@ -62,11 +76,10 @@ struct GameView: View {
                 Spacer()
 
                 VStack(alignment: .center, spacing: Space.lg) {
-                    if let playerName = gameState.currentPlayer?.name {
-                        Typography(text: playerName, size: TextSize.title)
-                            .rotationEffect(.degrees(animations.animateNewTurn ? animations.titleDegrees : 0))
-                            .offset(x: animations.animateNewTurn ? animations.xOffset : 0, y: 0)
-                    }
+                    Typography(text: getChallengerName(), size: TextSize.title)
+                        .frame(width: nil)
+                        .rotationEffect(.degrees(animations.animateNewTurn ? animations.titleDegrees : 0))
+                        .offset(x: animations.animateNewTurn ? animations.xOffset : 0, y: 0)
 
                     if let challenge = gameState.currentChallenge?.instruction {
                         Typography(text: challenge, size: TextSize.bigBody)
@@ -79,20 +92,35 @@ struct GameView: View {
                 Spacer()
 
                 HStack {
-                    Button {
-                        setNewTurn(after: .fail)
-                    } label: {
-                        AppButton(text: "\(punishment) \(AppText.punishmentText)", color: Color(AppColor.danger), width: 140)
-                            .scaleEffect(animations.animateFailButton ? 1.2 : 1)
-                    }
+                    switch gameState.currentChallenge?.type {
+                    case .individual:
+                        Button {
+                            setNewTurn(after: .fail, animation: .afterIndividualFailure)
+                        } label: {
+                            AppButton(text: "\(punishment) \(AppText.punishmentText)", color: Color(AppColor.danger), width: 140)
+                                .scaleEffect(animations.animateFailButton ? 1.2 : 1)
+                        }
 
-                    Spacer()
+                        Spacer()
 
-                    Button {
-                        setNewTurn(after: .success)
-                    } label: {
-                        AppButton(text: "\(reward) \(AppText.pointsText)", color: Color(AppColor.success), width: 140)
-                            .scaleEffect(animations.animateSuccessButton ? 1.2 : 1)
+                        Button {
+                            setNewTurn(after: .success, animation: .afterIndividualSuccess)
+                        } label: {
+                            AppButton(text: "\(reward) \(AppText.pointsText)", color: Color(AppColor.success), width: 140)
+                                .scaleEffect(animations.animateSuccessButton ? 1.2 : 1)
+                        }
+
+                    case .group:
+
+                        Button {
+                            setNewTurn(after: .groupChallenge, animation: .afterGroup)
+                        } label: {
+                            AppButton(text: "Fortsätt!", color: Color(AppColor.primary), width: 140)
+                            // figure out transition..
+                        }
+
+                    case .none:
+                        EmptyView()
                     }
                 }
                 .padding([.leading, .trailing], Space.threexl)

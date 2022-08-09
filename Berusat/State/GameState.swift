@@ -68,6 +68,9 @@ final class GameState: ObservableObject {
         case .fail:
             player.sips += challenge.punishment
             setNextAndUpdate(player)
+
+        case .groupChallenge:
+            setNewChallenge(with: .individual)
         }
     }
 

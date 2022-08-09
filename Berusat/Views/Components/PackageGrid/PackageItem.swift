@@ -56,7 +56,7 @@ struct PackageItem: View {
             } else {
                 userSettings.setSelectedPackage(package)
 
-                withAnimation(.spring(response: 0.5, dampingFraction: 0.2, blendDuration: 0)) {
+                withAnimation(.spring(response: 0.4, dampingFraction: 0.5, blendDuration: 0)) {
                     animatingSelection = true
                 }
 

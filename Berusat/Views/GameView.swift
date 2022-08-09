@@ -93,28 +93,60 @@ struct GameView: View {
                 HStack {
                     if animations.showIndividualGameButtons {
                         Button {
-                            setNewTurn(after: .fail, animation: .afterIndividualFailure)
+                            setNewTurn(
+                                after: .fail,
+                                animation: .afterIndividualFailure
+                            )
                         } label: {
-                            AppButton(text: "\(punishment) \(AppText.punishmentText)", color: Color(AppColor.danger), width: 140)
-                                .scaleEffect(animations.animateFailButton ? 1.2 : 1)
-
-                        }.transition(.move(edge: .trailing).combined(with: .opacity))
+                            AppButton(
+                                text: "\(punishment) \(AppText.punishmentText)",
+                                color: Color(AppColor.danger),
+                                width: 140
+                            )
+                            .scaleEffect(animations.animateFailButtonPressed ? 1.2 : 1)
+                        }
+                        .transition(
+                            .move(edge: .trailing)
+                                .combined(with: .opacity)
+                        )
 
                         Spacer()
 
                         Button {
-                            setNewTurn(after: .success, animation: .afterIndividualSuccess)
+                            setNewTurn(
+                                after: .success,
+                                animation: .afterIndividualSuccess
+                            )
                         } label: {
-                            AppButton(text: "\(reward) \(AppText.pointsText)", color: Color(AppColor.success), width: 140)
-                                .scaleEffect(animations.animateSuccessButton ? 1.2 : 1)
+                            AppButton(
+                                text: "\(reward) \(AppText.pointsText)",
+                                color: Color(AppColor.success),
+                                width: 140
+                            )
+                            .scaleEffect(animations.animateSuccessButtonPressed ? 1.2 : 1)
                         }
-                        .transition(.move(edge: .leading).combined(with: .opacity))
+                        .transition(
+                            .move(edge: .leading)
+                                .combined(with: .opacity)
+                        )
+
                     } else {
                         Button {
-                            setNewTurn(after: .groupChallenge, animation: .afterGroup)
+                            setNewTurn(
+                                after: .groupChallenge,
+                                animation: .afterGroup
+                            )
                         } label: {
-                            AppButton(text: "Fortsätt!", color: Color(AppColor.primary), width: 140)
-                        }.transition(.move(edge: .bottom).combined(with: .opacity))
+                            AppButton(
+                                text: "Fortsätt!",
+                                color: Color(AppColor.primary),
+                                width: 140
+                            )
+                        }
+                        .transition(
+                            .scale
+                                .combined(with: .opacity)
+                        )
                     }
                 }
                 .padding([.leading, .trailing], Space.threexl)

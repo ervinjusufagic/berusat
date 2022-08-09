@@ -17,37 +17,69 @@ enum AnimationType {
 
 final class GameViewAnimations: ObservableObject {
     @Published var animateNewTurn: Bool = false
-    @Published var animateSuccessButton = false
-    @Published var animateFailButton = false
-    @Published var showIndividualGameButtons = true
+    @Published var animateSuccessButtonPressed: Bool = false
+    @Published var animateFailButtonPressed: Bool = false
+    @Published var showIndividualGameButtons: Bool = true
+    @Published var animateIndividualGameButtonsAppearing: Bool = false
 
     @Published var titleDegrees: Double = 0
     @Published var xOffset: Double = 0
 
     func animate(with type: AnimationType) {
-        withAnimation(.spring(response: 0.4, dampingFraction: 0.5, blendDuration: 0)) {
-            switch type {
-            case .afterIndividualSuccess:
+        switch type {
+        case .afterIndividualSuccess:
+            withSpring {
                 animateNewTurn = true
                 titleDegrees = -20
                 xOffset = -500
-                animateSuccessButton = true
-            case .afterIndividualFailure:
+                animateSuccessButtonPressed = true
+            }
+
+        case .afterIndividualFailure:
+            withSpring {
                 animateNewTurn = true
                 titleDegrees = 20
                 xOffset = 500
-                animateFailButton = true
-            case .afterGroup:
+                animateFailButtonPressed = true
+            }
+
+        case .afterGroup:
+            withSpring {
                 animateNewTurn = true
                 titleDegrees = -20
                 xOffset = -500
+                animateIndividualGameButtonsAppearing = true
+            }
+            linear {
                 showIndividualGameButtons = true
-            case .afterIndividual:
+            }
+
+        case .afterIndividual:
+            withSpring {
+                animateNewTurn = true
+                titleDegrees = -20
+                xOffset = -500
+            }
+            linear {
                 showIndividualGameButtons = false
             }
         }
+
         animateNewTurn = false
-        animateSuccessButton = false
-        animateFailButton = false
+        animateSuccessButtonPressed = false
+        animateFailButtonPressed = false
+        animateIndividualGameButtonsAppearing = false
+    }
+
+    private func withSpring(_ completion: () -> ()) {
+        withAnimation(.spring(response: 0.4, dampingFraction: 0.5, blendDuration: 0)) {
+            completion()
+        }
+    }
+
+    private func linear(_ completion: () -> ()) {
+        withAnimation(.linear(duration: 0.1)) {
+            completion()
+        }
     }
 }

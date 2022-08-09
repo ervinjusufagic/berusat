@@ -14,6 +14,7 @@ struct InitialGameState {
     var package: Package? = nil
     var isGameOver: Bool = false
     var scoreboard: [Player] = []
+    var isLastPlayerOfTurn: Bool = false
     /// privates
     var currentPlayerIndex: Int = 0
     var players: [Player] = []
@@ -27,6 +28,7 @@ final class GameState: ObservableObject {
     @Published var package: Package?
     @Published var isGameOver: Bool
     @Published var scoreboard: [Player]
+    @Published var isLastPlayerOfTurn: Bool
 
     private var currentPlayerIndex: Int
     private var players: [Player]
@@ -39,6 +41,7 @@ final class GameState: ObservableObject {
         self.package = initialValues.package
         self.isGameOver = initialValues.isGameOver
         self.scoreboard = initialValues.scoreboard
+        self.isLastPlayerOfTurn = initialValues.isLastPlayerOfTurn
 
         self.currentPlayerIndex = initialValues.currentPlayerIndex
         self.players = initialValues.players
@@ -96,6 +99,7 @@ final class GameState: ObservableObject {
         let lastPlayerIndex = players.endIndex - 1
 
         if currentPlayerIndex == lastPlayerIndex {
+            isLastPlayerOfTurn = false
             currentPlayerIndex = 0
 
             if currentRound < roundsToPlay {
@@ -107,6 +111,7 @@ final class GameState: ObservableObject {
 
         } else {
             currentPlayerIndex += 1
+            isLastPlayerOfTurn = currentPlayerIndex == lastPlayerIndex
             setNewChallenge(.individual)
         }
 

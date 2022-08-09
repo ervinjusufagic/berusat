@@ -31,8 +31,7 @@ struct GameView: View {
     }
 
     private func setNewTurn(after result: ChallengeResult, animation: AnimationType) {
-        print(animation)
-        animations.animate(with: animation)
+        animations.animate(with: gameState.isLastPlayerOfTurn ? .afterIndividual : animation)
         gameState.setNewTurn(after: result)
     }
 
@@ -92,14 +91,14 @@ struct GameView: View {
                 Spacer()
 
                 HStack {
-                    switch gameState.currentChallenge?.type {
-                    case .individual:
+                    if animations.showIndividualGameButtons {
                         Button {
                             setNewTurn(after: .fail, animation: .afterIndividualFailure)
                         } label: {
                             AppButton(text: "\(punishment) \(AppText.punishmentText)", color: Color(AppColor.danger), width: 140)
                                 .scaleEffect(animations.animateFailButton ? 1.2 : 1)
-                        }
+
+                        }.transition(.move(edge: .trailing).combined(with: .opacity))
 
                         Spacer()
 
@@ -109,21 +108,17 @@ struct GameView: View {
                             AppButton(text: "\(reward) \(AppText.pointsText)", color: Color(AppColor.success), width: 140)
                                 .scaleEffect(animations.animateSuccessButton ? 1.2 : 1)
                         }
-
-                    case .group:
-
+                        .transition(.move(edge: .leading).combined(with: .opacity))
+                    } else {
                         Button {
                             setNewTurn(after: .groupChallenge, animation: .afterGroup)
                         } label: {
                             AppButton(text: "Fortsätt!", color: Color(AppColor.primary), width: 140)
-                            // figure out transition..
-                        }
-
-                    case .none:
-                        EmptyView()
+                        }.transition(.move(edge: .bottom).combined(with: .opacity))
                     }
                 }
                 .padding([.leading, .trailing], Space.threexl)
+                .padding([.bottom], Space.md)
             }
         }
         .onAppear {

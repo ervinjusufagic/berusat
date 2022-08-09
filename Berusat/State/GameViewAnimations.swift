@@ -12,13 +12,14 @@ enum AnimationType {
     case afterIndividualSuccess
     case afterIndividualFailure
     case afterGroup
+    case afterIndividual
 }
 
 final class GameViewAnimations: ObservableObject {
     @Published var animateNewTurn: Bool = false
     @Published var animateSuccessButton = false
     @Published var animateFailButton = false
-    @Published var animateGroupButton = false
+    @Published var showIndividualGameButtons = true
 
     @Published var titleDegrees: Double = 0
     @Published var xOffset: Double = 0
@@ -40,10 +41,11 @@ final class GameViewAnimations: ObservableObject {
                 animateNewTurn = true
                 titleDegrees = -20
                 xOffset = -500
-                animateGroupButton = true
+                showIndividualGameButtons = true
+            case .afterIndividual:
+                showIndividualGameButtons = false
             }
         }
-        animateGroupButton = false
         animateNewTurn = false
         animateSuccessButton = false
         animateFailButton = false

@@ -14,43 +14,17 @@ struct GameView: View {
     @StateObject var gameState = GameState()
     @StateObject var animations = GameViewAnimations()
 
-    private var punishment: String {
-        if let punishment = gameState.currentChallenge?.punishment {
-            return String(punishment)
-        }
-
-        return ""
-    }
-
-    private var reward: String {
-        if let reward = gameState.currentChallenge?.reward {
-            return String(reward)
-        }
-
-        return ""
-    }
-
-    private func setNewTurn(after result: ChallengeResult, animation: AnimationType) {
-        animations.animate(with: gameState.isLastPlayerOfTurn ? .afterIndividual : animation)
+    private func setNewTurn(after result: ChallengeResult, animation: GameViewAnimation) {
+        animations.animate(gameState.isLastPlayerOfTurn ? .groupChallengeAppear : animation)
         gameState.setNewTurn(after: result)
-    }
-
-    private func getChallengerName() -> String {
-        switch gameState.currentChallenge?.type {
-        case .individual:
-            if let playerName = gameState.currentPlayer?.name {
-                return playerName
-            } else { return "" }
-        case .group:
-            return "Grupputmaning!" // move out
-        case .none:
-            return ""
-        }
     }
 
     var body: some View {
         ZStack {
-            NavigationLink(destination: ScoreView(scoreboard: gameState.scoreboard), isActive: $gameState.isGameOver) {
+            NavigationLink(
+                destination: ScoreView(scoreboard: gameState.scoreboard),
+                isActive: $gameState.isGameOver
+            ) {
                 EmptyView()
             }.isDetailLink(false)
 
@@ -75,7 +49,7 @@ struct GameView: View {
                 Spacer()
 
                 VStack(alignment: .center, spacing: Space.lg) {
-                    Typography(text: getChallengerName(), size: TextSize.title)
+                    Typography(text: gameState.challengeTitle, size: TextSize.title)
                         .frame(width: nil)
                         .rotationEffect(.degrees(animations.animateNewTurn ? animations.titleDegrees : 0))
                         .offset(x: animations.animateNewTurn ? animations.xOffset : 0, y: 0)
@@ -95,11 +69,11 @@ struct GameView: View {
                         Button {
                             setNewTurn(
                                 after: .fail,
-                                animation: .afterIndividualFailure
+                                animation: .challengeFail
                             )
                         } label: {
                             AppButton(
-                                text: "\(punishment) \(AppText.punishmentText)",
+                                text: "\(gameState.currentChallengePunishment) \(AppText.punishmentText)",
                                 color: Color(AppColor.danger),
                                 width: 140
                             )
@@ -115,11 +89,11 @@ struct GameView: View {
                         Button {
                             setNewTurn(
                                 after: .success,
-                                animation: .afterIndividualSuccess
+                                animation: .challengeSuccess
                             )
                         } label: {
                             AppButton(
-                                text: "\(reward) \(AppText.pointsText)",
+                                text: "\(gameState.currentChallengeReward) \(AppText.pointsText)",
                                 color: Color(AppColor.success),
                                 width: 140
                             )
@@ -134,7 +108,7 @@ struct GameView: View {
                         Button {
                             setNewTurn(
                                 after: .groupChallenge,
-                                animation: .afterGroup
+                                animation: .groupChallengeDone
                             )
                         } label: {
                             AppButton(

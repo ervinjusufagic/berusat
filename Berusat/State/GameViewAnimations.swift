@@ -8,11 +8,11 @@
 import Foundation
 import SwiftUI
 
-enum AnimationType {
-    case afterIndividualSuccess
-    case afterIndividualFailure
-    case afterGroup
-    case afterIndividual
+enum GameViewAnimation {
+    case challengeSuccess
+    case challengeFail
+    case groupChallengeDone
+    case groupChallengeAppear
 }
 
 final class GameViewAnimations: ObservableObject {
@@ -25,9 +25,9 @@ final class GameViewAnimations: ObservableObject {
     @Published var titleDegrees: Double = 0
     @Published var xOffset: Double = 0
 
-    func animate(with type: AnimationType) {
+    func animate(_ type: GameViewAnimation) {
         switch type {
-        case .afterIndividualSuccess:
+        case .challengeSuccess:
             withSpring {
                 animateNewTurn = true
                 titleDegrees = -20
@@ -35,7 +35,7 @@ final class GameViewAnimations: ObservableObject {
                 animateSuccessButtonPressed = true
             }
 
-        case .afterIndividualFailure:
+        case .challengeFail:
             withSpring {
                 animateNewTurn = true
                 titleDegrees = 20
@@ -43,7 +43,7 @@ final class GameViewAnimations: ObservableObject {
                 animateFailButtonPressed = true
             }
 
-        case .afterGroup:
+        case .groupChallengeDone:
             withSpring {
                 animateNewTurn = true
                 titleDegrees = -20
@@ -54,7 +54,7 @@ final class GameViewAnimations: ObservableObject {
                 showIndividualGameButtons = true
             }
 
-        case .afterIndividual:
+        case .groupChallengeAppear:
             withSpring {
                 animateNewTurn = true
                 titleDegrees = -20

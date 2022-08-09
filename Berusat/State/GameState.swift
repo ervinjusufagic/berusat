@@ -35,6 +35,35 @@ final class GameState: ObservableObject {
     private var roundsToPlay: Double
     private var currentRound: Double
 
+    var currentChallengePunishment: String {
+        if let punishment = currentChallenge?.punishment {
+            return String(punishment)
+        }
+
+        return ""
+    }
+
+    var currentChallengeReward: String {
+        if let reward = currentChallenge?.reward {
+            return String(reward)
+        }
+
+        return ""
+    }
+
+    var challengeTitle: String {
+        switch currentChallenge?.type {
+        case .individual:
+            if let playerName = currentPlayer?.name {
+                return playerName
+            } else { return "" }
+        case .group:
+            return "Grupputmaning!" // move out
+        case .none:
+            return ""
+        }
+    }
+
     init(initialValues: InitialGameState = InitialGameState()) {
         self.currentPlayer = initialValues.currentPlayer
         self.currentChallenge = initialValues.currentChallenge

@@ -33,8 +33,6 @@ struct GameView: View {
 
             VStack {
                 HStack {
-                    Spacer()
-
                     Button {
                         self.mode.wrappedValue.dismiss()
                     } label: {
@@ -44,6 +42,9 @@ struct GameView: View {
                             .foregroundColor(Color(AppColor.lightColor))
                             .padding(.top)
                     }
+                    .padding([.leading], Space.threexl)
+
+                    Spacer()
                 }
 
                 Spacer()

@@ -6,434 +6,434 @@
         "isLocked": false,
         "challenges": [
             {
-                "id": "c1",
+                "id": "p1c1",
                 "type": "individual",
                 "reward": 5,
                 "punishment": 3,
                 "instruction": "Dansa för oss alla!"
             },
             {
-                "id": "c2",
+                "id": "p1c2",
                 "type": "individual",
                 "reward": 2,
                 "punishment": 2,
                 "instruction": "Prata med en dialekt tills det blir din tur igen"
             },
             {
-                "id": "c3",
+                "id": "p1c3",
                 "type": "individual",
                 "reward": 5,
                 "punishment": 3,
                 "instruction": "Prata tvärtomspråket tills det blir din tur igen"
             },
             {
-                "id": "c4",
+                "id": "p1c4",
                 "type": "individual",
                 "reward": 3,
                 "punishment": 2,
                 "instruction": "Sjung valfri låt inför alla som sitter här"
             },
             {
-                "id": "c5",
+                "id": "p1c5",
                 "type": "individual",
                 "reward": 3,
                 "punishment": 2,
                 "instruction": "Rimma allt du säger tills det blir din tur igen"
             },
             {
-                "id": "c6",
+                "id": "p1c6",
                 "type": "individual",
                 "reward": 3,
                 "punishment": 3,
                 "instruction": "Gör din bästa imitation av ett djur gruppen bestämmer"
             },
             {
-                "id": "c7",
+                "id": "p1c7",
                 "type": "individual",
                 "reward": 4,
                 "punishment": 4,
                 "instruction": "Busring till valfri person"
             },
             {
-                "id": "c8",
+                "id": "p1c8",
                 "type": "individual",
                 "reward": 5,
                 "punishment": 3,
                 "instruction": "SMS-roulette! Den som läser får bestämma vad som skrivs"
             },
             {
-                "id": "c9",
+                "id": "p1c9",
                 "type": "individual",
                 "reward": 5,
                 "punishment": 2,
                 "instruction": "Låt spelaren till vänster ta över din telefon i tio minuter"
             },
             {
-                "id": "c10",
+                "id": "p1c10",
                 "type": "individual",
                 "reward": 3,
                 "punishment": 2,
                 "instruction": "Försök övertyga spelaren till höger om att jorden faktiskt är platt"
             },
             {
-                "id": "c11",
+                "id": "p1c11",
                 "type": "individual",
                 "reward": 5,
                 "punishment": 3,
                 "instruction": "Byt kläder med valfri spelare av motsatt kön"
             },
             {
-                "id": "c12",
+                "id": "p1c12",
                 "type": "individual",
                 "reward": 2,
                 "punishment": 2,
                 "instruction": "Tala i klyschor tills det blir din tur igen"
             },
             {
-                "id": "c13",
+                "id": "p1c13",
                 "type": "individual",
                 "reward": 3,
                 "punishment": 3,
                 "instruction": "Kör din bästa raggningsreplik på spelaren till vänster"
             },
             {
-                "id": "c14",
+                "id": "p1c14",
                 "type": "individual",
                 "reward": 5,
                 "punishment": 4,
                 "instruction": "Kom på och framför en kärlekssång till någon i gruppen"
             },
             {
-                "id": "c15",
+                "id": "p1c15",
                 "type": "individual",
                 "reward": 5,
                 "punishment": 2,
                 "instruction": "Raka ett ben eller din armhåla – beroende på om du har hår där"
             },
             {
-                "id": "c16",
+                "id": "p1c16",
                 "type": "individual",
                 "reward": 5,
                 "punishment": 3,
                 "instruction": "Gör en freestyle rap i 1 minut"
             },
             {
-                "id": "c17",
+                "id": "p1c17",
                 "type": "individual",
                 "reward": 3,
                 "punishment": 3,
                 "instruction": "Lukta i alla spelares armhålor"
             },
             {
-                "id": "c18",
+                "id": "p1c18",
                 "type": "individual",
                 "reward": 3,
                 "punishment": 2,
                 "instruction": "Kyss personen till vänster om dig på kinden"
             },
             {
-                "id": "c19",
+                "id": "p1c19",
                 "type": "individual",
                 "reward": 3,
                 "punishment": 2,
                 "instruction": "Härma en annan deltagare tills någon kommer på vem det är"
             },
             {
-                "id": "c20",
+                "id": "p1c20",
                 "type": "individual",
                 "reward": 5,
                 "punishment": 3,
                 "instruction": "Dansa utan musik i 1 minut"
             },
             {
-                "id": "c21",
+                "id": "p1c21",
                 "type": "individual",
                 "reward": 3,
                 "punishment": 3,
                 "instruction": "Drick ett glas citronsaft"
             },
             {
-                "id": "c22",
+                "id": "p1c22",
                 "type": "individual",
                 "reward": 5,
                 "punishment": 3,
                 "instruction": "Knäck ett ägg på huvudet"
             },
             {
-                "id": "c23",
+                "id": "p1c23",
                 "type": "individual",
                 "reward": 5,
                 "punishment": 3,
                 "instruction": "Prata med en norsk dialekt tills det blir din tur igen"
             },
             {
-                "id": "c24",
+                "id": "p1c24",
                 "type": "individual",
                 "reward": 5,
                 "punishment": 3,
                 "instruction": "Ring en vän, låtsas att det är deras födelsedag och sjung för dom"
             },
             {
-                "id": "c25",
+                "id": "p1c25",
                 "type": "individual",
                 "reward": 5,
                 "punishment": 3,
                 "instruction": "Låtsas att du är en balettdansös i 1 minut"
             },
             {
-                "id": "c26",
+                "id": "p1c26",
                 "type": "individual",
                 "reward": 5,
                 "punishment": 2,
                 "instruction": "Ta en dusch med kläderna på"
             },
             {
-                "id": "c27",
+                "id": "p1c27",
                 "type": "individual",
                 "reward": 5,
                 "punishment": 3,
                 "instruction": "Ta en selfie när du sitter på toaletten och lägg upp den på social media"
             },
             {
-                "id": "c28",
+                "id": "p1c28",
                 "type": "individual",
                 "reward": 5,
                 "punishment": 3,
                 "instruction": "Häll is i byxorna"
             },
             {
-                "id": "c29",
+                "id": "p1c29",
                 "type": "individual",
                 "reward": 3,
                 "punishment": 3,
                 "instruction": "Snurra runt 12 gånger och försök att gå rakt fram"
             },
             {
-                "id": "c30",
+                "id": "p1c30",
                 "type": "individual",
                 "reward": 3,
                 "punishment": 3,
                 "instruction": "Sätt på ögonbindeln på dig själv och rör vid de andra spelarnas ansikten tills du kan ta reda på vem det är"
             },
             {
-                "id": "c31",
+                "id": "p1c31",
                 "type": "individual",
                 "reward": 3,
                 "punishment": 4,
                 "instruction": "Låt de andra spelarna göra om din frisyr"
             },
             {
-                "id": "c32",
+                "id": "p1c32",
                 "type": "individual",
                 "reward": 5,
                 "punishment": 2,
                 "instruction": "Ät ett rått ägg"
             },
             {
-                "id": "c33",
+                "id": "p1c33",
                 "type": "individual",
                 "reward": 5,
                 "punishment": 2,
                 "instruction": "Töm en hink med kallt vatten över huvudet"
             },
             {
-                "id": "c34",
+                "id": "p1c34",
                 "type": "individual",
                 "reward": 3,
                 "punishment": 3,
                 "instruction": "Slicka på en tvål"
             },
             {
-                "id": "c35",
+                "id": "p1c35",
                 "type": "individual",
                 "reward": 3,
                 "punishment": 3,
                 "instruction": "Ät en tesked senap"
             },
             {
-                "id": "c36",
+                "id": "p1c36",
                 "type": "individual",
                 "reward": 3,
                 "punishment": 3,
                 "instruction": "Låt en spelare måla dina naglar som de vill"
             },
             {
-                "id": "c37",
+                "id": "p1c37",
                 "type": "individual",
                 "reward": 5,
                 "punishment": 3,
                 "instruction": "Låt en spelare applicera make-up på dig"
             },
             {
-                "id": "c38",
+                "id": "p1c38",
                 "type": "individual",
                 "reward": 3,
                 "punishment": 3,
                 "instruction": "Ta poäng om du flirtat med/varit sugen på en lärare"
             },
             {
-                "id": "c39",
+                "id": "p1c39",
                 "type": "individual",
                 "reward": 5,
                 "punishment": 3,
                 "instruction": "Ta poäng om du fisit under en intim stund"
             },
             {
-                "id": "c40",
+                "id": "p1c40",
                 "type": "individual",
                 "reward": 5,
                 "punishment": 3,
                 "instruction": "Ta straff om du tagit en selfie när du suttit på toa"
             },
             {
-                "id": "c41",
+                "id": "p1c41",
                 "type": "individual",
                 "reward": 2,
                 "punishment": 4,
                 "instruction": "Har du någonsin ätit mat som rammlat på golvet? Ta straff isåfall"
             },
             {
-                "id": "c42",
+                "id": "p1c42",
                 "type": "individual",
                 "reward": 5,
                 "punishment": 2,
                 "instruction": "Har du någonsin ätit ditt husdjurs mat eller godis? Ta Poäng isåfall"
             },
             {
-                "id": "c43",
+                "id": "p1c43",
                 "type": "individual",
                 "reward": 2,
                 "punishment": 5,
                 "instruction": "Om du någonsin fisit i en hiss, ta straff"
             },
             {
-                "id": "c44",
+                "id": "p1c44",
                 "type": "individual",
                 "reward": 2,
                 "punishment": 3,
                 "instruction": "Har dina kläder någonsin gått sönder på en offentlig plats? Ta poäng isåfall"
             },
             {
-                "id": "c45",
+                "id": "p1c45",
                 "type": "individual",
                 "reward": 5,
                 "punishment": 3,
                 "instruction": "Har du någonsin kissat i poolen/havet? Ta straff isåfall"
             },
             {
-                "id": "c46",
+                "id": "p1c46",
                 "type": "individual",
                 "reward": 3,
                 "punishment": 5,
                 "instruction": "Peka på den du tror petar sig i näsan och äter det eller ta straff"
             },
             {
-                "id": "c47",
+                "id": "p1c47",
                 "type": "individual",
                 "reward": 2,
                 "punishment": 5,
                 "instruction": "Har du någonsin slutat dricka/snusa/röka? Ta straff isåfall"
             },
             {
-                "id": "c48",
+                "id": "p1c48",
                 "type": "individual",
                 "reward": 2,
                 "punishment": 5,
                 "instruction": "Om du svär framför dina föräldrar så ta poäng"
             },
             {
-                "id": "c49",
+                "id": "p1c49",
                 "type": "individual",
                 "reward": 2,
                 "punishment": 5,
                 "instruction": "Vem i gruppen är du mest svartsjuk på? Berätta eller ta straff"
             },
             {
-                "id": "c50",
+                "id": "p1c50",
                 "type": "individual",
                 "reward": 3,
                 "punishment": 5,
                 "instruction": "Berätta för alla om din största sexfantasi"
             },
             {
-                "id": "c51",
+                "id": "p1c51",
                 "type": "individual",
                 "reward": 2,
                 "punishment": 5,
                 "instruction": "Berätta för gruppen om den senaste gången du grät eller ta straff"
             },
             {
-                "id": "c52",
+                "id": "p1c52",
                 "type": "group",
                 "reward": 0,
                 "punishment": 0,
                 "instruction": "Alla tar 1 straff för varje dag ni gått utan att duscha!"
             },
             {
-                "id": "c53",
+                "id": "p1c53",
                 "type": "group",
                 "reward": 0,
                 "punishment": 0,
                 "instruction": "Vattenfall! Läsaren börjar"
             },
             {
-                "id": "c54",
+                "id": "p1c54",
                 "type": "group",
                 "reward": 0,
                 "punishment": 0,
                 "instruction": "Alla berättar sitt roligaste skämt!"
             },
             {
-                "id": "c55",
+                "id": "p1c55",
                 "type": "group",
                 "reward": 0,
                 "punishment": 0,
                 "instruction": "Räck upp handen om du snattat, all som räcker upp handen får ta straff"
             },
             {
-                "id": "c56",
+                "id": "p1c56",
                 "type": "group",
                 "reward": 0,
                 "punishment": 0,
-                "instruction": "Alla visar upp sin bästa talang! Förloraren får ta straff"
+                "instruction": "Alla visar upp sin bästa talang! Den som är sämst får ta straff"
             },
             {
-                "id": "c58",
+                "id": "p1c57",
                 "type": "group",
                 "reward": 0,
                 "punishment": 0,
                 "instruction": "Slicka era armbågar! Dom som klarar det får dela ut straff!"
             },
             {
-                "id": "c59",
+                "id": "p1c58",
                 "type": "group",
                 "reward": 0,
                 "punishment": 0,
                 "instruction": "Dags att röra på sig! Gör så många armhävningar ni kan, förloraren får ta straff!"
             },
             {
-                "id": "c60",
-                "type": "group",
-                "reward": 0,
-                "punishment": 0,
-                "instruction": "Dags att röra på sig! Gör så många armhävningar ni kan, förloraren får ta straff!"
-            },
-            {
-                "id": "c61",
+                "id": "p1c59",
                 "type": "group",
                 "reward": 0,
                 "punishment": 0,
                 "instruction": "Gör ett roligt ljud, om någon skrattar får den ta ett straff och åker ut ur utmaningen. Läsaren börjar!"
             },
             {
-                "id": "c62",
+                "id": "p1c60",
                 "type": "group",
                 "reward": 0,
                 "punishment": 0,
                 "instruction": "Alla skriker ett djur samtidigt, säger man samma får man ta straff!"
             },
             {
-                "id": "c63",
+                "id": "p1c61",
+                "type": "group",
+                "reward": 0,
+                "punishment": 0,
+                "instruction": "Säg ett bilmärke, säger du samma eller repeterar dig själv åker du ut och får ta straff. Läsaren börjar!"
+            },
+            {
+                "id": "p1c62",
                 "type": "individual",
                 "reward": 5,
                 "punishment": 5,

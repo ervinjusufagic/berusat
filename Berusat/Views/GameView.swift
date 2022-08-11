@@ -33,16 +33,18 @@ struct GameView: View {
 
             VStack {
                 HStack {
-                    Button {
-                        self.mode.wrappedValue.dismiss()
+                    Menu {
+                        Button {
+                            self.mode.wrappedValue.dismiss()
+                        } label: {
+                            Label(AppText.closeGame, systemImage: AppIcons.closeIcon)
+                        }
                     } label: {
-                        Image(systemName: AppIcons.closeIcon)
+                        Image(systemName: AppIcons.menuIcon)
                             .resizable()
                             .frame(width: Space.threexl, height: Space.threexl)
                             .foregroundColor(Color(AppColor.lightColor))
-                            .padding(.top)
                     }
-                    .padding([.leading], Space.threexl)
 
                     Spacer()
                 }
@@ -60,7 +62,6 @@ struct GameView: View {
                             .offset(x: animations.animateNewTurn ? animations.xOffset : 0, y: 0)
                     }
                 }
-                .padding([.leading, .trailing], Space.threexl)
 
                 Spacer()
                 Spacer()
@@ -113,7 +114,7 @@ struct GameView: View {
                             )
                         } label: {
                             AppButton(
-                                text: "Fortsätt!",
+                                text: AppText.continueText,
                                 color: Color(AppColor.primary),
                                 width: 140
                             )
@@ -124,9 +125,9 @@ struct GameView: View {
                         )
                     }
                 }
-                .padding([.leading, .trailing], Space.threexl)
-                .padding([.bottom], Space.md)
             }
+            .padding([.trailing, .leading], Space.fourxl)
+            .padding([.top, .bottom], Space.lg)
         }
         .onAppear {
             gameState.setup(userSettings: userSettings)

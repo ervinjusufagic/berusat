@@ -19,6 +19,8 @@ struct AppText {
     static let pointsText = "Poäng"
     static let scoreboardTitle = "Poängtavla"
     static let playAgain = "Spela igen!"
+    static let continueText = "Fortsätt!"
+    static let closeGame = "Avsluta spel"
 }
 
 // MARK: Color
@@ -61,7 +63,8 @@ enum AppIcons {
     static let trashIcon = "trash"
     static let selectedIcon = "checkmark.circle"
     static let lockIcon = "lock.circle"
-    static let closeIcon = "xmark.circle"
+    static let closeIcon = "xmark"
+    static let menuIcon = "ellipsis.circle"
 }
 
 // MARK: Space

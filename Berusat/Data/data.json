@@ -285,6 +285,160 @@
                 "punishment": 3,
                 "instruction": "Ta straff om du tagit en selfie när du suttit på toa"
             },
+            {
+                "id": "c41",
+                "type": "individual",
+                "reward": 2,
+                "punishment": 4,
+                "instruction": "Har du någonsin ätit mat som rammlat på golvet? Ta straff isåfall"
+            },
+            {
+                "id": "c42",
+                "type": "individual",
+                "reward": 5,
+                "punishment": 2,
+                "instruction": "Har du någonsin ätit ditt husdjurs mat eller godis? Ta Poäng isåfall"
+            },
+            {
+                "id": "c43",
+                "type": "individual",
+                "reward": 2,
+                "punishment": 5,
+                "instruction": "Om du någonsin fisit i en hiss, ta straff"
+            },
+            {
+                "id": "c44",
+                "type": "individual",
+                "reward": 2,
+                "punishment": 3,
+                "instruction": "Har dina kläder någonsin gått sönder på en offentlig plats? Ta poäng isåfall"
+            },
+            {
+                "id": "c45",
+                "type": "individual",
+                "reward": 5,
+                "punishment": 3,
+                "instruction": "Har du någonsin kissat i poolen/havet? Ta straff isåfall"
+            },
+            {
+                "id": "c46",
+                "type": "individual",
+                "reward": 3,
+                "punishment": 5,
+                "instruction": "Peka på den du tror petar sig i näsan och äter det eller ta straff"
+            },
+            {
+                "id": "c47",
+                "type": "individual",
+                "reward": 2,
+                "punishment": 5,
+                "instruction": "Har du någonsin slutat dricka/snusa/röka? Ta straff isåfall"
+            },
+            {
+                "id": "c48",
+                "type": "individual",
+                "reward": 2,
+                "punishment": 5,
+                "instruction": "Om du svär framför dina föräldrar så ta poäng"
+            },
+            {
+                "id": "c49",
+                "type": "individual",
+                "reward": 2,
+                "punishment": 5,
+                "instruction": "Vem i gruppen är du mest svartsjuk på? Berätta eller ta straff"
+            },
+            {
+                "id": "c50",
+                "type": "individual",
+                "reward": 3,
+                "punishment": 5,
+                "instruction": "Berätta för alla om din största sexfantasi"
+            },
+            {
+                "id": "c51",
+                "type": "individual",
+                "reward": 2,
+                "punishment": 5,
+                "instruction": "Berätta för gruppen om den senaste gången du grät eller ta straff"
+            },
+            {
+                "id": "c52",
+                "type": "group",
+                "reward": 0,
+                "punishment": 0,
+                "instruction": "Alla tar 1 straff för varje dag ni gått utan att duscha!"
+            },
+            {
+                "id": "c53",
+                "type": "group",
+                "reward": 0,
+                "punishment": 0,
+                "instruction": "Vattenfall! Läsaren börjar"
+            },
+            {
+                "id": "c54",
+                "type": "group",
+                "reward": 0,
+                "punishment": 0,
+                "instruction": "Alla berättar sitt roligaste skämt!"
+            },
+            {
+                "id": "c55",
+                "type": "group",
+                "reward": 0,
+                "punishment": 0,
+                "instruction": "Räck upp handen om du snattat, all som räcker upp handen får ta straff"
+            },
+            {
+                "id": "c56",
+                "type": "group",
+                "reward": 0,
+                "punishment": 0,
+                "instruction": "Alla visar upp sin bästa talang! Förloraren får ta straff"
+            },
+            {
+                "id": "c58",
+                "type": "group",
+                "reward": 0,
+                "punishment": 0,
+                "instruction": "Slicka era armbågar! Dom som klarar det får dela ut straff!"
+            },
+            {
+                "id": "c59",
+                "type": "group",
+                "reward": 0,
+                "punishment": 0,
+                "instruction": "Dags att röra på sig! Gör så många armhävningar ni kan, förloraren får ta straff!"
+            },
+            {
+                "id": "c60",
+                "type": "group",
+                "reward": 0,
+                "punishment": 0,
+                "instruction": "Dags att röra på sig! Gör så många armhävningar ni kan, förloraren får ta straff!"
+            },
+            {
+                "id": "c61",
+                "type": "group",
+                "reward": 0,
+                "punishment": 0,
+                "instruction": "Gör ett roligt ljud, om någon skrattar får den ta ett straff och åker ut ur utmaningen. Läsaren börjar!"
+            },
+            {
+                "id": "c62",
+                "type": "group",
+                "reward": 0,
+                "punishment": 0,
+                "instruction": "Alla skriker ett djur samtidigt, säger man samma får man ta straff!"
+            },
+            {
+                "id": "c63",
+                "type": "individual",
+                "reward": 5,
+                "punishment": 5,
+                "instruction": "Ladda upp en bild på social media med texten! \"Ladda ner Berusat appen på AppStore!\""
+            },
             
         ]
     },

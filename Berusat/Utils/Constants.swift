@@ -29,7 +29,7 @@ enum AppColor {
     static let darkColor = "Dark"
     static let lightColor = "Light"
     static let primary = "DarkTurquoise"
-    static let disabled = "DarkGrey"
+    static let disabled = "Disabled"
     static let danger = "DarkRed"
     static let success = "DarkGreen"
 

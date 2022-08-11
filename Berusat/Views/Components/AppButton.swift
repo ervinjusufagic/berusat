@@ -10,12 +10,13 @@ import SwiftUI
 struct AppButton: View {
     var text: String
     var color: Color = .init(AppColor.primary)
-    var width: CGFloat = 170
+    var width: CGFloat?
     var height: CGFloat = 32
 
     var body: some View {
         Typography(text: text, size: TextSize.bigBody)
-            .frame(width: width, height: height)
+            .frame(maxWidth: 1000)
+            .frame(width: width ?? nil, height: height)
             .padding(EdgeInsets(
                 top: Space.sm,
                 leading: Space.xl,

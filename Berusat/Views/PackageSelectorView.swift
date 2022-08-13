@@ -27,7 +27,7 @@ struct PackageSelectorView: View {
                     AppButton(text: AppText.playButtonText)
                 }
                 .isDetailLink(false)
-                .padding()
+                .padding([.all], Space.lg)
 
                 Button {
                     print("banner pressed")

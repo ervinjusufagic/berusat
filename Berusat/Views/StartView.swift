@@ -33,7 +33,7 @@ struct StartView: View {
                 .disabled(isStartDisabled)
             }
         }
-        .padding()
+        .padding([.all], Space.lg)
         .navigationBarHidden(true)
     }
 }

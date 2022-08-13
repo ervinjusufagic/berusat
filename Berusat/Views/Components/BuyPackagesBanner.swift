@@ -21,7 +21,7 @@ struct BuyPackagesBanner: View {
             }
             .frame(maxWidth: .infinity)
             .background(Color(AppColor.darkColor))
-            .padding()
+            .padding(.all, Space.lg)
         }
     }
 }

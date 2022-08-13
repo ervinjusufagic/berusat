@@ -44,7 +44,7 @@ struct ScoreView: View {
                                     Typography(text: "\(player.sips) \(AppText.punishmentText)", size: TextSize.mediumBody)
                                 }
                             }
-                            .padding(.horizontal)
+                            .padding(.horizontal, Space.sm)
 
                             Spacer()
 
@@ -66,7 +66,7 @@ struct ScoreView: View {
                     AppButton(text: AppText.playAgain)
                 }
             }
-            .padding()
+            .padding([.all], Space.lg)
         }
         .navigationBarHidden(true)
         .onAppear {

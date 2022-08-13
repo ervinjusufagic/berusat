@@ -35,6 +35,7 @@ struct PackageSelectorView: View {
                     BuyPackagesBanner()
                 }
             }
+            .padding([.top], Space.xs)
         }
         .onAppear {
             userSettingsState.setSelectedPackage(packageState.packages[0])

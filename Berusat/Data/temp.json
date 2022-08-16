@@ -1,0 +1,708 @@
+{
+  "id": "4",
+  "name": "Galet",
+  "emoji": "🤩",
+  "isLocked": false,
+  "challenges": [
+    {
+      "id": "p3c1",
+      "type": "individual",
+      "reward": 5,
+      "punishment": 4,
+      "instruction": ""
+    },
+    {
+      "id": "p3c2",
+      "type": "individual",
+      "reward": 4,
+      "punishment": 3,
+      "instruction": ""
+    },
+    {
+      "id": "p3c3",
+      "type": "individual",
+      "reward": 3,
+      "punishment": 3,
+      "instruction": ""
+    },
+    {
+      "id": "p3c4",
+      "type": "individual",
+      "reward": 4,
+      "punishment": 3,
+      "instruction": ""
+    },
+    {
+      "id": "p3c5",
+      "type": "individual",
+      "reward": 5,
+      "punishment": 4,
+      "instruction": ""
+    },
+    {
+      "id": "p3c6",
+      "type": "individual",
+      "reward": 5,
+      "punishment": 3,
+      "instruction": ""
+    },
+    {
+      "id": "p3c7",
+      "type": "individual",
+      "reward": 3,
+      "punishment": 3,
+      "instruction": ""
+    },
+    {
+      "id": "p3c8",
+      "type": "individual",
+      "reward": 4,
+      "punishment": 3,
+      "instruction": ""
+    },
+    {
+      "id": "p3c9",
+      "type": "individual",
+      "reward": 5,
+      "punishment": 5,
+      "instruction": ""
+    },
+    {
+      "id": "p3c10",
+      "type": "individual",
+      "reward": 4,
+      "punishment": 3,
+      "instruction": ""
+    },
+    {
+      "id": "p3c11",
+      "type": "individual",
+      "reward": 5,
+      "punishment": 3,
+      "instruction": ""
+    },
+    {
+      "id": "p3c12",
+      "type": "individual",
+      "reward": 2,
+      "punishment": 4,
+      "instruction": ""
+    },
+    {
+      "id": "p3c13",
+      "type": "individual",
+      "reward": 4,
+      "punishment": 2,
+      "instruction": ""
+    },
+    {
+      "id": "p3c14",
+      "type": "individual",
+      "reward": 4,
+      "punishment": 4,
+      "instruction": ""
+    },
+    {
+      "id": "p3c15",
+      "type": "individual",
+      "reward": 4,
+      "punishment": 2,
+      "instruction": ""
+    },
+    {
+      "id": "p3c16",
+      "type": "individual",
+      "reward": 5,
+      "punishment": 3,
+      "instruction": ""
+    },
+    {
+      "id": "p3c17",
+      "type": "individual",
+      "reward": 4,
+      "punishment": 4,
+      "instruction": ""
+    },
+    {
+      "id": "p3c18",
+      "type": "individual",
+      "reward": 4,
+      "punishment": 4,
+      "instruction": ""
+    },
+    {
+      "id": "p3c19",
+      "type": "individual",
+      "reward": 5,
+      "punishment": 3,
+      "instruction": ""
+    },
+    {
+      "id": "p3c20",
+      "type": "individual",
+      "reward": 5,
+      "punishment": 3,
+      "instruction": ""
+    },
+    {
+      "id": "p3c21",
+      "type": "individual",
+      "reward": 3,
+      "punishment": 2,
+      "instruction": ""
+    },
+    {
+      "id": "p3c22",
+      "type": "individual",
+      "reward": 5,
+      "punishment": 3,
+      "instruction": ""
+    },
+    {
+      "id": "p3c23",
+      "type": "individual",
+      "reward": 3,
+      "punishment": 3,
+      "instruction": ""
+    },
+    {
+      "id": "p3c24",
+      "type": "individual",
+      "reward": 3,
+      "punishment": 3,
+      "instruction": ""
+    },
+    {
+      "id": "p3c25",
+      "type": "individual",
+      "reward": 5,
+      "punishment": 3,
+      "instruction": ""
+    },
+    {
+      "id": "p3c26",
+      "type": "individual",
+      "reward": 5,
+      "punishment": 2,
+      "instruction": ""
+    },
+    {
+      "id": "p3c27",
+      "type": "individual",
+      "reward": 3,
+      "punishment": 3,
+      "instruction": ""
+    },
+    {
+      "id": "p3c28",
+      "type": "individual",
+      "reward": 5,
+      "punishment": 3,
+      "instruction": ""
+    },
+    {
+      "id": "p3c29",
+      "type": "individual",
+      "reward": 5,
+      "punishment": 3,
+      "instruction": ""
+    },
+    {
+      "id": "p3c30",
+      "type": "individual",
+      "reward": 4,
+      "punishment": 4,
+      "instruction": ""
+    },
+    {
+      "id": "p3c31",
+      "type": "individual",
+      "reward": 4,
+      "punishment": 4,
+      "instruction": ""
+    },
+    {
+      "id": "p3c32",
+      "type": "individual",
+      "reward": 3,
+      "punishment": 2,
+      "instruction": ""
+    },
+    {
+      "id": "p3c33",
+      "type": "individual",
+      "reward": 3,
+      "punishment": 4,
+      "instruction": ""
+    },
+    {
+      "id": "p3c34",
+      "type": "individual",
+      "reward": 4,
+      "punishment": 3,
+      "instruction": ""
+    },
+    {
+      "id": "p3c35",
+      "type": "individual",
+      "reward": 5,
+      "punishment": 3,
+      "instruction": ""
+    },
+    {
+      "id": "p3c36",
+      "type": "individual",
+      "reward": 4,
+      "punishment": 3,
+      "instruction": ""
+    },
+    {
+      "id": "p3c37",
+      "type": "individual",
+      "reward": 2,
+      "punishment": 3,
+      "instruction": ""
+    },
+    {
+      "id": "p3c38",
+      "type": "individual",
+      "reward": 4,
+      "punishment": 2,
+      "instruction": ""
+    },
+    {
+      "id": "p3c39",
+      "type": "individual",
+      "reward": 3,
+      "punishment": 3,
+      "instruction": ""
+    },
+    {
+      "id": "p3c40",
+      "type": "individual",
+      "reward": 5,
+      "punishment": 4,
+      "instruction": ""
+    },
+    {
+      "id": "p3c41",
+      "type": "individual",
+      "reward": 3,
+      "punishment": 2,
+      "instruction": ""
+    },
+    {
+      "id": "p3c42",
+      "type": "individual",
+      "reward": 2,
+      "punishment": 4,
+      "instruction": ""
+    },
+    {
+      "id": "p3c43",
+      "type": "individual",
+      "reward": 2,
+      "punishment": 3,
+      "instruction": ""
+    },
+    {
+      "id": "p3c44",
+      "type": "individual",
+      "reward": 3,
+      "punishment": 4,
+      "instruction": ""
+    },
+    {
+      "id": "p3c45",
+      "type": "individual",
+      "reward": 3,
+      "punishment": 3,
+      "instruction": ""
+    },
+    {
+      "id": "p3c46",
+      "type": "individual",
+      "reward": 3,
+      "punishment": 3,
+      "instruction": ""
+    },
+    {
+      "id": "p3c47",
+      "type": "individual",
+      "reward": 4,
+      "punishment": 5,
+      "instruction": ""
+    },
+    {
+      "id": "p3c48",
+      "type": "individual",
+      "reward": 2,
+      "punishment": 4,
+      "instruction": ""
+    },
+    {
+      "id": "p3c49",
+      "type": "individual",
+      "reward": 2,
+      "punishment": 4,
+      "instruction": ""
+    },
+    {
+      "id": "p3c50",
+      "type": "individual",
+      "reward": 2,
+      "punishment": 3,
+      "instruction": ""
+    },
+    {
+      "id": "p3c51",
+      "type": "individual",
+      "reward": 3,
+      "punishment": 2,
+      "instruction": ""
+    },
+    {
+      "id": "p3c52",
+      "type": "individual",
+      "reward": 2,
+      "punishment": 2,
+      "instruction": ""
+    },
+    {
+      "id": "p3c53",
+      "type": "individual",
+      "reward": 2,
+      "punishment": 3,
+      "instruction": ""
+    },
+    {
+      "id": "p3c54",
+      "type": "individual",
+      "reward": 2,
+      "punishment": 3,
+      "instruction": ""
+    },
+    {
+      "id": "p3c55",
+      "type": "individual",
+      "reward": 3,
+      "punishment": 3,
+      "instruction": ""
+    },
+    {
+      "id": "p3c56",
+      "type": "individual",
+      "reward": 2,
+      "punishment": 2,
+      "instruction": ""
+    },
+    {
+      "id": "p3c57",
+      "type": "individual",
+      "reward": 3,
+      "punishment": 3,
+      "instruction": ""
+    },
+    {
+      "id": "p3c58",
+      "type": "individual",
+      "reward": 4,
+      "punishment": 2,
+      "instruction": ""
+    },
+    {
+      "id": "p3c59",
+      "type": "individual",
+      "reward": 2,
+      "punishment": 2,
+      "instruction": ""
+    },
+    {
+      "id": "p3c60",
+      "type": "individual",
+      "reward": 4,
+      "punishment": 3,
+      "instruction": ""
+    },
+    {
+      "id": "p3c61",
+      "type": "individual",
+      "reward": 5,
+      "punishment": 4,
+      "instruction": ""
+    },
+    {
+      "id": "p3c62",
+      "type": "individual",
+      "reward": 5,
+      "punishment": 3,
+      "instruction": ""
+    },
+    {
+      "id": "p3c63",
+      "type": "individual",
+      "reward": 3,
+      "punishment": 3,
+      "instruction": ""
+    },
+    {
+      "id": "p3c64",
+      "type": "individual",
+      "reward": 2,
+      "punishment": 4,
+      "instruction": ""
+    },
+    {
+      "id": "p3c65",
+      "type": "individual",
+      "reward": 2,
+      "punishment": 2,
+      "instruction": ""
+    },
+    {
+      "id": "p3c66",
+      "type": "individual",
+      "reward": 2,
+      "punishment": 2,
+      "instruction": ""
+    },
+    {
+      "id": "p3c67",
+      "type": "individual",
+      "reward": 5,
+      "punishment": 3,
+      "instruction": ""
+    },
+    {
+      "id": "p3c68",
+      "type": "individual",
+      "reward": 2,
+      "punishment": 3,
+      "instruction": ""
+    },
+    {
+      "id": "p3c69",
+      "type": "individual",
+      "reward": 4,
+      "punishment": 2,
+      "instruction": ""
+    },
+    {
+      "id": "p3c70",
+      "type": "individual",
+      "reward": 2,
+      "punishment": 3,
+      "instruction": ""
+    },
+    {
+      "id": "p3c71",
+      "type": "individual",
+      "reward": 4,
+      "punishment": 2,
+      "instruction": ""
+    },
+    {
+      "id": "p3c72",
+      "type": "individual",
+      "reward": 2,
+      "punishment": 3,
+      "instruction": ""
+    },
+    {
+      "id": "p3c73",
+      "type": "individual",
+      "reward": 2,
+      "punishment": 3,
+      "instruction": ""
+    },
+    {
+      "id": "p3c74",
+      "type": "individual",
+      "reward": 2,
+      "punishment": 3,
+      "instruction": ""
+    },
+    {
+      "id": "p3c75",
+      "type": "individual",
+      "reward": 2,
+      "punishment": 3,
+      "instruction": ""
+    },
+    {
+      "id": "p3c76",
+      "type": "individual",
+      "reward": 2,
+      "punishment": 5,
+      "instruction": ""
+    },
+    {
+      "id": "p3c77",
+      "type": "individual",
+      "reward": 3,
+      "punishment": 3,
+      "instruction": ""
+    },
+    {
+      "id": "p3c78",
+      "type": "individual",
+      "reward": 2,
+      "punishment": 2,
+      "instruction": ""
+    },
+    {
+      "id": "p3c79",
+      "type": "individual",
+      "reward": 4,
+      "punishment": 4,
+      "instruction": ""
+    },
+    {
+      "id": "p3c80",
+      "type": "group",
+      "reward": 0,
+      "punishment": 0,
+      "instruction": ""
+    },
+    {
+      "id": "p3c81",
+      "type": "group",
+      "reward": 0,
+      "punishment": 0,
+      "instruction": ""
+    },
+    {
+      "id": "p3c82",
+      "type": "group",
+      "reward": 0,
+      "punishment": 0,
+      "instruction": ""
+    },
+    {
+      "id": "p3c83",
+      "type": "group",
+      "reward": 0,
+      "punishment": 0,
+      "instruction": ""
+    },
+    {
+      "id": "p3c84",
+      "type": "group",
+      "reward": 0,
+      "punishment": 0,
+      "instruction": ""
+    },
+    {
+      "id": "p3c85",
+      "type": "group",
+      "reward": 0,
+      "punishment": 0,
+      "instruction": ""
+    },
+    {
+      "id": "p3c86",
+      "type": "group",
+      "reward": 0,
+      "punishment": 0,
+      "instruction": ""
+    },
+    {
+      "id": "p3c87",
+      "type": "group",
+      "reward": 0,
+      "punishment": 0,
+      "instruction": ""
+    },
+    {
+      "id": "p3c88",
+      "type": "group",
+      "reward": 0,
+      "punishment": 0,
+      "instruction": ""
+    },
+    {
+      "id": "p3c89",
+      "type": "group",
+      "reward": 0,
+      "punishment": 0,
+      "instruction": ""
+    },
+    {
+      "id": "p3c90",
+      "type": "group",
+      "reward": 0,
+      "punishment": 0,
+      "instruction": ""
+    },
+    {
+      "id": "p3c91",
+      "type": "group",
+      "reward": 0,
+      "punishment": 0,
+      "instruction": ""
+    },
+    {
+      "id": "p3c92",
+      "type": "group",
+      "reward": 0,
+      "punishment": 0,
+      "instruction": ""
+    },
+    {
+      "id": "p3c93",
+      "type": "group",
+      "reward": 0,
+      "punishment": 0,
+      "instruction": ""
+    },
+    {
+      "id": "p3c94",
+      "type": "group",
+      "reward": 0,
+      "punishment": 0,
+      "instruction": ""
+    },
+    {
+      "id": "p3c95",
+      "type": "group",
+      "reward": 0,
+      "punishment": 0,
+      "instruction": ""
+    },
+    {
+      "id": "p3c96",
+      "type": "group",
+      "reward": 0,
+      "punishment": 0,
+      "instruction": ""
+    },
+    {
+      "id": "p3c97",
+      "type": "group",
+      "reward": 0,
+      "punishment": 0,
+      "instruction": ""
+    },
+    {
+      "id": "p3c98",
+      "type": "group",
+      "reward": 0,
+      "punishment": 0,
+      "instruction": ""
+    },
+    {
+      "id": "p3c99",
+      "type": "group",
+      "reward": 0,
+      "punishment": 0,
+      "instruction": ""
+    },
+    {
+      "id": "p3c100",
+      "type": "group",
+      "reward": 0,
+      "punishment": 0,
+      "instruction": ""
+    }
+  ]
+}

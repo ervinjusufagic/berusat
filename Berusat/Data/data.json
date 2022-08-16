@@ -1716,91 +1716,91 @@
         "instruction": "Sista personen som ställer sig upp får ta 2 straff, läsaren får ta 1 straff oavsett"
       },
       {
-        "id": "p2c81",
+        "id": "p3c81",
         "type": "group",
         "reward": 0,
         "punishment": 0,
         "instruction": "Om ni har haft fler relationer än engångsligg får ni ta straff"
       },
       {
-        "id": "p2c82",
+        "id": "p3c82",
         "type": "group",
         "reward": 0,
         "punishment": 0,
         "instruction": "Alla gör en armhävning för varje person som är kortare än dig i spelet, den som är längst får ta 2 straff"
       },
       {
-        "id": "p2c83",
+        "id": "p3c83",
         "type": "group",
         "reward": 0,
         "punishment": 0,
         "instruction": "Vad häller man först, Flingor eller mjölk? Minoriteten får ta 2 straff"
       },
       {
-        "id": "p2c84",
+        "id": "p3c84",
         "type": "group",
         "reward": 0,
         "punishment": 0,
         "instruction": "Skulle ni hellre rapa pruttar eller prutta eld? Minoriteten tar 2 straff"
       },
       {
-        "id": "p2c85",
+        "id": "p3c85",
         "type": "group",
         "reward": 0,
         "punishment": 0,
         "instruction": "Skulle ni hellre resa 10 år fram eller bak i tiden? minoriteten tar 2 straff"
       },
       {
-        "id": "p2c86",
+        "id": "p3c86",
         "type": "group",
         "reward": 0,
         "punishment": 0,
         "instruction": "Gå runt bordet och säg en plats kan ha sex på säger man samma eller tvekar åker man ut och tar 2 straff"
       },
       {
-        "id": "p2c87",
+        "id": "p3c87",
         "type": "group",
         "reward": 0,
         "punishment": 0,
         "instruction": "Gå runt bordet och säg en sak man kan göra i en bil säger man samma eller tvekar åker man ut och tar 2 straff"
       },
       {
-        "id": "p2c88",
+        "id": "p3c88",
         "type": "group",
         "reward": 0,
         "punishment": 0,
         "instruction": "Gå runt bordet och säg en sak som är hård, säger man samma eller tvekar åker man ut och tar 2 straff"
       },
       {
-        "id": "p2c89",
+        "id": "p3c89",
         "type": "group",
         "reward": 0,
         "punishment": 0,
         "instruction": "Den med högst snap-score tar 2 straff"
       },
       {
-        "id": "p2c90",
+        "id": "p3c90",
         "type": "group",
         "reward": 0,
         "punishment": 0,
         "instruction": "Om ni någonsin haft en dejtingsida online (inte swipe-app, tinder eller liknande) ta 2 straff"
       },
       {
-        "id": "p2c91",
+        "id": "p3c91",
         "type": "group",
         "reward": 0,
         "punishment": 0,
         "instruction": "Alla som uppfyllt sina nyårslöften får dela ut 2 straff"
       },
       {
-        "id": "p2c92",
+        "id": "p3c92",
         "type": "group",
         "reward": 0,
         "punishment": 0,
         "instruction": "Läsaren börjar! Säg ett ord och sen ska nästa person säga det ordet plus ett till, den som gör fel åker ut och tar staff"
       },
       {
-        "id": "p2c93",
+        "id": "p3c93",
         "type": "group",
         "reward": 0,
         "punishment": 0,
@@ -1814,7 +1814,7 @@
         "instruction": "Alla som tycker ananas på pizza är fel tar 3 straff"
       },
       {
-        "id": "p2c95",
+        "id": "p3c95",
         "type": "group",
         "reward": 0,
         "punishment": 0,

@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		123765302874679000968100 /* PackageSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1237652F2874679000968100 /* PackageSelectorView.swift */; };
 		12A1DF502874745A00B90A0D /* PackageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A1DF4F2874745A00B90A0D /* PackageModel.swift */; };
-		12A1DF5428749F4A00B90A0D /* PackageGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A1DF5328749F4A00B90A0D /* PackageGrid.swift */; };
-		12A1DF562874A0CD00B90A0D /* PackageItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A1DF552874A0CD00B90A0D /* PackageItem.swift */; };
+		12A1DF5428749F4A00B90A0D /* PackageList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A1DF5328749F4A00B90A0D /* PackageList.swift */; };
+		12A1DF562874A0CD00B90A0D /* PackageListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A1DF552874A0CD00B90A0D /* PackageListItem.swift */; };
 		12A1DF5A2874E84100B90A0D /* BuyPackagesBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A1DF592874E84100B90A0D /* BuyPackagesBanner.swift */; };
 		12A1DF5E2874F15B00B90A0D /* AppButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A1DF5D2874F15B00B90A0D /* AppButton.swift */; };
 		12A1DF6028758DCE00B90A0D /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A1DF5F28758DCE00B90A0D /* BackButton.swift */; };
@@ -42,8 +42,8 @@
 /* Begin PBXFileReference section */
 		1237652F2874679000968100 /* PackageSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageSelectorView.swift; sourceTree = "<group>"; };
 		12A1DF4F2874745A00B90A0D /* PackageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageModel.swift; sourceTree = "<group>"; };
-		12A1DF5328749F4A00B90A0D /* PackageGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageGrid.swift; sourceTree = "<group>"; };
-		12A1DF552874A0CD00B90A0D /* PackageItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageItem.swift; sourceTree = "<group>"; };
+		12A1DF5328749F4A00B90A0D /* PackageList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageList.swift; sourceTree = "<group>"; };
+		12A1DF552874A0CD00B90A0D /* PackageListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageListItem.swift; sourceTree = "<group>"; };
 		12A1DF592874E84100B90A0D /* BuyPackagesBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyPackagesBanner.swift; sourceTree = "<group>"; };
 		12A1DF5D2874F15B00B90A0D /* AppButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppButton.swift; sourceTree = "<group>"; };
 		12A1DF5F28758DCE00B90A0D /* BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
@@ -88,8 +88,8 @@
 		12A1DF4C287473CD00B90A0D /* PackageGrid */ = {
 			isa = PBXGroup;
 			children = (
-				12A1DF5328749F4A00B90A0D /* PackageGrid.swift */,
-				12A1DF552874A0CD00B90A0D /* PackageItem.swift */,
+				12A1DF5328749F4A00B90A0D /* PackageList.swift */,
+				12A1DF552874A0CD00B90A0D /* PackageListItem.swift */,
 			);
 			path = PackageGrid;
 			sourceTree = "<group>";
@@ -187,8 +187,8 @@
 		12CCD8392870730300D87C4A /* PlayerList */ = {
 			isa = PBXGroup;
 			children = (
-				12CCD83A2870731600D87C4A /* PlayerListRow.swift */,
 				12CCD83C2870777200D87C4A /* PlayerList.swift */,
+				12CCD83A2870731600D87C4A /* PlayerListRow.swift */,
 			);
 			path = PlayerList;
 			sourceTree = "<group>";
@@ -308,7 +308,7 @@
 				12CCD8452872C64800D87C4A /* Typography.swift in Sources */,
 				12A5982D28706D62004F735B /* StartView.swift in Sources */,
 				12CCD83D2870777200D87C4A /* PlayerList.swift in Sources */,
-				12A1DF5428749F4A00B90A0D /* PackageGrid.swift in Sources */,
+				12A1DF5428749F4A00B90A0D /* PackageList.swift in Sources */,
 				12A1DF5E2874F15B00B90A0D /* AppButton.swift in Sources */,
 				12CCD8472872EE7300D87C4A /* RoundsSlider.swift in Sources */,
 				12CCD8492872EE7C00D87C4A /* AddPlayerTextField.swift in Sources */,
@@ -323,7 +323,7 @@
 				12A598192870657C004F735B /* BerusatApp.swift in Sources */,
 				12CCD83B2870731600D87C4A /* PlayerListRow.swift in Sources */,
 				12A1DF742886DD4300B90A0D /* GameState.swift in Sources */,
-				12A1DF562874A0CD00B90A0D /* PackageItem.swift in Sources */,
+				12A1DF562874A0CD00B90A0D /* PackageListItem.swift in Sources */,
 				12CCD8422870862A00D87C4A /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

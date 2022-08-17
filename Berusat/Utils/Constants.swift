@@ -61,8 +61,8 @@ enum AppIcons {
     static let rightArrowIcon = "arrowshape.turn.up.right.fill"
     static let leftArrowIcon = "arrowshape.turn.up.left.fill"
     static let trashIcon = "trash"
-    static let selectedIcon = "checkmark.circle"
-    static let lockIcon = "lock.circle"
+    static let selectedIcon = "checkmark"
+    static let lockIcon = "lock.fill"
     static let closeIcon = "xmark"
     static let menuIcon = "ellipsis.circle"
 }

@@ -19,7 +19,7 @@ struct PackageSelectorView: View {
                 .edgesIgnoringSafeArea(.all)
 
             VStack {
-                PackageGrid(packages: packageState.packages)
+                PackageList(packages: packageState.packages)
 
                 NavigationLink {
                     GameView()

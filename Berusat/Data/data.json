@@ -443,7 +443,7 @@
   },
   {
     "id": "2",
-    "name": "kalas",
+    "name": "Kalas",
     "emoji": "🥳",
     "isLocked": false,
     "challenges": [
@@ -451,905 +451,730 @@
         "id": "p2c1",
         "type": "individual",
         "reward": 5,
-        "punishment": 3,
-        "instruction": "Ring en främling och berätta en hemlighet för dom!"
+        "punishment": 2,
+        "instruction": "Ha ögonkontakt med personen till höger och stöna i 10 sekunder"
       },
       {
         "id": "p2c2",
         "type": "individual",
         "reward": 3,
         "punishment": 2,
-        "instruction": "Hur skulle du försöka få hem någon från krogen? Demonstrera på nån av motsatt kön"
+        "instruction": "Berätta om din senaste lögn"
       },
       {
         "id": "p2c3",
         "type": "individual",
-        "reward": 5,
-        "punishment": 3,
-        "instruction": "Dansa som Michael Jackson till en tryckar-låt"
+        "reward": 3,
+        "punishment": 2,
+        "instruction": "Berätta för gruppen vem du sist sökte upp på sociala medier"
       },
       {
         "id": "p2c4",
         "type": "individual",
-        "reward": 2,
-        "punishment": 2,
-        "instruction": "Visa alla din senaste konversation utan att ta bort nånting"
+        "reward": 4,
+        "punishment": 3,
+        "instruction": "Försök skrämma personen till vänster inom 30 sekunder"
       },
       {
         "id": "p2c5",
         "type": "individual",
         "reward": 4,
-        "punishment": 3,
-        "instruction": "Ta av dig din tröja och torka av bordet!"
+        "punishment": 2,
+        "instruction": "Säg hela alfabetet utan att din läppar nuddar varandra"
       },
       {
         "id": "p2c6",
         "type": "individual",
-        "reward": 3,
-        "punishment": 2,
-        "instruction": "Smsa eller skicka en DM till någon du inte pratat med på över ett år, gruppen bestämmer vad som skrivs"
+        "reward": 5,
+        "punishment": 3,
+        "instruction": "Personen till höger ska ge dig ett sugmärke"
       },
       {
         "id": "p2c7",
         "type": "individual",
-        "reward": 4,
-        "punishment": 2,
-        "instruction": "Lägg en iskub på ditt huvud och vänta tills den har smällt"
+        "reward": 5,
+        "punishment": 3,
+        "instruction": "Peka ut nån du vill hångla med, gör det om den andra vill"
       },
       {
         "id": "p2c8",
         "type": "individual",
-        "reward": 5,
-        "punishment": 4,
-        "instruction": "Gå över till grannen och fråga efter toapapper!"
+        "reward": 4,
+        "punishment": 2,
+        "instruction": "Kasta upp ett popcorn eller något annat snack i luften och fånga det med munnen"
       },
       {
         "id": "p2c9",
         "type": "individual",
-        "reward": 4,
+        "reward": 5,
         "punishment": 3,
-        "instruction": "Ät en skål snacks så fort och så sexigt du kan"
+        "instruction": "Gör din bästa imitation av en gamling"
       },
       {
         "id": "p2c10",
         "type": "individual",
-        "reward": 5,
-        "punishment": 5,
-        "instruction": "Smsa den tredje kontakten på din telefon en påhittad dikt! Gruppen får hjälpa dig skriva den"
+        "reward": 4,
+        "punishment": 2,
+        "instruction": "Visa ditt bästa magitrick!"
       },
       {
         "id": "p2c11",
         "type": "individual",
-        "reward": 3,
+        "reward": 4,
         "punishment": 2,
-        "instruction": "Ät ett paket okokta nudlar"
+        "instruction": "Drick upp din dricka medans du står på ett ben"
       },
       {
         "id": "p2c12",
         "type": "individual",
-        "reward": 4,
-        "punishment": 3,
-        "instruction": "Ställ dig framför en spegel och sjung jag må hen leva till dig själv"
+        "reward": 5,
+        "punishment": 2,
+        "instruction": "Låtsas som att personen till höger har gjort slut och försök övertala dom att forsätta vara tillsammans med dig"
       },
       {
         "id": "p2c13",
         "type": "individual",
-        "reward": 4,
+        "reward": 5,
         "punishment": 3,
-        "instruction": "Ta på dig en ögonbindel, gå sen till kylskåpet. Det första du rör måste du äta upp"
+        "instruction": "Jonglera 2 saker som gruppen väljer ut"
       },
       {
         "id": "p2c14",
         "type": "individual",
         "reward": 5,
         "punishment": 3,
-        "instruction": "Ställ dig utanför din grannes fönster, dansa där tills någon ser dig"
+        "instruction": "Gå på händer i 3 steg "
       },
       {
         "id": "p2c15",
         "type": "individual",
-        "reward": 2,
+        "reward": 5,
         "punishment": 2,
-        "instruction": "Välj en sak och förklara vad det är tills någon i gruppen gissar rätt, misslyckas du får du ta straff"
+        "instruction": "Få en käftsmäll av en annan spelare, du väljer vem"
       },
       {
         "id": "p2c16",
         "type": "individual",
-        "reward": 4,
+        "reward": 5,
         "punishment": 3,
-        "instruction": "Ta straff om du någonsin skvallrat på någon"
+        "instruction": "Imitera en kändis, om ingen gissar rätt får du ta straff"
       },
       {
         "id": "p2c17",
         "type": "individual",
         "reward": 4,
-        "punishment": 3,
-        "instruction": "Beskriv himmelen utan att använda orden, blå och vit. Misslyckas du får du straff"
+        "punishment": 2,
+        "instruction": "Öppna en påse snacks med bara munnen, händer och fötter ej tillåtna"
       },
       {
         "id": "p2c18",
         "type": "individual",
         "reward": 4,
-        "punishment": 4,
-        "instruction": "Du är spider-man! Gör några coola spider-man stunts"
+        "punishment": 3,
+        "instruction": "Sätt dig i en kontorsstol och låt nån spelare snurra dig i 30 sekunder"
       },
       {
         "id": "p2c19",
         "type": "individual",
-        "reward": 5,
-        "punishment": 5,
-        "instruction": "Ta en selfie när du petar dig i näsan, lägg upp den på din story med #LaddaNerBerusatPåAppstore"
+        "reward": 3,
+        "punishment": 2,
+        "instruction": "Imitera en skåning, om du är skåning imitera en stockholmare"
       },
       {
         "id": "p2c20",
         "type": "individual",
-        "reward": 3,
-        "punishment": 5,
-        "instruction": "Ta av dina strumpor med dina tänder"
+        "reward": 4,
+        "punishment": 3,
+        "instruction": "Låt personen till höger rita vad dom vill på din panna"
       },
       {
         "id": "p2c21",
         "type": "individual",
         "reward": 4,
-        "punishment": 4,
-        "instruction": "Låt gruppen bestämma ett objekt du ska borsta tänderna med"
+        "punishment": 3,
+        "instruction": "Dra din röv genom rummet som en hund gör"
       },
       {
         "id": "p2c22",
         "type": "individual",
         "reward": 5,
-        "punishment": 3,
-        "instruction": "Skriv ditt namn med din tunga på bordet"
+        "punishment": 2,
+        "instruction": "Tappa något i toaletten och sen ta upp det igen"
       },
       {
         "id": "p2c23",
         "type": "individual",
         "reward": 5,
-        "punishment": 3,
-        "instruction": "Stoppa en chilinöt eller något annat starkt i näsan och låt den vara där i 1 minut"
+        "punishment": 2,
+        "instruction": "Låt 2 personer i gruppen ge dig en wet willy i varsitt öra"
       },
       {
         "id": "p2c24",
         "type": "individual",
-        "reward": 5,
-        "punishment": 3,
-        "instruction": "Gå ut och yla som en varg i 30 sekunder"
+        "reward": 4,
+        "punishment": 2,
+        "instruction": "Slicka din egen armhåla"
       },
       {
         "id": "p2c25",
         "type": "individual",
-        "reward": 4,
-        "punishment": 4,
-        "instruction": "Låt personen till höger vaxa valfri plats på din kropp med silvertejp"
+        "reward": 5,
+        "punishment": 3,
+        "instruction": "Linda in dig som en mumie i toalett papper"
       },
       {
         "id": "p2c26",
         "type": "individual",
-        "reward": 3,
-        "punishment": 4,
-        "instruction": "Prata jättehögt som att alla andra är halv-döva tills det blir din tur igen"
+        "reward": 4,
+        "punishment": 2,
+        "instruction": "Gör en split!"
       },
       {
         "id": "p2c27",
         "type": "individual",
         "reward": 5,
-        "punishment": 5,
-        "instruction": "Ring ditt ex! Gruppen får bestämma vad du ska säga"
+        "punishment": 3,
+        "instruction": "Drick upp din dricka från en skål på golvet som en hund"
       },
       {
         "id": "p2c28",
         "type": "individual",
-        "reward": 5,
-        "punishment": 5,
-        "instruction": "Ta en shot!"
+        "reward": 3,
+        "punishment": 3,
+        "instruction": "Öppna o stäng kylskåpet 3 gånger på 3 olika sätt"
       },
       {
         "id": "p2c29",
         "type": "individual",
-        "reward": 5,
+        "reward": 4,
         "punishment": 3,
-        "instruction": "Prata med en kudde som att det vore din crush i 30 sekunder"
+        "instruction": "Visa en bild på den person du blir kåt av"
       },
       {
         "id": "p2c30",
         "type": "individual",
-        "reward": 3,
-        "punishment": 4,
-        "instruction": "Låtsas att du är en fågel och ät lite snacks"
+        "reward": 4,
+        "punishment": 3,
+        "instruction": "Låtsas som att du är på en catwalk, gå ut 3 gånger"
       },
       {
         "id": "p2c31",
         "type": "individual",
-        "reward": 5,
-        "punishment": 4,
-        "instruction": "Börja hångla med din hand"
+        "reward": 4,
+        "punishment": 3,
+        "instruction": "Flirta med väggen och låtsas som att den flirtat tillbaks"
       },
       {
         "id": "p2c32",
         "type": "individual",
         "reward": 4,
-        "punishment": 4,
-        "instruction": "Färga en framtand svart (eyeliner funkar!)"
+        "punishment": 2,
+        "instruction": "Visa hur du skulle göra slut med någon på det snällaste sättet du kan"
       },
       {
         "id": "p2c33",
         "type": "individual",
-        "reward": 5,
+        "reward": 4,
         "punishment": 3,
-        "instruction": "Peta näsan på personen till vänster"
+        "instruction": "Gör 25 situps utan att stanna"
       },
       {
         "id": "p2c34",
         "type": "individual",
-        "reward": 3,
+        "reward": 4,
         "punishment": 3,
-        "instruction": "Filmaudition! Låtsas gråt och få fram några tårar"
+        "instruction": "Visa alla den 11 bilden i din kamera rulle"
       },
       {
         "id": "p2c35",
         "type": "individual",
-        "reward": 4,
-        "punishment": 4,
-        "instruction": "Ät lite snacks och drick lite men låtsas att det är jätteäckligt!"
+        "reward": 3,
+        "punishment": 2,
+        "instruction": "Ta straff om du brutit ett ben"
       },
       {
         "id": "p2c36",
         "type": "individual",
         "reward": 4,
-        "punishment": 4,
-        "instruction": "Korsa ögonen varje gång du pratar tills det blir din tur igenl"
+        "punishment": 3,
+        "instruction": "Peka på den som troligtvis måste ljuga på sin datingprofil"
       },
       {
         "id": "p2c37",
         "type": "individual",
-        "reward": 5,
-        "punishment": 4,
-        "instruction": "Introducera dig själv och berätta en hobby du har för gruppen utan att stänga munnen"
+        "reward": 4,
+        "punishment": 2,
+        "instruction": "Peka på den du tror skulle vinna i ett bråk"
       },
       {
         "id": "p2c38",
         "type": "individual",
-        "reward": 5,
-        "punishment": 5,
-        "instruction": "Ha en hettad diskussion med väggen!"
+        "reward": 4,
+        "punishment": 2,
+        "instruction": "Ta straff om du försökt få till det med din kompis ex"
       },
       {
         "id": "p2c39",
         "type": "individual",
-        "reward": 5,
-        "punishment": 2,
-        "instruction": "Rapa alfabetet"
+        "reward": 3,
+        "punishment": 3,
+        "instruction": "Ta straff om du haft minus på kontot"
       },
       {
         "id": "p2c40",
         "type": "individual",
-        "reward": 5,
-        "punishment": 4,
-        "instruction": "Låt någon rita på ditt ansikte med en bläckpenna"
+        "reward": 3,
+        "punishment": 2,
+        "instruction": "Ta staff om du spelat strip-poker"
       },
       {
         "id": "p2c41",
         "type": "individual",
-        "reward": 3,
-        "punishment": 4,
-        "instruction": "Vad är din \"Jag kommer få ligga ikväll\" outfit? Berätta eller ta straff"
+        "reward": 2,
+        "punishment": 3,
+        "instruction": "Ta straff om du somnat på jobbet"
       },
       {
         "id": "p2c42",
         "type": "individual",
         "reward": 4,
-        "punishment": 5,
-        "instruction": "Om du någonsin varit attraherad av samma kön ta poäng"
+        "punishment": 2,
+        "instruction": "Ta straff om du kommer vara bakfull imorgon"
       },
       {
         "id": "p2c43",
         "type": "individual",
         "reward": 2,
-        "punishment": 5,
-        "instruction": "Om du någinsin varit otrogen ta straff"
+        "punishment": 3,
+        "instruction": "Ta staff om du någonsin nakenbadat"
       },
       {
         "id": "p2c44",
         "type": "individual",
-        "reward": 3,
-        "punishment": 4,
-        "instruction": "Om du haft sex i en bil så ta poäng"
+        "reward": 4,
+        "punishment": 3,
+        "instruction": "Säg en person du skulle kunna vara otrogen med"
       },
       {
         "id": "p2c45",
         "type": "individual",
-        "reward": 5,
-        "punishment": 4,
-        "instruction": "Har du några sexts på din telefon? Läs dom några i en dialekt som gruppen bestämmer"
+        "reward": 3,
+        "punishment": 3,
+        "instruction": "Ta straff om du någonsin haft på dig smutsiga kläder för du inte orkat tvätta"
       },
       {
         "id": "p2c46",
         "type": "individual",
         "reward": 3,
         "punishment": 3,
-        "instruction": "Om du legat med fler än 10 personer ta straff"
+        "instruction": "Peka på den som luktar på sina egna fisar"
       },
       {
         "id": "p2c47",
         "type": "individual",
-        "reward": 4,
-        "punishment": 5,
-        "instruction": "Hur ofta kollar du på porr? Om du inte kollar på porr, ta straff"
+        "reward": 3,
+        "punishment": 2,
+        "instruction": "Ta straff om du gett bort en present du fått"
       },
       {
         "id": "p2c48",
         "type": "individual",
         "reward": 4,
-        "punishment": 4,
-        "instruction": "Välj ut 2 personer i rummet du skulle ha trekant med om du var tvungen eller ta straff"
+        "punishment": 3,
+        "instruction": "Berätta om den person du ångrar mest ha legat med"
       },
       {
         "id": "p2c49",
         "type": "individual",
         "reward": 2,
         "punishment": 4,
-        "instruction": "Berätta för gruppen vilken kändis du tycker är sexigaste av samma kön eller ta straff"
+        "instruction": "Berätta nått du är glad över att din mamma inte vet om dig"
       },
       {
         "id": "p2c50",
         "type": "individual",
-        "reward": 2,
-        "punishment": 4,
-        "instruction": "Vem är sexigast i rummet? Berätta eller ta straff"
+        "reward": 4,
+        "punishment": 2,
+        "instruction": "Vad är det mest attraktiva med det motsatta könet?"
       },
       {
         "id": "p2c51",
         "type": "individual",
-        "reward": 2,
-        "punishment": 4,
-        "instruction": "Berätta om en låt som får dig in the mood, om ingen ta straff"
+        "reward": 4,
+        "punishment": 3,
+        "instruction": "Gör armhävningar tills du inte orkar några fler"
       },
       {
         "id": "p2c52",
         "type": "individual",
-        "reward": 4,
-        "punishment": 4,
-        "instruction": "Berätta om den pinsammaste stunden du har blivit upphetsad på"
+        "reward": 2,
+        "punishment": 2,
+        "instruction": "Ta straff om du drägglar i sömnen"
       },
       {
         "id": "p2c53",
         "type": "individual",
-        "reward": 2,
-        "punishment": 3,
-        "instruction": "Föredrar du makeup sex eller argt sex? Om argt ta straff"
+        "reward": 3,
+        "punishment": 2,
+        "instruction": "Berätta om det mest pinsamma du gjort på en date"
       },
       {
         "id": "p2c54",
         "type": "individual",
         "reward": 2,
-        "punishment": 4,
-        "instruction": "Peka på den som skulle kunna datea sina svärföräldrar eller ta straff"
+        "punishment": 2,
+        "instruction": "Berätta om den värsta smärta du varit med om eller ta straff"
       },
       {
         "id": "p2c55",
         "type": "individual",
         "reward": 3,
-        "punishment": 4,
-        "instruction": "Vad skulle du göra om du vakna upp med motsatt kön? Säger du något sexuellt får du ta straff"
+        "punishment": 3,
+        "instruction": "Peka på den du tror kysser sämst eller ta straff"
       },
       {
         "id": "p2c56",
         "type": "individual",
-        "reward": 2,
-        "punishment": 4,
-        "instruction": "Vem i gruppen skulle bryta kontakten med sina vänner för att bli kändis? Ta straff om du inte säger någon"
+        "reward": 3,
+        "punishment": 2,
+        "instruction": "Ta straff om du haft sex på ett flygplan"
       },
       {
         "id": "p2c57",
         "type": "individual",
-        "reward": 2,
-        "punishment": 3,
-        "instruction": "Peka på den i gruppen är minst allmänbildad eller ta straff"
+        "reward": 3,
+        "punishment": 4,
+        "instruction": "Berätta för alla varför det tog slut mellan dig och ditt ex eller ta straff"
       },
       {
         "id": "p2c58",
         "type": "individual",
-        "reward": 3,
-        "punishment": 5,
-        "instruction": "Om du har snokat i din partners telefon ta straff"
+        "reward": 4,
+        "punishment": 3,
+        "instruction": "Gissa allas ålder, får du fel på någon tar du straff"
       },
       {
         "id": "p2c59",
         "type": "individual",
-        "reward": 3,
-        "punishment": 3,
-        "instruction": "Om du någonsin satt i halsen ta straff"
+        "reward": 2,
+        "punishment": 2,
+        "instruction": "Berätta ditt bästa knack knack skämt om ingen skratta så tar du straff"
       },
       {
         "id": "p2c60",
         "type": "individual",
-        "reward": 2,
-        "punishment": 4,
-        "instruction": "Om du stalkat ditt ex ta straff"
+        "reward": 4,
+        "punishment": 3,
+        "instruction": "Ta straff om du någonsin skämts för din partner"
       },
       {
         "id": "p2c61",
         "type": "individual",
-        "reward": 4,
-        "punishment": 4,
-        "instruction": "Peka på den i gruppen som tror på spöken eller ta straff"
+        "reward": 3,
+        "punishment": 2,
+        "instruction": "Ta straff eller peka på den som är störst simp"
       },
       {
         "id": "p2c62",
         "type": "individual",
-        "reward": 4,
-        "punishment": 4,
-        "instruction": "Välj mellan att vara naken hela tiden eller att dina tankar kunde höras av alla, om naken ta straff"
+        "reward": 2,
+        "punishment": 2,
+        "instruction": "Peka på den som är mest sannolik att bli påkörd av en bil som går i 20km/h eller ta straff"
       },
       {
         "id": "p2c63",
         "type": "individual",
         "reward": 2,
-        "punishment": 5,
-        "instruction": "Om du någonsin ätit ditt snor ta straff"
+        "punishment": 2,
+        "instruction": "Peka på den som kommer få ligga ikväll eller ta straff"
       },
       {
         "id": "p2c64",
-        "type": "individual",
-        "reward": 2,
-        "punishment": 4,
-        "instruction": "Peka på den som är värst klädd eller ta straff"
+        "type": "group",
+        "reward": 0,
+        "punishment": 0,
+        "instruction": "Alla pekar på den spelare dom helst skulle vilja vara, den med mest pek tar 3 straff"
       },
       {
         "id": "p2c65",
-        "type": "individual",
-        "reward": 2,
-        "punishment": 3,
-        "instruction": "Om du kollar bort när du ser på skräckfilm ta straff"
+        "type": "group",
+        "reward": 0,
+        "punishment": 0,
+        "instruction": "Brunetter eller blondiner? Minoritetn tar 2 straff"
       },
       {
         "id": "p2c66",
-        "type": "individual",
-        "reward": 3,
-        "punishment": 3,
-        "instruction": "Har någon gått in på toan medans du gjort nummer 2? Ta straff isåfall"
+        "type": "group",
+        "reward": 0,
+        "punishment": 0,
+        "instruction": "Skulle ni hellre se er mamma eller syster på en stripklubb? Minoriteten tar 2 straff "
       },
       {
         "id": "p2c67",
-        "type": "individual",
-        "reward": 3,
-        "punishment": 3,
-        "instruction": "Om du kissat på dig det senaste året ta straff"
+        "type": "group",
+        "reward": 0,
+        "punishment": 0,
+        "instruction": "Skulle ni hellre att ingen dök upp på ert bröllop eller på er begravning? Minoriteten tar 2 straff"
       },
       {
         "id": "p2c68",
-        "type": "individual",
-        "reward": 2,
-        "punishment": 4,
-        "instruction": "Peka på den som absolut inte vill ha sin sökhistorik avslöjad eller ta straff"
+        "type": "group",
+        "reward": 0,
+        "punishment": 0,
+        "instruction": "Alla tar så många straff som antal sexleksaker man äger"
       },
       {
         "id": "p2c69",
-        "type": "individual",
-        "reward": 2,
-        "punishment": 4,
-        "instruction": "Peka på den du gillar minst i rummet eller ta straff"
+        "type": "group",
+        "reward": 0,
+        "punishment": 0,
+        "instruction": "Skulle ni hellre ha på er samma strumpor i en månad eller samma underkläder i en vecka? Minoriteten tar 2 straff"
       },
       {
         "id": "p2c70",
-        "type": "individual",
-        "reward": 3,
-        "punishment": 4,
-        "instruction": "Om du blivit dömd för brott ta straff"
+        "type": "group",
+        "reward": 0,
+        "punishment": 0,
+        "instruction": "Skulle ni hellre spy på er partner eller att er partner spyr på er, minoriteten får ta 2 straff"
       },
       {
         "id": "p2c71",
-        "type": "individual",
-        "reward": 2,
-        "punishment": 2,
-        "instruction": "Vem är din favorit? Mamma(Poäng) eller pappa(straff)"
+        "type": "group",
+        "reward": 0,
+        "punishment": 0,
+        "instruction": "Skulle ni hellre aldrig kunna gå ut när det är mörkt eller när det är ljust ute? Minoriteten tar 2 straff"
       },
       {
         "id": "p2c72",
-        "type": "individual",
-        "reward": 2,
-        "punishment": 4,
-        "instruction": "Peka på den som skulle sälja sitt syskon för en miljon eller ta straff"
+        "type": "group",
+        "reward": 0,
+        "punishment": 0,
+        "instruction": "Skulle ni hellre bli blinda eller tappa minnet, minoriteten får ta 2 straff"
       },
       {
         "id": "p2c73",
-        "type": "individual",
-        "reward": 2,
-        "punishment": 4,
-        "instruction": "Skulle du hellre bli av med dina sex organ eller gå upp 400kilo, om du skulle gå upp 400kilo ta straff"
+        "type": "group",
+        "reward": 0,
+        "punishment": 0,
+        "instruction": "Sätt timer på kameran och ta en gruppbild! Alla måste göra en grimas!"
       },
       {
         "id": "p2c74",
-        "type": "individual",
-        "reward": 2,
-        "punishment": 5,
-        "instruction": "Peka på den som svär mest eller ta straff"
+        "type": "group",
+        "reward": 0,
+        "punishment": 0,
+        "instruction": "Avsluta titeln, \"Fångarna på __ \", den roligaste får dela ut 3 straff"
       },
       {
         "id": "p2c75",
-        "type": "individual",
-        "reward": 2,
-        "punishment": 5,
-        "instruction": "Peka på vem i rummet skulle göra slut med sin partner för 5 miljoner kronor eller ta straff"
-      },
-      {
-        "id": "p2c76",
-        "type": "individual",
-        "reward": 4,
-        "punishment": 5,
-        "instruction": "Förklara vem i rummet som skulle vara värst att dejta eller ta straff"
-      },
-      {
-        "id": "p2c77",
-        "type": "individual",
-        "reward": 3,
-        "punishment": 3,
-        "instruction": "Peka på den som blir värst på skolfotot eller ta straff"
-      },
-      {
-        "id": "p2c78",
-        "type": "individual",
-        "reward": 4,
-        "punishment": 4,
-        "instruction": "Peka på den i rummet som är mammas pojke/flicka eller ta straff"
-      },
-      {
-        "id": "p2c79",
-        "type": "individual",
-        "reward": 2,
-        "punishment": 3,
-        "instruction": "Om du snarkar ta straff"
-      },
-      {
-        "id": "p2c80",
         "type": "group",
         "reward": 0,
         "punishment": 0,
-        "instruction": "Den som blinkar först får ta 4 straff"
-      },
-      {
-        "id": "p2c81",
-        "type": "group",
-        "reward": 0,
-        "punishment": 0,
-        "instruction": "Läsaren börjar viska en mening till personen åt höger om meningen inte är samma när den kommer tillbaks till läsaren får alla ta 4 straff"
-      },
-      {
-        "id": "p2c82",
-        "type": "group",
-        "reward": 0,
-        "punishment": 0,
-        "instruction": "Räck upp handen om du någonsin fakeat en orgasm alla som inte har får ta straff"
-      },
-      {
-        "id": "p2c83",
-        "type": "group",
-        "reward": 0,
-        "punishment": 0,
-        "instruction": "Alla tar så många straff som hur många personer dom haft sex med på en dag"
-      },
-      {
-        "id": "p2c84",
-        "type": "group",
-        "reward": 0,
-        "punishment": 0,
-        "instruction": "Alla visar sitt sexface eller tar två straff"
-      },
-      {
-        "id": "p2c85",
-        "type": "group",
-        "reward": 0,
-        "punishment": 0,
-        "instruction": "Om dina föräldrar haft \"the talk\" med dig ta ett straff"
-      },
-      {
-        "id": "p2c86",
-        "type": "group",
-        "reward": 0,
-        "punishment": 0,
-        "instruction": "Tävla om vem som kan stoppa mest ostbollar, popcorn eller något liknande i munnen den som vinner får dela ut 5 straff"
-      },
-      {
-        "id": "p2c87",
-        "type": "group",
-        "reward": 0,
-        "punishment": 0,
-        "instruction": "Alla som snusar eller röker tar 4 straff"
-      },
-      {
-        "id": "p2c88",
-        "type": "group",
-        "reward": 0,
-        "punishment": 0,
-        "instruction": "Den som rapar sist får ta straff!"
-      },
-      {
-        "id": "p2c89",
-        "type": "group",
-        "reward": 0,
-        "punishment": 0,
-        "instruction": "Alla i gruppen röstar på en person som ska köra karaoke på en låt gruppen väljer"
-      },
-      {
-        "id": "p2c90",
-        "type": "group",
-        "reward": 0,
-        "punishment": 0,
-        "instruction": "Håll andan, den som klarar längst får dela ut 3 straff"
-      },
-      {
-        "id": "p2c91",
-        "type": "group",
-        "reward": 0,
-        "punishment": 0,
-        "instruction": "Gör en mänsklig pyramid, klarar ni inte det får alla ta 5 straff"
-      },
-      {
-        "id": "p2c92",
-        "type": "group",
-        "reward": 0,
-        "punishment": 0,
-        "instruction": "Alla låter som sitt favorit djur eller så tar man 5 straff"
-      },
-      {
-        "id": "p2c93",
-        "type": "group",
-        "reward": 0,
-        "punishment": 0,
-        "instruction": "Gör Mannequin Challenge(black beetles challenge) och lägg upp det på eran story eller ta 5 straff var"
-      },
-      {
-        "id": "p2c94",
-        "type": "group",
-        "reward": 0,
-        "punishment": 0,
-        "instruction": "Bottle flip turnering! Den som vinner får dela ut 4 straff"
-      },
-      {
-        "id": "p2c95",
-        "type": "group",
-        "reward": 0,
-        "punishment": 0,
-        "instruction": "Alla berättar vilken superkraft ni skulle vilja ha och varför"
-      },
-      {
-        "id": "p2c96",
-        "type": "group",
-        "reward": 0,
-        "punishment": 0,
-        "instruction": "Om ni ljugit på ert CV ta 2 straff"
-      },
-      {
-        "id": "p2c97",
-        "type": "group",
-        "reward": 0,
-        "punishment": 0,
-        "instruction": "Alla visar en rolig video, den med roligast video får dela ut 3 straff"
-      },
-      {
-        "id": "p2c98",
-        "type": "group",
-        "reward": 0,
-        "punishment": 0,
-        "instruction": "Den med den dyraste accessoar eller klädesplagg tar 5 straff"
-      },
-      {
-        "id": "p2c99",
-        "type": "group",
-        "reward": 0,
-        "punishment": 0,
-        "instruction": "Ta två mobiler och ring en varsin pizzeria eller resturang, låt dom prata med varandra"
-      },
-      {
-        "id": "p2c100",
-        "type": "group",
-        "reward": 0,
-        "punishment": 0,
-        "instruction": "Rösta på den som lagar bäst mat, vinnaren får dela ut 3 klunkar"
+        "instruction": "Alla tar en isbit i munnen, den som håller ut längst får dela ut 3 straff"
       }
     ]
   },
   {
     "id": "3",
-    "name": "Hettar till",
-    "emoji": "🤪",
+    "name": "förfest",
+    "emoji": "😎",
     "isLocked": false,
     "challenges": [
       {
         "id": "p3c1",
         "type": "individual",
         "reward": 5,
-        "punishment": 4,
-        "instruction": "Doppa dina fötter i toan med strumporna på, ha på dig dom resten av spelet!"
+        "punishment": 3,
+        "instruction": "Ring en främling och berätta en hemlighet för dom!"
       },
       {
         "id": "p3c2",
         "type": "individual",
-        "reward": 4,
-        "punishment": 3,
-        "instruction": "Ge personen till höger en lapdance!"
+        "reward": 3,
+        "punishment": 2,
+        "instruction": "Hur skulle du försöka få hem någon från krogen? Demonstrera på nån av motsatt kön"
       },
       {
         "id": "p3c3",
         "type": "individual",
-        "reward": 3,
+        "reward": 5,
         "punishment": 3,
-        "instruction": "Mata personen till höger lite snacks med din mun"
+        "instruction": "Dansa som Michael Jackson till en tryckar-låt"
       },
       {
         "id": "p3c4",
         "type": "individual",
-        "reward": 4,
-        "punishment": 3,
-        "instruction": "Demonstrera din favorit sexposition för gruppen så detaljerat du kan"
+        "reward": 2,
+        "punishment": 2,
+        "instruction": "Visa alla din senaste konversation utan att ta bort nånting"
       },
       {
         "id": "p3c5",
         "type": "individual",
-        "reward": 5,
-        "punishment": 4,
-        "instruction": "Låt personen till vänster gå igenom din sökhistorik och läsa upp den för gruppen!"
+        "reward": 4,
+        "punishment": 3,
+        "instruction": "Ta av dig din tröja och torka av bordet!"
       },
       {
         "id": "p3c6",
         "type": "individual",
-        "reward": 5,
-        "punishment": 3,
-        "instruction": "Ta av din BH/kalsonger utan att ta av din tröja/byxor"
+        "reward": 3,
+        "punishment": 2,
+        "instruction": "Smsa eller skicka en DM till någon du inte pratat med på över ett år, gruppen bestämmer vad som skrivs"
       },
       {
         "id": "p3c7",
         "type": "individual",
-        "reward": 3,
-        "punishment": 3,
-        "instruction": "Lämna rummet, resten av gruppen häller upp en varsin shot. Kom tillbaka och ta en shot, du ska sitta i knät på den persons shot du tar tills det blir din tur igen"
+        "reward": 4,
+        "punishment": 2,
+        "instruction": "Lägg en iskub på ditt huvud och vänta tills den har smällt"
       },
       {
         "id": "p3c8",
         "type": "individual",
-        "reward": 4,
-        "punishment": 3,
-        "instruction": "Lyft på soffdynorna, om det är något under dom måste du ha det i munnen i tio sekunder"
+        "reward": 5,
+        "punishment": 4,
+        "instruction": "Gå över till grannen och fråga efter toapapper!"
       },
       {
         "id": "p3c9",
         "type": "individual",
-        "reward": 5,
-        "punishment": 5,
-        "instruction": "Låt gruppen mixa ihop en häxdryck som du ska dricka!"
+        "reward": 4,
+        "punishment": 3,
+        "instruction": "Ät en skål snacks så fort och så sexigt du kan"
       },
       {
         "id": "p3c10",
         "type": "individual",
-        "reward": 4,
-        "punishment": 3,
-        "instruction": "Gnugga personen till vänster i armhålorna, lukta sedan på dina fingrar"
+        "reward": 5,
+        "punishment": 5,
+        "instruction": "Smsa den tredje kontakten på din telefon en påhittad dikt! Gruppen får hjälpa dig skriva den"
       },
       {
         "id": "p3c11",
         "type": "individual",
-        "reward": 5,
-        "punishment": 3,
-        "instruction": "Lägg upp en story där du läser upp alla ingredienser i en schampoflaska"
+        "reward": 3,
+        "punishment": 2,
+        "instruction": "Ät ett paket okokta nudlar"
       },
       {
         "id": "p3c12",
         "type": "individual",
-        "reward": 2,
-        "punishment": 4,
-        "instruction": "Ring en butik som har öppet 24/7 och fråga om dom har öppet"
+        "reward": 4,
+        "punishment": 3,
+        "instruction": "Ställ dig framför en spegel och sjung jag må hen leva till dig själv"
       },
       {
         "id": "p3c13",
         "type": "individual",
         "reward": 4,
-        "punishment": 2,
-        "instruction": "Ta en selfie med din toallet och lägg upp den på sociala medier"
+        "punishment": 3,
+        "instruction": "Ta på dig en ögonbindel, gå sen till kylskåpet. Det första du rör måste du äta upp"
       },
       {
         "id": "p3c14",
         "type": "individual",
-        "reward": 4,
-        "punishment": 4,
-        "instruction": "Lukta på allas fötter och ranka dom från bäst till sämst"
+        "reward": 5,
+        "punishment": 3,
+        "instruction": "Ställ dig utanför din grannes fönster, dansa där tills någon ser dig"
       },
       {
         "id": "p3c15",
         "type": "individual",
-        "reward": 4,
+        "reward": 2,
         "punishment": 2,
-        "instruction": "Ring din mamma i panik och berätta att det är omöjligt att hitta en pojk/flick - vän"
+        "instruction": "Välj en sak och förklara vad det är tills någon i gruppen gissar rätt, misslyckas du får du ta straff"
       },
       {
         "id": "p3c16",
         "type": "individual",
-        "reward": 5,
+        "reward": 4,
         "punishment": 3,
-        "instruction": "Lägg upp en story där du gråter för du blivit adopterad"
+        "instruction": "Ta straff om du någonsin skvallrat på någon"
       },
       {
         "id": "p3c17",
         "type": "individual",
         "reward": 4,
-        "punishment": 4,
-        "instruction": "Fyll din mun med vatten, alla i gruppen ska säga sitt roligaste skämt spottar du ut vattnet får du ta straff"
+        "punishment": 3,
+        "instruction": "Beskriv himmelen utan att använda orden, blå och vit. Misslyckas du får du straff"
       },
       {
         "id": "p3c18",
         "type": "individual",
         "reward": 4,
         "punishment": 4,
-        "instruction": "Gör din roligaste grimas, om ingen skrattar får du ta straff"
+        "instruction": "Du är spider-man! Gör några coola spider-man stunts"
       },
       {
         "id": "p3c19",
         "type": "individual",
         "reward": 5,
-        "punishment": 3,
-        "instruction": "Låt varje spelare smiska dig på rumpan"
+        "punishment": 5,
+        "instruction": "Ta en selfie när du petar dig i näsan, lägg upp den på din story med #LaddaNerBerusatPåAppstore"
       },
       {
         "id": "p3c20",
         "type": "individual",
-        "reward": 5,
-        "punishment": 3,
-        "instruction": "Ta ett varv runt kvarteret i dina underkläder!"
+        "reward": 3,
+        "punishment": 5,
+        "instruction": "Ta av dina strumpor med dina tänder"
       },
       {
         "id": "p3c21",
         "type": "individual",
-        "reward": 3,
-        "punishment": 2,
-        "instruction": "Visa alla dina breakdance skills"
+        "reward": 4,
+        "punishment": 4,
+        "instruction": "Låt gruppen bestämma ett objekt du ska borsta tänderna med"
       },
       {
         "id": "p3c22",
         "type": "individual",
         "reward": 5,
         "punishment": 3,
-        "instruction": "Låt nån i gruppen klippa ditt hår!"
+        "instruction": "Skriv ditt namn med din tunga på bordet"
       },
       {
         "id": "p3c23",
         "type": "individual",
-        "reward": 3,
+        "reward": 5,
         "punishment": 3,
-        "instruction": "Sätt på alla dina kläder backlänges"
+        "instruction": "Stoppa en chilinöt eller något annat starkt i näsan och låt den vara där i 1 minut"
       },
       {
         "id": "p3c24",
         "type": "individual",
-        "reward": 3,
+        "reward": 5,
         "punishment": 3,
-        "instruction": "låt nån i gruppen noppa ett av dina näshår"
+        "instruction": "Gå ut och yla som en varg i 30 sekunder"
       },
       {
         "id": "p3c25",
         "type": "individual",
-        "reward": 5,
-        "punishment": 3,
-        "instruction": "Slicka toasitsen!"
+        "reward": 4,
+        "punishment": 4,
+        "instruction": "Låt personen till höger vaxa valfri plats på din kropp med silvertejp"
       },
       {
         "id": "p3c26",
         "type": "individual",
-        "reward": 5,
-        "punishment": 2,
-        "instruction": "Knacka på grannens dörr och fråga om dom har en extra kondom"
+        "reward": 3,
+        "punishment": 4,
+        "instruction": "Prata jättehögt som att alla andra är halv-döva tills det blir din tur igen"
       },
       {
         "id": "p3c27",
         "type": "individual",
-        "reward": 3,
-        "punishment": 3,
-        "instruction": "Använd dina fötter som händer tills det blir din tur igen"
+        "reward": 5,
+        "punishment": 5,
+        "instruction": "Ring ditt ex! Gruppen får bestämma vad du ska säga"
       },
       {
         "id": "p3c28",
         "type": "individual",
         "reward": 5,
-        "punishment": 3,
-        "instruction": "Ta på dig en ögonbindel och ät det gruppen serverar!"
+        "punishment": 5,
+        "instruction": "Ta en shot!"
       },
       {
         "id": "p3c29",
@@ -1361,505 +1186,505 @@
       {
         "id": "p3c30",
         "type": "individual",
-        "reward": 4,
+        "reward": 3,
         "punishment": 4,
-        "instruction": "Läs ett stycke i en artikel som gruppen väljer så sexigt du kan"
+        "instruction": "Låtsas att du är en fågel och ät lite snacks"
       },
       {
         "id": "p3c31",
         "type": "individual",
-        "reward": 4,
+        "reward": 5,
         "punishment": 4,
-        "instruction": "Gör den första tiktok dansen som poppar upp i din fyp"
+        "instruction": "Börja hångla med din hand"
       },
       {
         "id": "p3c32",
         "type": "individual",
-        "reward": 3,
-        "punishment": 2,
-        "instruction": "Gör din bästa imitation av en fisk som inte är i vatten"
+        "reward": 4,
+        "punishment": 4,
+        "instruction": "Färga en framtand svart (eyeliner funkar!)"
       },
       {
         "id": "p3c33",
         "type": "individual",
-        "reward": 3,
-        "punishment": 4,
-        "instruction": "Roasta personen till vänster med ett ord"
+        "reward": 5,
+        "punishment": 3,
+        "instruction": "Peta näsan på personen till vänster"
       },
       {
         "id": "p3c34",
         "type": "individual",
-        "reward": 4,
+        "reward": 3,
         "punishment": 3,
-        "instruction": "Gör ditt bästa dirty talk till personen åt vänster"
+        "instruction": "Filmaudition! Låtsas gråt och få fram några tårar"
       },
       {
         "id": "p3c35",
         "type": "individual",
-        "reward": 5,
-        "punishment": 3,
-        "instruction": "Raka av ett ögonbryn"
+        "reward": 4,
+        "punishment": 4,
+        "instruction": "Ät lite snacks och drick lite men låtsas att det är jätteäckligt!"
       },
       {
         "id": "p3c36",
         "type": "individual",
         "reward": 4,
-        "punishment": 3,
-        "instruction": "Visa dina underkläder för gruppen"
+        "punishment": 4,
+        "instruction": "Korsa ögonen varje gång du pratar tills det blir din tur igenl"
       },
       {
         "id": "p3c37",
         "type": "individual",
-        "reward": 2,
-        "punishment": 3,
-        "instruction": "Berätta för gruppen vad du skulle önska dig om du fick tre önskningar"
+        "reward": 5,
+        "punishment": 4,
+        "instruction": "Introducera dig själv och berätta en hobby du har för gruppen utan att stänga munnen"
       },
       {
         "id": "p3c38",
         "type": "individual",
-        "reward": 4,
-        "punishment": 2,
-        "instruction": "Kör armbrytning med personen till vänster förlorar du tar du straff"
+        "reward": 5,
+        "punishment": 5,
+        "instruction": "Ha en hettad diskussion med väggen!"
       },
       {
         "id": "p3c39",
         "type": "individual",
-        "reward": 3,
-        "punishment": 3,
-        "instruction": "Gör en kullerbytta"
+        "reward": 5,
+        "punishment": 2,
+        "instruction": "Rapa alfabetet"
       },
       {
         "id": "p3c40",
         "type": "individual",
         "reward": 5,
         "punishment": 4,
-        "instruction": "Om du var yngre än 16 när du först blev full ta straff"
+        "instruction": "Låt någon rita på ditt ansikte med en bläckpenna"
       },
       {
         "id": "p3c41",
         "type": "individual",
         "reward": 3,
-        "punishment": 2,
-        "instruction": "Om du kissar i duschen ta staff"
+        "punishment": 4,
+        "instruction": "Vad är din \"Jag kommer få ligga ikväll\" outfit? Berätta eller ta straff"
       },
       {
         "id": "p3c42",
         "type": "individual",
-        "reward": 2,
-        "punishment": 4,
-        "instruction": "Om du har känslor för ditt ex så ta straff"
+        "reward": 4,
+        "punishment": 5,
+        "instruction": "Om du någonsin varit attraherad av samma kön ta poäng"
       },
       {
         "id": "p3c43",
         "type": "individual",
         "reward": 2,
-        "punishment": 3,
-        "instruction": "Peka på den som är mest sannolik att vara kriminell"
+        "punishment": 5,
+        "instruction": "Om du någinsin varit otrogen ta straff"
       },
       {
         "id": "p3c44",
         "type": "individual",
         "reward": 3,
         "punishment": 4,
-        "instruction": "Ta straff om du blivit utslängd från krogen"
+        "instruction": "Om du haft sex i en bil så ta poäng"
       },
       {
         "id": "p3c45",
         "type": "individual",
-        "reward": 3,
-        "punishment": 3,
-        "instruction": "Ta straff om du någonsin gett ut ett fake telefonnummer"
+        "reward": 5,
+        "punishment": 4,
+        "instruction": "Har du några sexts på din telefon? Läs dom några i en dialekt som gruppen bestämmer"
       },
       {
         "id": "p3c46",
         "type": "individual",
         "reward": 3,
         "punishment": 3,
-        "instruction": "Peka på den som skulle kunna datea sin chef"
+        "instruction": "Om du legat med fler än 10 personer ta straff"
       },
       {
         "id": "p3c47",
         "type": "individual",
         "reward": 4,
         "punishment": 5,
-        "instruction": "Ta straff om du någonsin fakeat vara sjuk för att slippa dina planer"
+        "instruction": "Hur ofta kollar du på porr? Om du inte kollar på porr, ta straff"
       },
       {
         "id": "p3c48",
         "type": "individual",
-        "reward": 2,
+        "reward": 4,
         "punishment": 4,
-        "instruction": "Peka på den som du tror är mest sexuellt aktiv"
+        "instruction": "Välj ut 2 personer i rummet du skulle ha trekant med om du var tvungen eller ta straff"
       },
       {
         "id": "p3c49",
         "type": "individual",
         "reward": 2,
         "punishment": 4,
-        "instruction": "Om du tror på astrologi ta straff"
+        "instruction": "Berätta för gruppen vilken kändis du tycker är sexigaste av samma kön eller ta straff"
       },
       {
         "id": "p3c50",
         "type": "individual",
         "reward": 2,
-        "punishment": 3,
-        "instruction": "Ta straff om du någonsin använt ett fake-legg"
+        "punishment": 4,
+        "instruction": "Vem är sexigast i rummet? Berätta eller ta straff"
       },
       {
         "id": "p3c51",
         "type": "individual",
-        "reward": 3,
-        "punishment": 2,
-        "instruction": "Om du någonsin skickat ett sext till fel person, ta straff och berätta till vem"
+        "reward": 2,
+        "punishment": 4,
+        "instruction": "Berätta om en låt som får dig in the mood, om ingen ta straff"
       },
       {
         "id": "p3c52",
         "type": "individual",
-        "reward": 2,
-        "punishment": 2,
-        "instruction": "Om du skickat nudes nångång ta straff"
+        "reward": 4,
+        "punishment": 4,
+        "instruction": "Berätta om den pinsammaste stunden du har blivit upphetsad på"
       },
       {
         "id": "p3c53",
         "type": "individual",
         "reward": 2,
         "punishment": 3,
-        "instruction": "Ta straff om du någonsin stulit nånting"
+        "instruction": "Föredrar du makeup sex eller argt sex? Om argt ta straff"
       },
       {
         "id": "p3c54",
         "type": "individual",
         "reward": 2,
-        "punishment": 3,
-        "instruction": "Om du har en lista med bebis namn ta straff"
+        "punishment": 4,
+        "instruction": "Peka på den som skulle kunna datea sina svärföräldrar eller ta straff"
       },
       {
         "id": "p3c55",
         "type": "individual",
         "reward": 3,
-        "punishment": 3,
-        "instruction": "Vem i gruppen skulle du helst datea?"
+        "punishment": 4,
+        "instruction": "Vad skulle du göra om du vakna upp med motsatt kön? Säger du något sexuellt får du ta straff"
       },
       {
         "id": "p3c56",
         "type": "individual",
         "reward": 2,
-        "punishment": 2,
-        "instruction": "Om du har nånting snuskigt i ditt nattduksbord ta straff"
+        "punishment": 4,
+        "instruction": "Vem i gruppen skulle bryta kontakten med sina vänner för att bli kändis? Ta straff om du inte säger någon"
       },
       {
         "id": "p3c57",
         "type": "individual",
-        "reward": 3,
+        "reward": 2,
         "punishment": 3,
-        "instruction": "Ta poäng om du haft en trekant"
+        "instruction": "Peka på den i gruppen är minst allmänbildad eller ta straff"
       },
       {
         "id": "p3c58",
         "type": "individual",
-        "reward": 4,
-        "punishment": 2,
-        "instruction": "Berätta för alla om ditt senaste ligg eller ta straff"
+        "reward": 3,
+        "punishment": 5,
+        "instruction": "Om du har snokat i din partners telefon ta straff"
       },
       {
         "id": "p3c59",
         "type": "individual",
-        "reward": 2,
-        "punishment": 2,
-        "instruction": "Peka på den du tror är mest sannolik att ha gjort en hemma gjord porrfilm"
+        "reward": 3,
+        "punishment": 3,
+        "instruction": "Om du någonsin satt i halsen ta straff"
       },
       {
         "id": "p3c60",
         "type": "individual",
-        "reward": 4,
-        "punishment": 3,
-        "instruction": "Om du någonsin ringt ditt ex på fyllan ta straff"
+        "reward": 2,
+        "punishment": 4,
+        "instruction": "Om du stalkat ditt ex ta straff"
       },
       {
         "id": "p3c61",
         "type": "individual",
-        "reward": 5,
+        "reward": 4,
         "punishment": 4,
-        "instruction": "Säg en sak du skulle ändra på varje spelare"
+        "instruction": "Peka på den i gruppen som tror på spöken eller ta straff"
       },
       {
         "id": "p3c62",
         "type": "individual",
-        "reward": 5,
-        "punishment": 3,
-        "instruction": "Säg namnet på en person du låtsats gilla men egentligen hatar"
+        "reward": 4,
+        "punishment": 4,
+        "instruction": "Välj mellan att vara naken hela tiden eller att dina tankar kunde höras av alla, om naken ta straff"
       },
       {
         "id": "p3c63",
         "type": "individual",
-        "reward": 3,
-        "punishment": 3,
-        "instruction": "Berätta om den värsta daten du varit på"
+        "reward": 2,
+        "punishment": 5,
+        "instruction": "Om du någonsin ätit ditt snor ta straff"
       },
       {
         "id": "p3c64",
         "type": "individual",
         "reward": 2,
         "punishment": 4,
-        "instruction": "Om det inte fanns några konsekvenser för en dag, vad skulle du göra?"
+        "instruction": "Peka på den som är värst klädd eller ta straff"
       },
       {
         "id": "p3c65",
         "type": "individual",
         "reward": 2,
-        "punishment": 2,
-        "instruction": "Säg din favoritserie om alla inte har sett den får du ta straff"
+        "punishment": 3,
+        "instruction": "Om du kollar bort när du ser på skräckfilm ta straff"
       },
       {
         "id": "p3c66",
         "type": "individual",
-        "reward": 2,
-        "punishment": 2,
-        "instruction": "Peka på den som det gick sämst för i skolan"
+        "reward": 3,
+        "punishment": 3,
+        "instruction": "Har någon gått in på toan medans du gjort nummer 2? Ta straff isåfall"
       },
       {
         "id": "p3c67",
         "type": "individual",
-        "reward": 5,
+        "reward": 3,
         "punishment": 3,
-        "instruction": "Berätta för gruppen om ditt bästa sex i detalj eller ta straff"
+        "instruction": "Om du kissat på dig det senaste året ta straff"
       },
       {
         "id": "p3c68",
         "type": "individual",
         "reward": 2,
-        "punishment": 3,
-        "instruction": "Om du onanerat idag ta straff"
+        "punishment": 4,
+        "instruction": "Peka på den som absolut inte vill ha sin sökhistorik avslöjad eller ta straff"
       },
       {
         "id": "p3c69",
         "type": "individual",
-        "reward": 4,
-        "punishment": 2,
-        "instruction": "Om du haft sex idag ta poäng"
+        "reward": 2,
+        "punishment": 4,
+        "instruction": "Peka på den du gillar minst i rummet eller ta straff"
       },
       {
         "id": "p3c70",
         "type": "individual",
-        "reward": 2,
-        "punishment": 3,
-        "instruction": "Om du testat droger ta straff"
+        "reward": 3,
+        "punishment": 4,
+        "instruction": "Om du blivit dömd för brott ta straff"
       },
       {
         "id": "p3c71",
         "type": "individual",
-        "reward": 4,
+        "reward": 2,
         "punishment": 2,
-        "instruction": "Om du legat på rygg och tappat mobilen i ansiktet ta straff"
+        "instruction": "Vem är din favorit? Mamma(Poäng) eller pappa(straff)"
       },
       {
         "id": "p3c72",
         "type": "individual",
         "reward": 2,
-        "punishment": 3,
-        "instruction": "Om du blivit rånad eller bestulen på något ta straff"
+        "punishment": 4,
+        "instruction": "Peka på den som skulle sälja sitt syskon för en miljon eller ta straff"
       },
       {
         "id": "p3c73",
         "type": "individual",
         "reward": 2,
-        "punishment": 3,
-        "instruction": "Peka på den som är mest sannolik att kalla sin lärare för mamma/pappa"
+        "punishment": 4,
+        "instruction": "Skulle du hellre bli av med dina sex organ eller gå upp 400kilo, om du skulle gå upp 400kilo ta straff"
       },
       {
         "id": "p3c74",
         "type": "individual",
         "reward": 2,
-        "punishment": 3,
-        "instruction": "Peka på den som ljuger om vad dom röstar på"
+        "punishment": 5,
+        "instruction": "Peka på den som svär mest eller ta straff"
       },
       {
         "id": "p3c75",
         "type": "individual",
         "reward": 2,
-        "punishment": 3,
-        "instruction": "Ta straff om du varit kär i din kompis "
+        "punishment": 5,
+        "instruction": "Peka på vem i rummet skulle göra slut med sin partner för 5 miljoner kronor eller ta straff"
       },
       {
         "id": "p3c76",
         "type": "individual",
-        "reward": 2,
+        "reward": 4,
         "punishment": 5,
-        "instruction": "Ta straff om du stulit pengar från dina föräldrar"
+        "instruction": "Förklara vem i rummet som skulle vara värst att dejta eller ta straff"
       },
       {
         "id": "p3c77",
         "type": "individual",
         "reward": 3,
         "punishment": 3,
-        "instruction": "Peka på den som är mest sannolik att göra slut på sms"
+        "instruction": "Peka på den som blir värst på skolfotot eller ta straff"
       },
       {
         "id": "p3c78",
         "type": "individual",
-        "reward": 2,
-        "punishment": 2,
-        "instruction": "Peka på den som vill vara med i Paradise hotell"
+        "reward": 4,
+        "punishment": 4,
+        "instruction": "Peka på den i rummet som är mammas pojke/flicka eller ta straff"
       },
       {
         "id": "p3c79",
         "type": "individual",
-        "reward": 4,
-        "punishment": 4,
-        "instruction": "Ta straff om du ljugit under spelets gång"
+        "reward": 2,
+        "punishment": 3,
+        "instruction": "Om du snarkar ta straff"
       },
       {
         "id": "p3c80",
         "type": "group",
         "reward": 0,
         "punishment": 0,
-        "instruction": "Sista personen som ställer sig upp får ta 2 straff, läsaren får ta 1 straff oavsett"
+        "instruction": "Den som blinkar först får ta 4 straff"
       },
       {
         "id": "p3c81",
         "type": "group",
         "reward": 0,
         "punishment": 0,
-        "instruction": "Om ni har haft fler relationer än engångsligg får ni ta straff"
+        "instruction": "Läsaren börjar viska en mening till personen åt höger om meningen inte är samma när den kommer tillbaks till läsaren får alla ta 4 straff"
       },
       {
         "id": "p3c82",
         "type": "group",
         "reward": 0,
         "punishment": 0,
-        "instruction": "Alla gör en armhävning för varje person som är kortare än dig i spelet, den som är längst får ta 2 straff"
+        "instruction": "Räck upp handen om du någonsin fakeat en orgasm alla som inte har får ta straff"
       },
       {
         "id": "p3c83",
         "type": "group",
         "reward": 0,
         "punishment": 0,
-        "instruction": "Vad häller man först, Flingor eller mjölk? Minoriteten får ta 2 straff"
+        "instruction": "Alla tar så många straff som hur många personer dom haft sex med på en dag"
       },
       {
         "id": "p3c84",
         "type": "group",
         "reward": 0,
         "punishment": 0,
-        "instruction": "Skulle ni hellre rapa pruttar eller prutta eld? Minoriteten tar 2 straff"
+        "instruction": "Alla visar sitt sexface eller tar två straff"
       },
       {
         "id": "p3c85",
         "type": "group",
         "reward": 0,
         "punishment": 0,
-        "instruction": "Skulle ni hellre resa 10 år fram eller bak i tiden? minoriteten tar 2 straff"
+        "instruction": "Om dina föräldrar haft \"the talk\" med dig ta ett straff"
       },
       {
         "id": "p3c86",
         "type": "group",
         "reward": 0,
         "punishment": 0,
-        "instruction": "Gå runt bordet och säg en plats kan ha sex på säger man samma eller tvekar åker man ut och tar 2 straff"
+        "instruction": "Tävla om vem som kan stoppa mest ostbollar, popcorn eller något liknande i munnen den som vinner får dela ut 5 straff"
       },
       {
         "id": "p3c87",
         "type": "group",
         "reward": 0,
         "punishment": 0,
-        "instruction": "Gå runt bordet och säg en sak man kan göra i en bil säger man samma eller tvekar åker man ut och tar 2 straff"
+        "instruction": "Alla som snusar eller röker tar 4 straff"
       },
       {
         "id": "p3c88",
         "type": "group",
         "reward": 0,
         "punishment": 0,
-        "instruction": "Gå runt bordet och säg en sak som är hård, säger man samma eller tvekar åker man ut och tar 2 straff"
+        "instruction": "Den som rapar sist får ta straff!"
       },
       {
         "id": "p3c89",
         "type": "group",
         "reward": 0,
         "punishment": 0,
-        "instruction": "Den med högst snap-score tar 2 straff"
+        "instruction": "Alla i gruppen röstar på en person som ska köra karaoke på en låt gruppen väljer"
       },
       {
         "id": "p3c90",
         "type": "group",
         "reward": 0,
         "punishment": 0,
-        "instruction": "Om ni någonsin haft en dejtingsida online (inte swipe-app, tinder eller liknande) ta 2 straff"
+        "instruction": "Håll andan, den som klarar längst får dela ut 3 straff"
       },
       {
         "id": "p3c91",
         "type": "group",
         "reward": 0,
         "punishment": 0,
-        "instruction": "Alla som uppfyllt sina nyårslöften får dela ut 2 straff"
+        "instruction": "Gör en mänsklig pyramid, klarar ni inte det får alla ta 5 straff"
       },
       {
         "id": "p3c92",
         "type": "group",
         "reward": 0,
         "punishment": 0,
-        "instruction": "Läsaren börjar! Säg ett ord och sen ska nästa person säga det ordet plus ett till, den som gör fel åker ut och tar staff"
+        "instruction": "Alla låter som sitt favorit djur eller så tar man 5 straff"
       },
       {
         "id": "p3c93",
         "type": "group",
         "reward": 0,
         "punishment": 0,
-        "instruction": "Om man aldrig åkt fritt fall tar man 2 straff"
+        "instruction": "Gör Mannequin Challenge(black beetles challenge) och lägg upp det på eran story eller ta 5 straff var"
       },
       {
         "id": "p3c94",
         "type": "group",
         "reward": 0,
         "punishment": 0,
-        "instruction": "Alla som tycker ananas på pizza är fel tar 3 straff"
+        "instruction": "Bottle flip turnering! Den som vinner får dela ut 4 straff"
       },
       {
         "id": "p3c95",
         "type": "group",
         "reward": 0,
         "punishment": 0,
-        "instruction": "Den som legat med den äldsta personen tar 2 straff"
+        "instruction": "Alla berättar vilken superkraft ni skulle vilja ha och varför"
       },
       {
         "id": "p3c96",
         "type": "group",
         "reward": 0,
         "punishment": 0,
-        "instruction": "Alla som är allergiska mot nånting får ta 2 straff"
+        "instruction": "Om ni ljugit på ert CV ta 2 straff"
       },
       {
         "id": "p3c97",
         "type": "group",
         "reward": 0,
         "punishment": 0,
-        "instruction": "Den som varit i minst antal land tar 2 straff"
+        "instruction": "Alla visar en rolig video, den med roligast video får dela ut 3 straff"
       },
       {
         "id": "p3c98",
         "type": "group",
         "reward": 0,
         "punishment": 0,
-        "instruction": "Alla i gruppen berättar sin ide om en handling till en porrfilm, vinnaren får dela ut 3 straff"
+        "instruction": "Den med den dyraste accessoar eller klädesplagg tar 5 straff"
       },
       {
         "id": "p3c99",
         "type": "group",
         "reward": 0,
         "punishment": 0,
-        "instruction": "Om ni är bukis med någon av spelarna tar ni 3 straff"
+        "instruction": "Ta två mobiler och ring en varsin pizzeria eller resturang, låt dom prata med varandra"
       },
       {
         "id": "p3c100",
         "type": "group",
         "reward": 0,
         "punishment": 0,
-        "instruction": "Alla som fått sparken nångång tar 2 straff"
+        "instruction": "Rösta på den som lagar bäst mat, vinnaren får dela ut 3 klunkar"
       }
     ]
   },
   {
     "id": "4",
-    "name": "Galet",
+    "name": "Fest",
     "emoji": "🤩",
     "isLocked": false,
     "challenges": [
@@ -2562,6 +2387,714 @@
         "reward": 0,
         "punishment": 0,
         "instruction": "Alla gör ett pappersflygplan, det som flyger längst får dela ut 5 straff"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Efterfest",
+    "emoji": "😵‍💫",
+    "isLocked": false,
+    "challenges": [
+      {
+        "id": "p5c1",
+        "type": "individual",
+        "reward": 5,
+        "punishment": 4,
+        "instruction": "Doppa dina fötter i toan med strumporna på, ha på dig dom resten av spelet!"
+      },
+      {
+        "id": "p5c2",
+        "type": "individual",
+        "reward": 4,
+        "punishment": 3,
+        "instruction": "Ge personen till höger en lapdance!"
+      },
+      {
+        "id": "p5c3",
+        "type": "individual",
+        "reward": 3,
+        "punishment": 3,
+        "instruction": "Mata personen till höger lite snacks med din mun"
+      },
+      {
+        "id": "p5c4",
+        "type": "individual",
+        "reward": 4,
+        "punishment": 3,
+        "instruction": "Demonstrera din favorit sexposition för gruppen så detaljerat du kan"
+      },
+      {
+        "id": "p5c5",
+        "type": "individual",
+        "reward": 5,
+        "punishment": 4,
+        "instruction": "Låt personen till vänster gå igenom din sökhistorik och läsa upp den för gruppen!"
+      },
+      {
+        "id": "p5c6",
+        "type": "individual",
+        "reward": 5,
+        "punishment": 3,
+        "instruction": "Ta av din BH/kalsonger utan att ta av din tröja/byxor"
+      },
+      {
+        "id": "p5c7",
+        "type": "individual",
+        "reward": 3,
+        "punishment": 3,
+        "instruction": "Lämna rummet, resten av gruppen häller upp en varsin shot. Kom tillbaka och ta en shot, du ska sitta i knät på den persons shot du tar tills det blir din tur igen"
+      },
+      {
+        "id": "p5c8",
+        "type": "individual",
+        "reward": 4,
+        "punishment": 3,
+        "instruction": "Lyft på soffdynorna, om det är något under dom måste du ha det i munnen i tio sekunder"
+      },
+      {
+        "id": "p5c9",
+        "type": "individual",
+        "reward": 5,
+        "punishment": 5,
+        "instruction": "Låt gruppen mixa ihop en häxdryck som du ska dricka!"
+      },
+      {
+        "id": "p5c10",
+        "type": "individual",
+        "reward": 4,
+        "punishment": 3,
+        "instruction": "Gnugga personen till vänster i armhålorna, lukta sedan på dina fingrar"
+      },
+      {
+        "id": "p5c11",
+        "type": "individual",
+        "reward": 5,
+        "punishment": 3,
+        "instruction": "Lägg upp en story där du läser upp alla ingredienser i en schampoflaska"
+      },
+      {
+        "id": "p5c12",
+        "type": "individual",
+        "reward": 2,
+        "punishment": 4,
+        "instruction": "Ring en butik som har öppet 24/7 och fråga om dom har öppet"
+      },
+      {
+        "id": "p5c13",
+        "type": "individual",
+        "reward": 4,
+        "punishment": 2,
+        "instruction": "Ta en selfie med din toallet och lägg upp den på sociala medier"
+      },
+      {
+        "id": "p5c14",
+        "type": "individual",
+        "reward": 4,
+        "punishment": 4,
+        "instruction": "Lukta på allas fötter och ranka dom från bäst till sämst"
+      },
+      {
+        "id": "p5c15",
+        "type": "individual",
+        "reward": 4,
+        "punishment": 2,
+        "instruction": "Ring din mamma i panik och berätta att det är omöjligt att hitta en pojk/flick - vän"
+      },
+      {
+        "id": "p5c16",
+        "type": "individual",
+        "reward": 5,
+        "punishment": 3,
+        "instruction": "Lägg upp en story där du gråter för du blivit adopterad"
+      },
+      {
+        "id": "p5c17",
+        "type": "individual",
+        "reward": 4,
+        "punishment": 4,
+        "instruction": "Fyll din mun med vatten, alla i gruppen ska säga sitt roligaste skämt spottar du ut vattnet får du ta straff"
+      },
+      {
+        "id": "p5c18",
+        "type": "individual",
+        "reward": 4,
+        "punishment": 4,
+        "instruction": "Gör din roligaste grimas, om ingen skrattar får du ta straff"
+      },
+      {
+        "id": "p5c19",
+        "type": "individual",
+        "reward": 5,
+        "punishment": 3,
+        "instruction": "Låt varje spelare smiska dig på rumpan"
+      },
+      {
+        "id": "p5c20",
+        "type": "individual",
+        "reward": 5,
+        "punishment": 3,
+        "instruction": "Ta ett varv runt kvarteret i dina underkläder!"
+      },
+      {
+        "id": "p5c21",
+        "type": "individual",
+        "reward": 3,
+        "punishment": 2,
+        "instruction": "Visa alla dina breakdance skills"
+      },
+      {
+        "id": "p5c22",
+        "type": "individual",
+        "reward": 5,
+        "punishment": 3,
+        "instruction": "Låt nån i gruppen klippa ditt hår!"
+      },
+      {
+        "id": "p5c23",
+        "type": "individual",
+        "reward": 3,
+        "punishment": 3,
+        "instruction": "Sätt på alla dina kläder backlänges"
+      },
+      {
+        "id": "p5c24",
+        "type": "individual",
+        "reward": 3,
+        "punishment": 3,
+        "instruction": "låt nån i gruppen noppa ett av dina näshår"
+      },
+      {
+        "id": "p5c25",
+        "type": "individual",
+        "reward": 5,
+        "punishment": 3,
+        "instruction": "Slicka toasitsen!"
+      },
+      {
+        "id": "p5c26",
+        "type": "individual",
+        "reward": 5,
+        "punishment": 2,
+        "instruction": "Knacka på grannens dörr och fråga om dom har en extra kondom"
+      },
+      {
+        "id": "p5c27",
+        "type": "individual",
+        "reward": 3,
+        "punishment": 3,
+        "instruction": "Använd dina fötter som händer tills det blir din tur igen"
+      },
+      {
+        "id": "p5c28",
+        "type": "individual",
+        "reward": 5,
+        "punishment": 3,
+        "instruction": "Ta på dig en ögonbindel och ät det gruppen serverar!"
+      },
+      {
+        "id": "p5c29",
+        "type": "individual",
+        "reward": 5,
+        "punishment": 3,
+        "instruction": "Prata med en kudde som att det vore din crush i 30 sekunder"
+      },
+      {
+        "id": "p5c30",
+        "type": "individual",
+        "reward": 4,
+        "punishment": 4,
+        "instruction": "Läs ett stycke i en artikel som gruppen väljer så sexigt du kan"
+      },
+      {
+        "id": "p5c31",
+        "type": "individual",
+        "reward": 4,
+        "punishment": 4,
+        "instruction": "Gör den första tiktok dansen som poppar upp i din fyp"
+      },
+      {
+        "id": "p5c32",
+        "type": "individual",
+        "reward": 3,
+        "punishment": 2,
+        "instruction": "Gör din bästa imitation av en fisk som inte är i vatten"
+      },
+      {
+        "id": "p5c33",
+        "type": "individual",
+        "reward": 3,
+        "punishment": 4,
+        "instruction": "Roasta personen till vänster med ett ord"
+      },
+      {
+        "id": "p5c34",
+        "type": "individual",
+        "reward": 4,
+        "punishment": 3,
+        "instruction": "Gör ditt bästa dirty talk till personen åt vänster"
+      },
+      {
+        "id": "p5c35",
+        "type": "individual",
+        "reward": 5,
+        "punishment": 3,
+        "instruction": "Raka av ett ögonbryn"
+      },
+      {
+        "id": "p5c36",
+        "type": "individual",
+        "reward": 4,
+        "punishment": 3,
+        "instruction": "Visa dina underkläder för gruppen"
+      },
+      {
+        "id": "p5c37",
+        "type": "individual",
+        "reward": 2,
+        "punishment": 3,
+        "instruction": "Berätta för gruppen vad du skulle önska dig om du fick tre önskningar"
+      },
+      {
+        "id": "p5c38",
+        "type": "individual",
+        "reward": 4,
+        "punishment": 2,
+        "instruction": "Kör armbrytning med personen till vänster förlorar du tar du straff"
+      },
+      {
+        "id": "p5c39",
+        "type": "individual",
+        "reward": 3,
+        "punishment": 3,
+        "instruction": "Gör en kullerbytta"
+      },
+      {
+        "id": "p5c40",
+        "type": "individual",
+        "reward": 5,
+        "punishment": 4,
+        "instruction": "Om du var yngre än 16 när du först blev full ta straff"
+      },
+      {
+        "id": "p5c41",
+        "type": "individual",
+        "reward": 3,
+        "punishment": 2,
+        "instruction": "Om du kissar i duschen ta staff"
+      },
+      {
+        "id": "p5c42",
+        "type": "individual",
+        "reward": 2,
+        "punishment": 4,
+        "instruction": "Om du har känslor för ditt ex så ta straff"
+      },
+      {
+        "id": "p5c43",
+        "type": "individual",
+        "reward": 2,
+        "punishment": 3,
+        "instruction": "Peka på den som är mest sannolik att vara kriminell"
+      },
+      {
+        "id": "p5c44",
+        "type": "individual",
+        "reward": 3,
+        "punishment": 4,
+        "instruction": "Ta straff om du blivit utslängd från krogen"
+      },
+      {
+        "id": "p5c45",
+        "type": "individual",
+        "reward": 3,
+        "punishment": 3,
+        "instruction": "Ta straff om du någonsin gett ut ett fake telefonnummer"
+      },
+      {
+        "id": "p5c46",
+        "type": "individual",
+        "reward": 3,
+        "punishment": 3,
+        "instruction": "Peka på den som skulle kunna datea sin chef"
+      },
+      {
+        "id": "p5c47",
+        "type": "individual",
+        "reward": 4,
+        "punishment": 5,
+        "instruction": "Ta straff om du någonsin fakeat vara sjuk för att slippa dina planer"
+      },
+      {
+        "id": "p5c48",
+        "type": "individual",
+        "reward": 2,
+        "punishment": 4,
+        "instruction": "Peka på den som du tror är mest sexuellt aktiv"
+      },
+      {
+        "id": "p5c49",
+        "type": "individual",
+        "reward": 2,
+        "punishment": 4,
+        "instruction": "Om du tror på astrologi ta straff"
+      },
+      {
+        "id": "p5c50",
+        "type": "individual",
+        "reward": 2,
+        "punishment": 3,
+        "instruction": "Ta straff om du någonsin använt ett fake-legg"
+      },
+      {
+        "id": "p5c51",
+        "type": "individual",
+        "reward": 3,
+        "punishment": 2,
+        "instruction": "Om du någonsin skickat ett sext till fel person, ta straff och berätta till vem"
+      },
+      {
+        "id": "p5c52",
+        "type": "individual",
+        "reward": 2,
+        "punishment": 2,
+        "instruction": "Om du skickat nudes nångång ta straff"
+      },
+      {
+        "id": "p5c53",
+        "type": "individual",
+        "reward": 2,
+        "punishment": 3,
+        "instruction": "Ta straff om du någonsin stulit nånting"
+      },
+      {
+        "id": "p5c54",
+        "type": "individual",
+        "reward": 2,
+        "punishment": 3,
+        "instruction": "Om du har en lista med bebis namn ta straff"
+      },
+      {
+        "id": "p5c55",
+        "type": "individual",
+        "reward": 3,
+        "punishment": 3,
+        "instruction": "Vem i gruppen skulle du helst datea?"
+      },
+      {
+        "id": "p5c56",
+        "type": "individual",
+        "reward": 2,
+        "punishment": 2,
+        "instruction": "Om du har nånting snuskigt i ditt nattduksbord ta straff"
+      },
+      {
+        "id": "p5c57",
+        "type": "individual",
+        "reward": 3,
+        "punishment": 3,
+        "instruction": "Ta poäng om du haft en trekant"
+      },
+      {
+        "id": "p5c58",
+        "type": "individual",
+        "reward": 4,
+        "punishment": 2,
+        "instruction": "Berätta för alla om ditt senaste ligg eller ta straff"
+      },
+      {
+        "id": "p5c59",
+        "type": "individual",
+        "reward": 2,
+        "punishment": 2,
+        "instruction": "Peka på den du tror är mest sannolik att ha gjort en hemma gjord porrfilm"
+      },
+      {
+        "id": "p5c60",
+        "type": "individual",
+        "reward": 4,
+        "punishment": 3,
+        "instruction": "Om du någonsin ringt ditt ex på fyllan ta straff"
+      },
+      {
+        "id": "p5c61",
+        "type": "individual",
+        "reward": 5,
+        "punishment": 4,
+        "instruction": "Säg en sak du skulle ändra på varje spelare"
+      },
+      {
+        "id": "p5c62",
+        "type": "individual",
+        "reward": 5,
+        "punishment": 3,
+        "instruction": "Säg namnet på en person du låtsats gilla men egentligen hatar"
+      },
+      {
+        "id": "p5c63",
+        "type": "individual",
+        "reward": 3,
+        "punishment": 3,
+        "instruction": "Berätta om den värsta daten du varit på"
+      },
+      {
+        "id": "p5c64",
+        "type": "individual",
+        "reward": 2,
+        "punishment": 4,
+        "instruction": "Om det inte fanns några konsekvenser för en dag, vad skulle du göra?"
+      },
+      {
+        "id": "p5c65",
+        "type": "individual",
+        "reward": 2,
+        "punishment": 2,
+        "instruction": "Säg din favoritserie om alla inte har sett den får du ta straff"
+      },
+      {
+        "id": "p5c66",
+        "type": "individual",
+        "reward": 2,
+        "punishment": 2,
+        "instruction": "Peka på den som det gick sämst för i skolan"
+      },
+      {
+        "id": "p5c67",
+        "type": "individual",
+        "reward": 5,
+        "punishment": 3,
+        "instruction": "Berätta för gruppen om ditt bästa sex i detalj eller ta straff"
+      },
+      {
+        "id": "p5c68",
+        "type": "individual",
+        "reward": 2,
+        "punishment": 3,
+        "instruction": "Om du onanerat idag ta straff"
+      },
+      {
+        "id": "p5c69",
+        "type": "individual",
+        "reward": 4,
+        "punishment": 2,
+        "instruction": "Om du haft sex idag ta poäng"
+      },
+      {
+        "id": "p5c70",
+        "type": "individual",
+        "reward": 2,
+        "punishment": 3,
+        "instruction": "Om du testat droger ta straff"
+      },
+      {
+        "id": "p5c71",
+        "type": "individual",
+        "reward": 4,
+        "punishment": 2,
+        "instruction": "Om du legat på rygg och tappat mobilen i ansiktet ta straff"
+      },
+      {
+        "id": "p5c72",
+        "type": "individual",
+        "reward": 2,
+        "punishment": 3,
+        "instruction": "Om du blivit rånad eller bestulen på något ta straff"
+      },
+      {
+        "id": "p5c73",
+        "type": "individual",
+        "reward": 2,
+        "punishment": 3,
+        "instruction": "Peka på den som är mest sannolik att kalla sin lärare för mamma/pappa"
+      },
+      {
+        "id": "p5c74",
+        "type": "individual",
+        "reward": 2,
+        "punishment": 3,
+        "instruction": "Peka på den som ljuger om vad dom röstar på"
+      },
+      {
+        "id": "p5c75",
+        "type": "individual",
+        "reward": 2,
+        "punishment": 3,
+        "instruction": "Ta straff om du varit kär i din kompis "
+      },
+      {
+        "id": "p5c76",
+        "type": "individual",
+        "reward": 2,
+        "punishment": 5,
+        "instruction": "Ta straff om du stulit pengar från dina föräldrar"
+      },
+      {
+        "id": "p5c77",
+        "type": "individual",
+        "reward": 3,
+        "punishment": 3,
+        "instruction": "Peka på den som är mest sannolik att göra slut på sms"
+      },
+      {
+        "id": "p5c78",
+        "type": "individual",
+        "reward": 2,
+        "punishment": 2,
+        "instruction": "Peka på den som vill vara med i Paradise hotell"
+      },
+      {
+        "id": "p5c79",
+        "type": "individual",
+        "reward": 4,
+        "punishment": 4,
+        "instruction": "Ta straff om du ljugit under spelets gång"
+      },
+      {
+        "id": "p5c80",
+        "type": "group",
+        "reward": 0,
+        "punishment": 0,
+        "instruction": "Sista personen som ställer sig upp får ta 2 straff, läsaren får ta 1 straff oavsett"
+      },
+      {
+        "id": "p5c81",
+        "type": "group",
+        "reward": 0,
+        "punishment": 0,
+        "instruction": "Om ni har haft fler relationer än engångsligg får ni ta straff"
+      },
+      {
+        "id": "p5c82",
+        "type": "group",
+        "reward": 0,
+        "punishment": 0,
+        "instruction": "Alla gör en armhävning för varje person som är kortare än dig i spelet, den som är längst får ta 2 straff"
+      },
+      {
+        "id": "p5c83",
+        "type": "group",
+        "reward": 0,
+        "punishment": 0,
+        "instruction": "Vad häller man först, Flingor eller mjölk? Minoriteten får ta 2 straff"
+      },
+      {
+        "id": "p5c84",
+        "type": "group",
+        "reward": 0,
+        "punishment": 0,
+        "instruction": "Skulle ni hellre rapa pruttar eller prutta eld? Minoriteten tar 2 straff"
+      },
+      {
+        "id": "p5c85",
+        "type": "group",
+        "reward": 0,
+        "punishment": 0,
+        "instruction": "Skulle ni hellre resa 10 år fram eller bak i tiden? minoriteten tar 2 straff"
+      },
+      {
+        "id": "p5c86",
+        "type": "group",
+        "reward": 0,
+        "punishment": 0,
+        "instruction": "Gå runt bordet och säg en plats kan ha sex på säger man samma eller tvekar åker man ut och tar 2 straff"
+      },
+      {
+        "id": "p5c87",
+        "type": "group",
+        "reward": 0,
+        "punishment": 0,
+        "instruction": "Gå runt bordet och säg en sak man kan göra i en bil säger man samma eller tvekar åker man ut och tar 2 straff"
+      },
+      {
+        "id": "p5c88",
+        "type": "group",
+        "reward": 0,
+        "punishment": 0,
+        "instruction": "Gå runt bordet och säg en sak som är hård, säger man samma eller tvekar åker man ut och tar 2 straff"
+      },
+      {
+        "id": "p5c89",
+        "type": "group",
+        "reward": 0,
+        "punishment": 0,
+        "instruction": "Den med högst snap-score tar 2 straff"
+      },
+      {
+        "id": "p5c90",
+        "type": "group",
+        "reward": 0,
+        "punishment": 0,
+        "instruction": "Om ni någonsin haft en dejtingsida online (inte swipe-app, tinder eller liknande) ta 2 straff"
+      },
+      {
+        "id": "p5c91",
+        "type": "group",
+        "reward": 0,
+        "punishment": 0,
+        "instruction": "Alla som uppfyllt sina nyårslöften får dela ut 2 straff"
+      },
+      {
+        "id": "p5c92",
+        "type": "group",
+        "reward": 0,
+        "punishment": 0,
+        "instruction": "Läsaren börjar! Säg ett ord och sen ska nästa person säga det ordet plus ett till, den som gör fel åker ut och tar staff"
+      },
+      {
+        "id": "p5c93",
+        "type": "group",
+        "reward": 0,
+        "punishment": 0,
+        "instruction": "Om man aldrig åkt fritt fall tar man 2 straff"
+      },
+      {
+        "id": "p5c94",
+        "type": "group",
+        "reward": 0,
+        "punishment": 0,
+        "instruction": "Alla som tycker ananas på pizza är fel tar 3 straff"
+      },
+      {
+        "id": "p5c95",
+        "type": "group",
+        "reward": 0,
+        "punishment": 0,
+        "instruction": "Den som legat med den äldsta personen tar 2 straff"
+      },
+      {
+        "id": "p5c96",
+        "type": "group",
+        "reward": 0,
+        "punishment": 0,
+        "instruction": "Alla som är allergiska mot nånting får ta 2 straff"
+      },
+      {
+        "id": "p5c97",
+        "type": "group",
+        "reward": 0,
+        "punishment": 0,
+        "instruction": "Den som varit i minst antal land tar 2 straff"
+      },
+      {
+        "id": "p5c98",
+        "type": "group",
+        "reward": 0,
+        "punishment": 0,
+        "instruction": "Alla i gruppen berättar sin ide om en handling till en porrfilm, vinnaren får dela ut 3 straff"
+      },
+      {
+        "id": "p5c99",
+        "type": "group",
+        "reward": 0,
+        "punishment": 0,
+        "instruction": "Om ni är bukis med någon av spelarna tar ni 3 straff"
+      },
+      {
+        "id": "p5c100",
+        "type": "group",
+        "reward": 0,
+        "punishment": 0,
+        "instruction": "Alla som fått sparken nångång tar 2 straff"
       }
     ]
   }

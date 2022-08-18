@@ -11,14 +11,13 @@ struct PlayerList: View {
     var players: [Player]
 
     var body: some View {
-        List(players) { player in
-            PlayerListRow(player: player)
-                .buttonStyle(.plain)
-                .listRowSeparator(.hidden)
-                .listRowInsets(EdgeInsets(.zero))
+        ScrollView {
+            VStack(spacing: Space.lg) {
+                ForEach(players) { player in
+                    PlayerListRow(player: player)
+                }
+            }
         }
-        .ignoresSafeArea(.all)
-        .listStyle(.plain)
     }
 }
 

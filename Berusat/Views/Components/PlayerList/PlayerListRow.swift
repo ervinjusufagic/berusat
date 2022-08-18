@@ -45,9 +45,10 @@ struct PlayerListRow: View {
                         Image(systemName: AppIcons.trashIcon)
                             .foregroundColor(.red)
                             .frame(width: Space.fivexl, height: Space.fivexl)
+                            .scaleEffect(1.3)
                     }
                 }
-                .padding(.horizontal)
+                .padding([.horizontal], Space.md)
                 
                 Spacer()
                 

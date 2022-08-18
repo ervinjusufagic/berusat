@@ -70,7 +70,6 @@ struct PackageListItem: View {
             }
 
             .padding([.horizontal], Space.lg)
-            .padding([.vertical], Space.sm)
         }
     }
 }

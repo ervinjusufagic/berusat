@@ -13,12 +13,13 @@ struct PackageList: View {
 
     var body: some View {
         ScrollView {
-            VStack {
+            VStack(spacing: Space.lg) {
                 ForEach(packages) { package in
                     PackageListItem(package: package)
                 }
                 PackageListItem(package: mixedPackage)
             }
+            .padding([.top], Space.lg)
         }
     }
 }

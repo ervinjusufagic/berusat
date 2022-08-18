@@ -9,6 +9,7 @@ import Foundation
 
 final class PackageState: ObservableObject {
     @Published var packages: [Package] = AppUtility.loadJSON("data.json")
+    @Published var showingHowToPlay: Bool = false
 
     func getMixedPackage() -> Package {
         var challenges: [Challenge] = []

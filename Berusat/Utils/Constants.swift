@@ -11,6 +11,7 @@ import Foundation
 
 struct AppText {
     static let appTitle = "berusat"
+    static let packageText = "Paket"
     static let roundsSliderLabel = "Rundor"
     static let playerTextFieldPlaceholder = "Lägg till spelare.."
     static let startButtonText = "Starta"
@@ -21,6 +22,9 @@ struct AppText {
     static let playAgain = "Spela igen!"
     static let continueText = "Fortsätt!"
     static let closeGame = "Avsluta spel"
+    static let understandText = "Förstått!"
+    static let infoTitle = "Hur man spelar"
+    static let howToPlay = "1. Läs utmaningen på kortet \n\n 2. Försök genomföra utmaningen, ta poäng eller straff beroende på om du lyckas eller inte \n\n 3. Efter en runda har gått kommer det komma en grupputmaning som alla ska delta i. \n\n 4. När alla rundor är klara kommer ni få se erat resultat. \n\n Straffen för grupputmaningarna och dom individuella utmaningarna kan ni själva välja vad det ska vara."
 }
 
 // MARK: Color
@@ -65,6 +69,7 @@ enum AppIcons {
     static let lockIcon = "lock.fill"
     static let closeIcon = "xmark"
     static let menuIcon = "ellipsis.circle"
+    static let infoIcon = "info.circle"
 }
 
 // MARK: Space

@@ -2394,7 +2394,7 @@
     "id": "5",
     "name": "Efterfest",
     "emoji": "😵‍💫",
-    "isLocked": true,
+    "isLocked": false,
     "challenges": [
       {
         "id": "p5c1",

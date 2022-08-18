@@ -53,12 +53,29 @@ struct PackageSelectorView: View {
             }
 
             ToolbarItem(placement: .principal) {
-                Typography(text: "Paket", size: TextSize.body)
+                Typography(text: AppText.packageText, size: TextSize.body)
                     .minimumScaleFactor(0.5)
                     .fixedSize(horizontal: true, vertical: false)
             }
-        }
 
+            ToolbarItem(placement: .navigationBarTrailing) {
+                Menu {
+                    Button {
+                        packageState.showingHowToPlay = true
+                    } label: {
+                        Label(AppText.infoTitle, systemImage: AppIcons.infoIcon)
+                    }
+
+                } label: {
+                    Image(systemName: AppIcons.menuIcon)
+                        .resizable()
+                        .foregroundColor(Color(AppColor.lightColor))
+                }
+            }
+        }
+        .alert(isPresented: $packageState.showingHowToPlay) {
+            Alert(title: Text(AppText.infoTitle), message: Text(AppText.howToPlay), dismissButton: .default(Text(AppText.understandText)))
+        }
         .gesture(DragGesture().updating($dragOffset, body: { value, _, _ in
             if value.startLocation.x < 20, value.translation.width > 100 {
                 self.mode.wrappedValue.dismiss()

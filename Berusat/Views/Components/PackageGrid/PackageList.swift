@@ -9,22 +9,26 @@ import SwiftUI
 
 struct PackageList: View {
     var packages: [Package]
+    var mixedPackage: Package
 
     var body: some View {
-        List(packages) { package in
-            PackageListItem(package: package)
-                .buttonStyle(.plain)
-                .listRowSeparator(.hidden)
-                .listRowInsets(EdgeInsets(.zero))
+        ScrollView {
+            VStack {
+                ForEach(packages) { package in
+                    PackageListItem(package: package)
+                }
+                PackageListItem(package: mixedPackage)
+            }
         }
-        .ignoresSafeArea(.all)
-        .listStyle(.plain)
     }
 }
 
 struct PackageGrid_Previews: PreviewProvider {
     static var previews: some View {
-        PackageList(packages: PackageState().packages)
-            .environmentObject(UserSettingsState())
+        PackageList(
+            packages: PackageState().packages,
+            mixedPackage: PackageState().packages[0]
+        )
+        .environmentObject(UserSettingsState())
     }
 }

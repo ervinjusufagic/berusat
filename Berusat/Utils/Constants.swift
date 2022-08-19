@@ -111,7 +111,7 @@ enum K {
     static let appFontName: String = "Cupid-deer"
     static let minPlayers: Int = 2
     static let minRounds: Double = 3
-    static let defaultRounds: Double = 7
+    static let defaultRounds: Double = 5
     static let maxRounds: Double = 10
 }
 

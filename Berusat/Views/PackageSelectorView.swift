@@ -69,6 +69,7 @@ struct PackageSelectorView: View {
                 } label: {
                     Image(systemName: AppIcons.menuIcon)
                         .resizable()
+                        .frame(width: Space.threexl, height: Space.threexl)
                         .foregroundColor(Color(AppColor.lightColor))
                 }
             }

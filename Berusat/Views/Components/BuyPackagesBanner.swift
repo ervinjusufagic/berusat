@@ -16,8 +16,8 @@ struct BuyPackagesBanner: View {
                 .ignoresSafeArea(.all)
 
             VStack {
-                Typography(text: "🎉 Lås upp alla paket! 🎉", size: TextSize.mediumBody)
-                Typography(text: "99kr engånskostnad!", size: TextSize.mediumBody)
+                Typography(text: "🎉 Premium 🎉", size: TextSize.mediumBody)
+                Typography(text: "🎉 Alla paket + framtida paket + blandat 🎉", size: TextSize.smallBody)
             }
             .frame(maxWidth: .infinity)
             .background(Color(AppColor.darkColor))

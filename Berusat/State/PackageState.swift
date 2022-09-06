@@ -41,6 +41,7 @@ final class PackageState: ObservableObject {
     func purchasePremium() {
         PurchaseService.purchase(productId: K.premiumId) {
             self.userPurchases[K.premiumId] = true
+            self.isPremium = true
         }
     }
 

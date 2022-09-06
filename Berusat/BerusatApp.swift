@@ -16,7 +16,6 @@ struct BerusatApp: App {
     @StateObject var packageState = PackageState()
 
     init() {
-        Purchases.logLevel = .debug
         Purchases.configure(withAPIKey: K.revenueCatAPIKey)
     }
 

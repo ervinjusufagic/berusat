@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		121FB59728C689A6009386EB /* RevenueCat in Frameworks */ = {isa = PBXBuildFile; productRef = 121FB59628C689A6009386EB /* RevenueCat */; };
+		121FB59928C68AF9009386EB /* PurchaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121FB59828C68AF9009386EB /* PurchaseService.swift */; };
 		123765302874679000968100 /* PackageSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1237652F2874679000968100 /* PackageSelectorView.swift */; };
 		1289F83628B5352C007315E6 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1289F83528B5352C007315E6 /* Launch Screen.storyboard */; };
 		12A1DF502874745A00B90A0D /* PackageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A1DF4F2874745A00B90A0D /* PackageModel.swift */; };
@@ -28,6 +30,7 @@
 		12A598202870657C004F735B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12A5981F2870657C004F735B /* Preview Assets.xcassets */; };
 		12A5982D28706D62004F735B /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A5982C28706D62004F735B /* StartView.swift */; };
 		12B07749289D3A9000229C73 /* GameViewAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B07748289D3A9000229C73 /* GameViewAnimations.swift */; };
+		12C2717628C67E800042DC44 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12C2717528C67E800042DC44 /* StoreKit.framework */; };
 		12CCD83B2870731600D87C4A /* PlayerListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CCD83A2870731600D87C4A /* PlayerListRow.swift */; };
 		12CCD83D2870777200D87C4A /* PlayerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CCD83C2870777200D87C4A /* PlayerList.swift */; };
 		12CCD83F287085FB00D87C4A /* CupidDeer.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12CCD83E287085FB00D87C4A /* CupidDeer.ttf */; };
@@ -41,6 +44,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		121FB59828C68AF9009386EB /* PurchaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseService.swift; sourceTree = "<group>"; };
 		1237652F2874679000968100 /* PackageSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageSelectorView.swift; sourceTree = "<group>"; };
 		1289F83528B5352C007315E6 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		12A1DF4F2874745A00B90A0D /* PackageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageModel.swift; sourceTree = "<group>"; };
@@ -64,6 +68,7 @@
 		12A5982A28706C96004F735B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12A5982C28706D62004F735B /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 		12B07748289D3A9000229C73 /* GameViewAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewAnimations.swift; sourceTree = "<group>"; };
+		12C2717528C67E800042DC44 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		12CCD83A2870731600D87C4A /* PlayerListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerListRow.swift; sourceTree = "<group>"; };
 		12CCD83C2870777200D87C4A /* PlayerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerList.swift; sourceTree = "<group>"; };
 		12CCD83E287085FB00D87C4A /* CupidDeer.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CupidDeer.ttf; sourceTree = "<group>"; };
@@ -81,6 +86,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				121FB59728C689A6009386EB /* RevenueCat in Frameworks */,
+				12C2717628C67E800042DC44 /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,6 +128,7 @@
 			children = (
 				12A598172870657C004F735B /* Berusat */,
 				12A598162870657C004F735B /* Products */,
+				12C2717428C67E800042DC44 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -187,6 +195,14 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		12C2717428C67E800042DC44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12C2717528C67E800042DC44 /* StoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		12CCD8392870730300D87C4A /* PlayerList */ = {
 			isa = PBXGroup;
 			children = (
@@ -201,6 +217,7 @@
 			children = (
 				12CCD8412870862A00D87C4A /* Constants.swift */,
 				12A1DF652875C8B700B90A0D /* AppUtility.swift */,
+				121FB59828C68AF9009386EB /* PurchaseService.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -246,6 +263,9 @@
 			dependencies = (
 			);
 			name = Berusat;
+			packageProductDependencies = (
+				121FB59628C689A6009386EB /* RevenueCat */,
+			);
 			productName = Berusat;
 			productReference = 12A598152870657C004F735B /* Berusat.app */;
 			productType = "com.apple.product-type.application";
@@ -274,6 +294,9 @@
 				Base,
 			);
 			mainGroup = 12A5980C2870657C004F735B;
+			packageReferences = (
+				121FB59528C689A6009386EB /* XCRemoteSwiftPackageReference "purchases-ios" */,
+			);
 			productRefGroup = 12A598162870657C004F735B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -323,6 +346,7 @@
 				12A1DF78288D8A3500B90A0D /* AppState.swift in Sources */,
 				12A1DF682875CBD300B90A0D /* GameView.swift in Sources */,
 				12A1DF76288B086900B90A0D /* ScoreView.swift in Sources */,
+				121FB59928C68AF9009386EB /* PurchaseService.swift in Sources */,
 				12A1DF5A2874E84100B90A0D /* BuyPackagesBanner.swift in Sources */,
 				12A598192870657C004F735B /* BerusatApp.swift in Sources */,
 				12CCD83B2870731600D87C4A /* PlayerListRow.swift in Sources */,
@@ -457,7 +481,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Berusat/Preview Content\"";
-				DEVELOPMENT_TEAM = TU27QV98PQ;
+				DEVELOPMENT_TEAM = MJ3TTHU6HT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Berusat/Info.plist;
@@ -474,7 +498,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ervintechAB.Berusat;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ervintechAB.berusatapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -487,10 +511,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Berusat/Preview Content\"";
-				DEVELOPMENT_TEAM = TU27QV98PQ;
+				DEVELOPMENT_TEAM = MJ3TTHU6HT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Berusat/Info.plist;
@@ -507,8 +532,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ervintechAB.Berusat;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ervintechAB.berusatapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -537,6 +563,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		121FB59528C689A6009386EB /* XCRemoteSwiftPackageReference "purchases-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RevenueCat/purchases-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		121FB59628C689A6009386EB /* RevenueCat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 121FB59528C689A6009386EB /* XCRemoteSwiftPackageReference "purchases-ios" */;
+			productName = RevenueCat;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 12A5980D2870657C004F735B /* Project object */;
 }

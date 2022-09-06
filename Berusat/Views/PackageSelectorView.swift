@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct PackageSelectorView: View {
-    @StateObject var packageState = PackageState()
+    @EnvironmentObject var packageState: PackageState
     @EnvironmentObject var userSettingsState: UserSettingsState
     @GestureState private var dragOffset = CGSize.zero
     @Environment(\.presentationMode) var mode: Binding<PresentationMode>
@@ -19,7 +19,7 @@ struct PackageSelectorView: View {
                 .edgesIgnoringSafeArea(.all)
 
             VStack {
-                PackageList(packages: packageState.packages, mixedPackage: packageState.getMixedPackage())
+                PackageList()
 
                 NavigationLink {
                     GameView()
@@ -29,10 +29,12 @@ struct PackageSelectorView: View {
                 .isDetailLink(false)
                 .padding([.all], Space.lg)
 
-                Button {
-                    print("banner pressed")
-                } label: {
-                    BuyPackagesBanner()
+                if !packageState.isPremium {
+                    Button {
+                        packageState.purchasePremium()
+                    } label: {
+                        BuyPackagesBanner()
+                    }
                 }
             }
             .padding([.top], Space.xs)
@@ -64,6 +66,12 @@ struct PackageSelectorView: View {
                         packageState.showingHowToPlay = true
                     } label: {
                         Label(AppText.infoTitle, systemImage: AppIcons.infoIcon)
+                    }
+
+                    Button {
+                        packageState.restorePurchases()
+                    } label: {
+                        Label(AppText.restorePurchasesText, systemImage: AppIcons.restoreIcon)
                     }
 
                 } label: {

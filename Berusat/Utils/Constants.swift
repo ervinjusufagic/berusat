@@ -24,6 +24,9 @@ struct AppText {
     static let closeGame = "Avsluta spel"
     static let understandText = "Förstått!"
     static let infoTitle = "Hur man spelar"
+    static let groupChallengeText = "Grupputmaning!"
+    static let restorePurchasesText = "Återställ köp"
+    static let goBackText = "Tillbaka"
     static let howToPlay = "1. Läs utmaningen på kortet \n\n 2. Försök genomföra utmaningen, ta poäng eller straff beroende på om du lyckas eller inte \n\n 3. Efter en runda har gått kommer det komma en grupputmaning som alla ska delta i. \n\n 4. När alla rundor är klara kommer ni få se erat resultat. \n\n Straffen för grupputmaningarna och dom individuella utmaningarna kan ni själva välja vad det ska vara."
 }
 
@@ -70,6 +73,7 @@ enum AppIcons {
     static let closeIcon = "xmark"
     static let menuIcon = "ellipsis.circle"
     static let infoIcon = "info.circle"
+    static let restoreIcon = "arrow.counterclockwise.circle"
 }
 
 // MARK: Space
@@ -113,6 +117,16 @@ enum K {
     static let minRounds: Double = 3
     static let defaultRounds: Double = 5
     static let maxRounds: Double = 10
+    static let revenueCatAPIKey: String = "appl_hRpIenjRhYHWlDksyWMBNVeEAmM"
+    static let freePackageId: String = "btfruktstund"
+    static let premiumId: String = "btpremium"
+    static let dataFile: String = "data.json"
+
+    enum mixedPackage {
+        static let id: String = "btblandat"
+        static let name: String = "blandat"
+        static let emoji: String = "♾️"
+    }
 }
 
 // MARK: Mocks
@@ -141,7 +155,6 @@ enum Mocks {
     static let mockPackage = Package(
         id: "1",
         name: "mockpackage",
-        isLocked: false,
         emoji: "😀",
         challenges: mockChallenges)
 }

@@ -1,9 +1,8 @@
 [
   {
-    "id": "1",
+    "id": "btfruktstund",
     "name": "frukstund",
     "emoji": "😇",
-    "isLocked": false,
     "challenges": [
       {
         "id": "p1c1",
@@ -442,10 +441,9 @@
     ]
   },
   {
-    "id": "2",
+    "id": "btkalas",
     "name": "Kalas",
     "emoji": "🥳",
-    "isLocked": false,
     "challenges": [
       {
         "id": "p2c1",
@@ -975,10 +973,9 @@
     ]
   },
   {
-    "id": "3",
+    "id": "btforfest",
     "name": "förfest",
     "emoji": "😎",
-    "isLocked": false,
     "challenges": [
       {
         "id": "p3c1",
@@ -1683,10 +1680,9 @@
     ]
   },
   {
-    "id": "4",
+    "id": "btfest",
     "name": "Fest",
     "emoji": "🤩",
-    "isLocked": false,
     "challenges": [
       {
         "id": "p4c1",
@@ -2391,10 +2387,9 @@
     ]
   },
   {
-    "id": "5",
+    "id": "btefterfest",
     "name": "Efterfest",
     "emoji": "😵‍💫",
-    "isLocked": false,
     "challenges": [
       {
         "id": "p5c1",

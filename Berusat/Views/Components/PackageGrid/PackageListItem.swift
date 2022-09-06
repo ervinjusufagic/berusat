@@ -9,6 +9,7 @@ import SwiftUI
 
 struct PackageListItem: View {
     @EnvironmentObject var userSettings: UserSettingsState
+    @EnvironmentObject var packageState: PackageState
     @State private var animatingSelection = false
 
     var package: Package
@@ -18,6 +19,10 @@ struct PackageListItem: View {
             return true
         }
         return false
+    }
+
+    var isLocked: Bool {
+        return packageState.isPremium ? false : packageState.userPurchases[package.id] == nil
     }
 
     var body: some View {
@@ -37,7 +42,7 @@ struct PackageListItem: View {
                         .foregroundColor(Color(AppColor.primary))
                 }
 
-                if package.isLocked {
+                if isLocked {
                     Image(systemName: AppIcons.lockIcon)
                         .resizable()
                         .frame(width: Space.twoxl, height: Space.fourxl)
@@ -53,11 +58,15 @@ struct PackageListItem: View {
                 )
                 .cornerRadius(12)
             )
-            .opacity(package.isLocked ? 0.5 : 1)
+            .opacity(isLocked ? 0.5 : 1)
             .scaleEffect(animatingSelection ? 1.1 : 1)
             .onTapGesture {
-                if package.isLocked {
-                    print("pressed locked package")
+                if isLocked {
+                    if package.id == K.mixedPackage.id {
+                        packageState.purchasePremium()
+                    } else {
+                        packageState.makePurchase(package: package)
+                    }
                 } else {
                     userSettings.setSelectedPackage(package)
 

@@ -15,9 +15,7 @@ enum ChallengeType: String, Codable {
 struct Package: Codable, Identifiable {
     var id: String
     var name: String
-    var isLocked: Bool
     var emoji: String
-
     var challenges: [Challenge]
 }
 

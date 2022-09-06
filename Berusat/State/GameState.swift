@@ -58,7 +58,7 @@ final class GameState: ObservableObject {
                 return playerName
             } else { return "" }
         case .group:
-            return "Grupputmaning!" // move out
+            return AppText.groupChallengeText
         case .none:
             return ""
         }
@@ -168,7 +168,7 @@ final class GameState: ObservableObject {
     }
 
     private func reloadPackages(completion: () -> ()) {
-        let packages: [Package] = AppUtility.loadJSON("data.json")
+        let packages: [Package] = AppUtility.loadJSON(K.dataFile)
 
         var restoredPackage = packages.first { _package in
             _package.id == self.package?.id

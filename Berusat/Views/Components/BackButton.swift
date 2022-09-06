@@ -15,7 +15,7 @@ struct BackButton: View {
             Image(systemName: AppIcons.leftArrowIcon)
                 .foregroundColor(Color(AppColor.primary))
 
-            Typography(text: "Tillbaka", size: TextSize.smallBody, color: Color(AppColor.primary))
+            Typography(text: AppText.goBackText, size: TextSize.smallBody, color: Color(AppColor.primary))
                 .minimumScaleFactor(0.5)
                 .fixedSize(horizontal: true, vertical: false)
         }

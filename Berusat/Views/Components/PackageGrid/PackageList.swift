@@ -8,16 +8,15 @@
 import SwiftUI
 
 struct PackageList: View {
-    var packages: [Package]
-    var mixedPackage: Package
+    @EnvironmentObject var packageState: PackageState
 
     var body: some View {
         ScrollView {
             VStack(spacing: Space.lg) {
-                ForEach(packages) { package in
+                ForEach(packageState.packages) { package in
                     PackageListItem(package: package)
                 }
-                PackageListItem(package: mixedPackage)
+                PackageListItem(package: packageState.getMixedPackage())
             }
             .padding([.top], Space.lg)
         }
@@ -26,10 +25,8 @@ struct PackageList: View {
 
 struct PackageGrid_Previews: PreviewProvider {
     static var previews: some View {
-        PackageList(
-            packages: PackageState().packages,
-            mixedPackage: PackageState().packages[0]
-        )
-        .environmentObject(UserSettingsState())
+        PackageList()
+            .environmentObject(UserSettingsState())
+            .environmentObject(PackageState())
     }
 }
